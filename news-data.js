@@ -8,7 +8,7 @@ const NEWS_ITEMS = [
     tag: 'dubai',
     tagLabel: 'Dubai',
     title: 'Dubai sales hit Dh379.4B in nine months — second-highest on record',
-    summary: 'Dubai real estate sales from January to end-September 2026 reached about Dh379.4 billion across 123,416 transactions, the second-highest nine-month sales value in the market's history after 2025, based on Dubai Land Department data. Total transactions including mortgages and gifts exceeded Dh574 billion across 165,018 deals; September alone recorded Dh50.78 billion across 16,490 deals.',
+    summary: 'Dubai real estate sales from January to end-September 2026 reached about Dh379.4 billion across 123,416 transactions, the second-highest nine-month sales value in the market\u2019s history after 2025, based on Dubai Land Department data. Total transactions including mortgages and gifts exceeded Dh574 billion across 165,018 deals; September alone recorded Dh50.78 billion across 16,490 deals.',
     takeaway: 'Even after a record 2025, demand depth remains exceptional — a liquid market is an off-plan investor\u2019s best friend.',
     source: 'Emirates 24/7',
     url: 'https://www.emirates247.com/business/dubai-real-estate-transactions-hit-dh574-billion-in-nine-months-second-highest-sales-value-in-market-history/6205'
