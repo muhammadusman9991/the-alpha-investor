@@ -4,6 +4,46 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: '2026-10-01',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai sales hit Dh379.4B in nine months — second-highest on record',
+    summary: 'Dubai real estate sales from January to end-September 2026 reached about Dh379.4 billion across 123,416 transactions, the second-highest nine-month sales value in the market's history after 2025, based on Dubai Land Department data. Total transactions including mortgages and gifts exceeded Dh574 billion across 165,018 deals; September alone recorded Dh50.78 billion across 16,490 deals.',
+    takeaway: 'Even after a record 2025, demand depth remains exceptional — a liquid market is an off-plan investor\u2019s best friend.',
+    source: 'Emirates 24/7',
+    url: 'https://www.emirates247.com/business/dubai-real-estate-transactions-hit-dh574-billion-in-nine-months-second-highest-sales-value-in-market-history/6205'
+  },
+  {
+    date: '2026-09-30',
+    tag: 'abudhabi',
+    tagLabel: 'Abu Dhabi',
+    title: 'Aldar and Arada sign Dh15bn partnership for Yas Island and Seih Sdeirah',
+    summary: 'Abu Dhabi\u2019s biggest listed developer Aldar has partnered with Arada on new housing projects worth about Dh15 billion ($4 billion): a masterplan joint venture for a large-scale mixed-use community at Seih Sdeirah on the Abu Dhabi\u2013Dubai border, and Arada\u2019s acquisition of three residential plots on Yas Island, including two canal-facing sites.',
+    takeaway: 'Developer capital is betting big on Abu Dhabi\u2019s next communities — new off-plan supply in prime pockets is coming.',
+    source: 'The National',
+    url: 'https://www.thenationalnews.com/business/property/2026/09/30/aldar-and-arada-sign-dh15bn-partnership-for-new-developments-in-abu-dhabi/'
+  },
+  {
+    date: '2026-09-30',
+    tag: 'uae',
+    tagLabel: 'UAE',
+    title: 'AED 200M Abu Dhabi villa tops UAE\u2019s biggest property deals of 2026',
+    summary: 'Property Finder data shows the UAE\u2019s ultra-luxury market still hitting nine-figure deals in 2026: the largest was a villa in Al Shamkha, Abu Dhabi, sold for AED 200 million. Dubai led on volume and variety (villa on Palm Jumeirah for AED 170M, apartment for AED 98M), while Ras Al Khaimah\u2019s prime waterfront is repricing fast — an Al Marjan Island apartment reached AED 34M and a Mina Al Arab villa AED 17M.',
+    takeaway: 'Top-end demand holds across all three emirates — and RAK\u2019s prime coastline is repricing upward while the wider market stays accessible.',
+    source: 'iranianuae.ae (Property Finder data)',
+    url: 'https://iranianuae.ae/en/business/real-estate/UAEs-Most-Expensive-Property-Deals-of-2026-AED-200/'
+  },
+  {
+    date: '2026-09-30',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Etihad Rail\u2019s Dubai\u2013Abu Dhabi passenger service starts — 57 minutes city to city',
+    summary: 'Etihad Rail\u2019s Dubai Al Yalayis station opened on 30 September 2026, launching the 57-minute passenger service between Dubai and Abu Dhabi with five round trips on day one. A pedestrian bridge links the station directly to the Jumeirah Golf Estates Metro station.',
+    takeaway: 'Real infrastructure is shrinking the distance between the two emirates — a long-term demand tailwind for communities along the line.',
+    source: 'Gulf News',
+    url: 'https://gulfnews.com/living-in-uae/transport/etihad-rail-dubai-abu-dhabi-fares-stations-and-what-to-know-before-launch-1.500687764'
+  },
+  {
     date: '2026-09-30',
     tag: 'dubai',
     tagLabel: 'Dubai',
