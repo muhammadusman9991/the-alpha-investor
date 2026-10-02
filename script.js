@@ -75,28 +75,17 @@ dlForm.addEventListener('submit', async e => {
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { dlMsg.textContent = 'Please enter a valid email address.'; return; }
   if (!/^\+?[0-9\s\-()]{7,18}$/.test(phone)) { dlMsg.textContent = 'Please enter a valid mobile number.'; return; }
   dlSubmit.disabled = true; dlSubmit.textContent = 'Preparing your download…';
-  const download = async () => {
-    try {
-      const res = await fetch(currentPdf, {mode:'cors'});
-      if (!res.ok) throw new Error('fetch failed');
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a'); a.href = url;
-      a.download = currentTitle.replace(/[^a-z0-9]+/gi,'-').toLowerCase()+'.pdf';
-      document.body.appendChild(a); a.click(); a.remove();
-      setTimeout(()=>URL.revokeObjectURL(url), 5000);
-    } catch(e) {
-      const a = document.createElement('a'); a.href = currentPdf; a.target='_blank'; a.rel='noopener';
-      document.body.appendChild(a); a.click(); a.remove();
-    }
-  };
-  try {
-    await sendLead({name, email, phone, _subject:'PDF download: '+currentTitle,
+  // Fire the lead capture and trigger the download synchronously: the download
+  // must happen inside the user's tap gesture, otherwise mobile browsers
+  // silently block the programmatic click after the await.
+  const download = () => { const a = document.createElement('a'); a.href = currentPdf; a.target = '_blank'; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove(); };
+  const leadPromise = sendLead({name, email, phone, _subject:'PDF download: '+currentTitle,
       message: name+' ('+email+', '+phone+') downloaded '+currentTitle});
-    await download();
+  download();
+  try {
+    await leadPromise;
     dlMsg.textContent = 'Done — your download has started. I have your details and will be in touch.';
   } catch(err) {
-    await download();
     dlMsg.textContent = 'Download started. My email capture hiccupped — message me on WhatsApp so I have your details.';
   }
   dlSubmit.disabled = false; dlSubmit.textContent = 'Download Now';
