@@ -5,6 +5,16 @@
 const NEWS_ITEMS = [
   {
     date: '2026-10-01',
+    tag: 'rak',
+    tagLabel: 'Ras Al Khaimah',
+    title: 'ORAYA Developer announces debut project on Marjan Beach, RAK',
+    summary: 'ORAYA Developer, a newly established UAE developer, announced on 1 October 2026 its official market entry with its first residential project on Marjan Beach, Ras Al Khaimah — a fully furnished residential address developed in partnership with a globally recognized hospitality brand, with full details due in the coming weeks. The announcement cites independent market analysis claiming prime apartment prices on Marjan Beach grew over 30% year-on-year through 2025, and notes the upcoming USD 5.1 billion integrated hospitality and entertainment destination opening in 2027.',
+    takeaway: 'Another new developer is staking its debut on RAK\u2019s coastline — a vote of confidence in Marjan Island demand, but as a first-time developer it has no delivery track record yet, so watch for construction milestones before committing.',
+    source: 'Globe Newswire (via Manila Times)',
+    url: 'https://www.manilatimes.net/2026/10/02/tmt-newswire/globenewswire/oraya-developer-announces-first-uae-project-on-marjan-beach/2437693'
+  },
+  {
+    date: '2026-10-01',
     tag: 'dubai',
     tagLabel: 'Dubai',
     title: 'Dubai sales hit Dh379.4B in nine months — second-highest on record',
