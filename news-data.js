@@ -5,6 +5,36 @@
 const NEWS_ITEMS = [
   {
     date: '2026-10-01',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai office sales jump 62% in September to AED 1.85B \u2014 off-plan offices dominate',
+    summary: 'An Al Masdar Al Akari analysis of Dubai Land Department data shows Dubai recorded AED 1.85 billion in office property sales across 419 transactions in September 2026, up about 62% in value and 28.5% in volume from August. Off-plan offices accounted for 265 transactions worth AED 1.32 billion in the month. Over the first nine months of 2026, off-plan offices represented about 64% of office transaction volumes and 80% of the AED 20.16 billion total office sales value, with Business Bay leading at 1,100 transactions worth more than AED 9.9 billion.',
+    takeaway: 'Off-plan is where Dubai\u2019s office money is going \u2014 but offices are cyclical and concentrated in the AED 2\u20135M bracket, so size the ticket carefully.',
+    source: 'Zawya (Al Masdar Al Akari / DLD data)',
+    url: 'https://www.zawya.com/en/press-release/research-studies/dubai-office-sales-rise-62-in-september-to-aed-1.85bln-1485901'
+  },
+  {
+    date: '2026-10-01',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Rove Hotels and IRTH Group sign exclusive UAE residential partnership \u2014 Rove Home The Greens launching',
+    summary: 'Rove Hotels and IRTH Group announced an exclusive partnership to develop standalone Rove Home residential projects across the UAE, following three previous collaborations that together sold out more than 2,000 residential and commercial units in Dubai. The first project under the new agreement, Rove Home The Greens, will comprise 200 residences in The Greens community and is scheduled to launch for sale before the end of 2026.',
+    takeaway: 'Hospitality-branded homes keep expanding in Dubai \u2014 a format that has historically sold out fast; compare service-charge structures before buying branded.',
+    source: 'Khaleej Times',
+    url: 'https://www.khaleejtimes.com/business/rove-hotels-irth-group-to-launch-new-residential-projects-across-uae'
+  },
+  {
+    date: '2026-10-01',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Accor signs Pullman Residences & Offices Dubai Meydan \u2014 first branded offices for sale by a hospitality brand worldwide',
+    summary: 'Accor and Cityview Developments signed an agreement at FHS World 2026 for Pullman Residences & Offices Dubai Meydan, scheduled to launch in 2029. The mixed-use project will unite 282 Pullman branded residences with branded offices \u2014 Accor\u2019s first branded offices for sale anywhere in the world \u2014 featuring one-to-four-bedroom homes plus meeting, wellness, and dining amenities.',
+    takeaway: 'Global hotel brands are now stamping their names on Dubai offices too \u2014 branded stock tends to command a premium, but the premium must be justified by resale data, not logos alone.',
+    source: 'IndexBox',
+    url: 'https://www.indexbox.io/blog/accor-signs-pullman-residences-offices-dubai-meydan-launching-worlds-first-branded-offices-by-a-hospitality-brand/'
+  },
+  {
+    date: '2026-10-01',
     tag: 'rak',
     tagLabel: 'Ras Al Khaimah',
     title: 'ORAYA Developer announces debut project on Marjan Beach, RAK',
