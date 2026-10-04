@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: '2026-10-02',
+    tag: 'abudhabi',
+    tagLabel: 'Abu Dhabi',
+    title: 'SAAS Properties launches Ritz-Carlton Residences on Al Maryah Island — construction underway, handover Q2 2030',
+    summary: 'SAAS Properties officially launched The Ritz-Carlton Residences, Al Maryah Island at LIVEX 2026: a 165-home waterfront collection of one-to-four-bedroom residences plus a signature penthouse, designed by Shaun Killa with interiors by Tara Bernerd in her first Middle East project. Construction is already underway and handover is anticipated in Q2 2030.',
+    takeaway: 'Branded homes keep multiplying on Al Maryah Island — compare service charges and resale evidence for branded vs non-branded stock before paying the premium.',
+    source: 'Khaleej Times',
+    url: 'https://www.khaleejtimes.com/business/property/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026'
+  },
+  {
+    date: '2026-10-02',
+    tag: 'abudhabi',
+    tagLabel: 'Abu Dhabi',
+    title: 'Rosewood Abu Dhabi releases 73 completed residences for private ownership — a first for the hotel',
+    summary: 'Mubadala and Rosewood Abu Dhabi announced that a limited collection of 73 completed residences inside the Rosewood Abu Dhabi hotel on Al Maryah Island will be offered for private ownership for the first time, releasing to market in Q4 2026 via Abu Dhabi Sotheby’s International Realty. The announcement cites Abu Dhabi transactions of AED 117 billion in H1 2026, up 112% year-on-year, with foreign direct investment of AED 13.8 billion, up 309%, from investors of 116 nationalities.',
+    takeaway: 'Completed branded stock entering private ownership is a confidence signal for Al Maryah Island — ready units carry immediate service-charge costs, so run the yield math before comparing them with off-plan.',
+    source: 'Zawya (press release)',
+    url: 'https://www.zawya.com/en/press-release/companies-news/rosewood-abu-dhabi-to-offer-limited-collection-of-completed-residences-for-private-ownership-on-al-maryah-island-1485976'
+  },
+  {
+    date: '2026-10-02',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai developers take the sales pitch overseas — Manila expo (Oct 2–6) and Lagos roadshow this weekend',
+    summary: 'FHI Global Properties is bringing Azizi Developments to the Philippines for the first time at the Dubai Real Estate Expo 2026, running October 2–6 at SM Megamall and Richmonde Hotel Ortigas in Manila, with expo-only deals and Golden Visa briefings for Filipino buyers. Separately, Emirion Real Estate is hosting a Dubai Property Roadshow at Eko Hotel, Lagos, on October 3–4.',
+    takeaway: 'Dubai developer marketing is going global — overseas buyer demand is deepening, which supports resale liquidity down the line.',
+    source: 'homes.ph; beadysword.com.ng',
+    url: 'https://homes.ph/news/dubai-real-estate-expo-in-manila-offers-filipinos-direct-property-access'
+  },
+  {
     date: '2026-10-01',
     tag: 'dubai',
     tagLabel: 'Dubai',
