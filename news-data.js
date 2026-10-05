@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: '2026-10-04',
+    tag: 'rak',
+    tagLabel: 'Ras Al Khaimah',
+    title: 'Fitch affirms Ras Al Khaimah A+ rating as war-related risks ease',
+    summary: 'Fitch Ratings said Ras Al Khaimah\u2019s direct war-related risks have eased since April 2026 and affirmed the emirate\u2019s long-term rating at A+, supported by low public-sector debt, substantial fiscal buffers and UAE federation membership. The agency noted the regional conflict "only set back modestly the planned opening time" of the $5.1 billion Wynn Al Marjan resort, where construction continues with opening delayed by roughly six months.',
+    takeaway: 'The credit agency\u2019s vote of confidence underpins RAK\u2019s long-term thesis \u2014 but the outlook stays Negative, so keep geopolitical risk priced in, not priced away.',
+    source: 'Khaleej Times',
+    url: 'https://www.khaleejtimes.com/business/ras-al-khaimah-to-see-positive-growth-as-regional-conflict-risks-ease-says-fitch'
+  },
+  {
+    date: '2026-09-29',
+    tag: 'abudhabi',
+    tagLabel: 'Abu Dhabi',
+    title: 'Aldar tops AED 5B in sales from Talay and Yas Riva Reserve launches',
+    summary: 'Aldar generated more than AED 5 billion ($1.36B) in sales across its Talay launch on Saadiyat Island (351 standalone villas within the AED 100B Marsa Al Saadiyat destination) and Yas Riva Reserve on Yas Island (292 four-to-six-bedroom villas). First-time Aldar buyers made up 54% of sales, with expatriate and overseas buyers accounting for 69% \u2014 the UK, Russia, Jordan and India among the leading nationalities. The announcement coincided with Abu Dhabi\u2019s inaugural LIVEX 2026 forum.',
+    takeaway: 'Two launches, AED 5B absorbed across buyer nationalities \u2014 depth of demand matters more to off-plan investors than any single project.',
+    source: 'WAM / Zawya',
+    url: 'https://www.zawya.com/en/special-coverage/real-estate/aldar-sales-surpass-1.36bln-after-launch-of-talay-yas-riva-reserve-1377173'
+  },
+  {
     date: '2026-10-02',
     tag: 'abudhabi',
     tagLabel: 'Abu Dhabi',
