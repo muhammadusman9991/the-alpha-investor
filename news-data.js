@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: '2026-10-06',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai resale market holds steady — 40,963 deals worth Dh153.4B in Jan–Aug 2026',
+    summary: 'Property Finder data reported by Emirates 24/7 shows Dubai\u2019s secondary (resale) market recorded about 40,963 transactions worth Dh153.4 billion from January to August 2026. Deal counts eased from 2025 levels but values stayed stable, and capital rotated from Business Bay and Downtown Dubai toward newer, more affordable communities such as Dubai South and MBR City.',
+    takeaway: 'Capital is rotating, not leaving — newer communities are where resale liquidity is building, which matters for off-plan exits in those areas.',
+    source: 'Emirates 24/7 (Property Finder data)',
+    url: 'https://www.emirates247.com/business/dubai-secondary-real-estate-market-2026-fewer-transactions-higher-average-values-and-shifting-capital/6375'
+  },
+  {
+    date: '2026-10-05',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai Q3 transactions reach AED 90.62B — off-plan stays the largest residential segment',
+    summary: 'Dubai recorded AED 90.62 billion across 36,738 residential and commercial transactions in Q3 2026, per a market release published by Zawya. Residential sales reached AED 72.58 billion across 33,949 transactions: off-plan contributed AED 41.58 billion (23,457 deals) while the secondary market added AED 30.83 billion, up 24.2% in value from Q2. Homes below AED 3 million made up 84.3% of Q3 transactions, and Dubai South was the most active location with 5,165 deals at an average AED 1,690 per sq. ft.',
+    takeaway: 'Off-plan is still the market\u2019s engine and sub-AED 3M homes are 84% of deals \u2014 the entry-level sweet spot stays wide open.',
+    source: 'Zawya (market release)',
+    url: 'https://www.zawya.com/en/press-release/research-studies/dubai-real-estate-transactions-reach-aed-90.62bln-in-q3-as-off-plan-remains-the-largest-residential-segment-1510107'
+  },
+  {
     date: '2026-10-04',
     tag: 'rak',
     tagLabel: 'Ras Al Khaimah',
@@ -12,6 +32,16 @@ const NEWS_ITEMS = [
     takeaway: 'The credit agency\u2019s vote of confidence underpins RAK\u2019s long-term thesis \u2014 but the outlook stays Negative, so keep geopolitical risk priced in, not priced away.',
     source: 'Khaleej Times',
     url: 'https://www.khaleejtimes.com/business/ras-al-khaimah-to-see-positive-growth-as-regional-conflict-risks-ease-says-fitch'
+  },
+  {
+    date: '2026-10-02',
+    tag: 'dubai',
+    tagLabel: 'Dubai',
+    title: 'Dubai jumps 11 places to 17th globally in JLL–LaSalle 2026 transparency index',
+    summary: 'Dubai climbed from 28th to 17th in the 2026 Global Real Estate Transparency Index by JLL and LaSalle, ranking first in the Arab world with a score of 1.98. The index credited the Dubai Land Department\u2019s real-time public data, the digitalisation of services and new regulations; Dubai and Abu Dhabi were both named among the most improved markets of the past decade.',
+    takeaway: 'Transparency is structural investor protection \u2014 open data and digital title and escrow systems make Dubai\u2019s off-plan market easier to verify than most emerging markets.',
+    source: 'Dubai Global News (JLL–LaSalle index)',
+    url: 'https://www.dubaiglobalnews.com/en/2026/10/02/general_news-en/352823/'
   },
   {
     date: '2026-09-29',
@@ -173,14 +203,4 @@ const NEWS_ITEMS = [
     source: 'Dubai Land Department',
     url: 'https://dubailand.gov.ae/en/news-media/dubai-land-department-prepares-to-launch-the-21st-edition-of-the-ips-from-14-to-16-april-2025/'
   },
-  {
-    date: '2025-01-15',
-    tag: 'abudhabi',
-    tagLabel: 'Abu Dhabi',
-    title: 'Abu Dhabi property deals hit AED 96.2B as foreign investment jumps 125%',
-    summary: 'Abu Dhabi recorded 28,249 real estate transactions worth AED 96.2B in 2024, with foreign direct investment into the sector reaching AED 7.86B — up 125% year-on-year. 38 new off-plan projects were launched during the year.',
-    takeaway: 'Foreign capital into Abu Dhabi property more than doubled in a year — the capital\u2019s off-plan pipeline is expanding fast.',
-    source: 'Arab News',
-    url: 'https://www.arabnews.com/business/abu-dhabi-property-deals-up-242-in-2024-as-foreign-investment-soars-2588100'
-  }
 ];
