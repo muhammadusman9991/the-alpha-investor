@@ -5,6 +5,36 @@
 const NEWS_ITEMS = [
   {
     date: "2026-10-06",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Almal tops out The Unexpected on Al Marjan Island — construction past 50%",
+    summary: "Almal Real Estate Development completed the full superstructure and concrete works at The Unexpected Al Marjan Island Hotel & Residences in Ras Al Khaimah, topping out with the final upper roof slab above the restaurant and wellness amenities. Overall progress has moved well beyond 50%, ahead of the 42% officially recorded by RERA in July 2026, and the site has shifted into facade, MEP and interior fit-out phases. The 422-unit entertainment-led hotel and residential development will be operated by Palladium Hotel Group.",
+    takeaway: "Topped-out with progress ahead of the RERA-recorded pace is exactly the delivery signal off-plan buyers want — keep comparing construction evidence across RAK projects rather than trusting renderings.",
+    source: "Property News International",
+    url: "https://www.propertynewsint.com/news/almal-tops-out-the-unexpected-al-marjan-island-development"
+  },
+  {
+    date: "2026-10-05",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wynn Al Marjan Island unveils 98-berth superyacht marina for 2027 resort",
+    summary: "Wynn Al Marjan Island in Ras Al Khaimah announced Wynn Marina, a 98-berth superyacht facility for its $5.7 billion resort, accommodating yachts up to 85 metres — billed as the largest hotel-attached marina in the UAE, arriving by sea directly into the resort experience. The marina, designed by Marina Solutions International with IGY Marinas as operating partner, centres on a circular harbour with a radial berth layout inside a protected basin up to five metres deep. The resort itself remains on track toward a 2027 opening.",
+    takeaway: "The 2027 Wynn opening is RAK's biggest demand catalyst — every completed milestone de-risks the coastal off-plan thesis, though resale will still hinge on actual visitor numbers, not promises.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/business/tourism/wynn-al-marjan-island-unveils-98-berth-marina-for-2027-ras-al-khaimah-resort-1.500698468"
+  },
+  {
+    date: "2026-10-05",
+    tag: "uae",
+    tagLabel: "UAE",
+    title: "IHG brings midscale Garner brand to Dubai and Ras Al Khaimah — 285 rooms",
+    summary: "IHG Hotels & Resorts signed two hotels with Nooa Holdings to introduce its midscale Garner brand to the Middle East for the first time: Garner Hotel Dubai Al Jaddaf (81 rooms, near Al Jaddaf Waterfront) and Garner Hotel Ras Al Khaimah Downtown (204 rooms by the creek in Al Nakheel). Both properties are conversions expected to open in 2026, targeting business and leisure travellers with an accessible price point. IHG said the UAE was a suitable launch market given demand for midscale accommodation.",
+    takeaway: "A new global midscale brand choosing both Dubai and RAK signals deepening tourism demand — more visitors and longer stays support rental demand behind off-plan investments.",
+    source: "Hotelier Middle East",
+    url: "https://www.hoteliermiddleeast.com/news/ihg-signs-first-middle-east-garner-hotels-in-dubai-and-ras-al-khaimah"
+  },
+  {
+    date: "2026-10-06",
     tag: "dubai",
     tagLabel: "Dubai",
     title: "DIB and Expo City Dubai launch off-plan home financing — open to non-residents",
@@ -172,35 +202,7 @@ const NEWS_ITEMS = [
     takeaway: "Top-end demand holds across all three emirates — and RAK’s prime coastline is repricing upward while the wider market stays accessible.",
     source: "iranianuae.ae (Property Finder data)",
     url: "https://iranianuae.ae/en/business/real-estate/UAEs-Most-Expensive-Property-Deals-of-2026-AED-200/"
-  },
-  {
-    date: "2026-09-30",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Etihad Rail’s Dubai–Abu Dhabi passenger service starts — 57 minutes city to city",
-    summary: "Etihad Rail’s Dubai Al Yalayis station opened on 30 September 2026, launching the 57-minute passenger service between Dubai and Abu Dhabi with five round trips on day one. A pedestrian bridge links the station directly to the Jumeirah Golf Estates Metro station.",
-    takeaway: "Real infrastructure is shrinking the distance between the two emirates — a long-term demand tailwind for communities along the line.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/living-in-uae/transport/etihad-rail-dubai-abu-dhabi-fares-stations-and-what-to-know-before-launch-1.500687764"
-  },
-  {
-    date: "2026-09-30",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Developers hold off-plan prices steady — only 6% cut prices since February",
-    summary: "A fäm Properties analysis of 717 off-plan projects launched since July 2023 found just 44 (6%) reduced prices by 5% or more since February 2026, and only 28 projects (4%) are selling below their original launch price. Studio sales rose 26% to 21,728 in the first eight months of 2026, with Dubai South studio transactions up 185% to 11,147.",
-    takeaway: "Developers are holding prices rather than discounting — and studios, the entry-level segment, are the fastest-growing unit type.",
-    source: "The Property Times",
-    url: "https://thepropertytimes.in/developers-hold-off-plan-pricing-steady-while-sales-volumes-and-absorption-rates-adjust/"
-  },
-  {
-    date: "2026-09-29",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Aldar tops AED 5B in sales from Talay and Yas Riva Reserve launches",
-    summary: "Aldar generated more than AED 5 billion ($1.36B) in sales across its Talay launch on Saadiyat Island (351 standalone villas within the AED 100B Marsa Al Saadiyat destination) and Yas Riva Reserve on Yas Island (292 four-to-six-bedroom villas). First-time Aldar buyers made up 54% of sales, with expatriate and overseas buyers accounting for 69% — the UK, Russia, Jordan and India among the leading nationalities. The announcement coincided with Abu Dhabi’s inaugural LIVEX 2026 forum.",
-    takeaway: "Two launches, AED 5B absorbed across buyer nationalities — depth of demand matters more to off-plan investors than any single project.",
-    source: "WAM / Zawya",
-    url: "https://www.zawya.com/en/special-coverage/real-estate/aldar-sales-surpass-1.36bln-after-launch-of-talay-yas-riva-reserve-1377173"
   }
+
+
 ];
