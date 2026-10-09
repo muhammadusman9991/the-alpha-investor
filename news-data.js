@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-08",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "ADCB × ORA Developers bring off-plan financing to BAYN buyers in Ghantoot",
+    summary: "Abu Dhabi Commercial Bank and ORA Developers UAE announced on 8 October 2026 a strategic partnership offering an off-plan home financing solution for eligible buyers at BAYN, ORA's 4.8-million-sqm flagship masterplan in the Ghantoot corridor between Abu Dhabi and Dubai. Buyers can access financing during construction once the mandatory regulated payment of 50% of the unit value is complete, securing funding for amounts due through to handover. Customers get pre-approvals valid for up to 12 months, digital onboarding and ADCB's specialist Mortgage Centres; applications are subject to the bank's eligibility, credit and documentation checks.",
+    takeaway: "Banks are now racing to finance off-plan construction periods in Abu Dhabi too — financing certainty to handover eases the cash burden on mid-stage projects, but only after 50% is paid, so entry discipline still matters.",
+    source: "UAE News 24/7",
+    url: "https://uaenews247.com/2026/10/08/adcb-and-ora-developers-uae-enter-into-a-strategic-partnership-to-offer-an-off-plan-financing-solution-to-eligible-bayn-customers/"
+  },
+  {
+    date: "2026-10-07",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "BEYOND launches The Yards Plaza as off-plan offices dominate Dubai office sales",
+    summary: "BEYOND Developments announced The Yards Plaza, its second commercial project in Dubai: 272 offices across four blocks along Sheikh Mohammed Bin Zayed Road with retail and F&B at ground level, following the sell-out of its first commercial development, 31 Above in Dubai Maritime City. The launch lands amid strong commercial momentum — analysis of Dubai Land Department data shows office sales reached AED 20.16 billion across 3,695 transactions in the first nine months of 2026, with off-plan offices accounting for 80% of total sales value; September alone reached AED 1.85 billion, up roughly 54% year-on-year.",
+    takeaway: "Off-plan offices are 80% of Dubai's office sales value — commercial off-plan is a genuine growth segment, though offices are cyclical, so size the ticket carefully.",
+    source: "Zawya (press release)",
+    url: "https://www.zawya.com/en/press-release/companies-news/beyond-unveils-the-yards-plaza-a-new-workplace-destination-shaped-around-people-connection-and-wellbeing-1537512"
+  },
+  {
     date: "2026-10-06",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
@@ -182,27 +202,6 @@ const NEWS_ITEMS = [
     takeaway: "Even after a record 2025, demand depth remains exceptional — a liquid market is an off-plan investor’s best friend.",
     source: "Emirates 24/7",
     url: "https://www.emirates247.com/business/dubai-real-estate-transactions-hit-dh574-billion-in-nine-months-second-highest-sales-value-in-market-history/6205"
-  },
-  {
-    date: "2026-09-30",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Aldar and Arada sign Dh15bn partnership for Yas Island and Seih Sdeirah",
-    summary: "Abu Dhabi’s biggest listed developer Aldar has partnered with Arada on new housing projects worth about Dh15 billion ($4 billion): a masterplan joint venture for a large-scale mixed-use community at Seih Sdeirah on the Abu Dhabi–Dubai border, and Arada’s acquisition of three residential plots on Yas Island, including two canal-facing sites.",
-    takeaway: "Developer capital is betting big on Abu Dhabi’s next communities — new off-plan supply in prime pockets is coming.",
-    source: "The National",
-    url: "https://www.thenationalnews.com/business/property/2026/09/30/aldar-and-arada-sign-dh15bn-partnership-for-new-developments-in-abu-dhabi/"
-  },
-  {
-    date: "2026-09-30",
-    tag: "uae",
-    tagLabel: "UAE",
-    title: "AED 200M Abu Dhabi villa tops UAE’s biggest property deals of 2026",
-    summary: "Property Finder data shows the UAE’s ultra-luxury market still hitting nine-figure deals in 2026: the largest was a villa in Al Shamkha, Abu Dhabi, sold for AED 200 million. Dubai led on volume and variety (villa on Palm Jumeirah for AED 170M, apartment for AED 98M), while Ras Al Khaimah’s prime waterfront is repricing fast — an Al Marjan Island apartment reached AED 34M and a Mina Al Arab villa AED 17M.",
-    takeaway: "Top-end demand holds across all three emirates — and RAK’s prime coastline is repricing upward while the wider market stays accessible.",
-    source: "iranianuae.ae (Property Finder data)",
-    url: "https://iranianuae.ae/en/business/real-estate/UAEs-Most-Expensive-Property-Deals-of-2026-AED-200/"
   }
-
 
 ];
