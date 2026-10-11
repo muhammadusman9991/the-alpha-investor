@@ -5,6 +5,76 @@
 const NEWS_ITEMS = [
   {
     date: "2026-10-08",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Danube launches Shahrukhz Residences in Dubai Maritime City — from AED 1.65M, 30:70 plan",
+    summary: "Danube Properties launched Shahrukhz Residences on 8 October 2026, a fully furnished waterfront tower in Dubai Maritime City presented as the world's first celebrity-named residential tower, with penthouses designed by Gauri Khan. Prices start at AED 1.65 million with a 30% during construction / 70% on handover payment plan, and the project advertises 40+ amenities including a longevity lounge, a rooftop King's Club and access to a private yacht.",
+    takeaway: "Danube is running the same 30:70 structure across its launches — consistent payment plans make their pipeline easy to compare, so check per-sqft pricing against other Danube stock before picking a project.",
+    source: "RealtyNMore",
+    url: "https://realtynmore.com/danube-properties-launches-shahrukhz-residence/"
+  },
+  {
+    date: "2026-10-08",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Accor to launch two branded developments in Dubai — 690 residences in Motor City and Meydan",
+    summary: "Accor and Cityview Developments signed an agreement announced on 8 October 2026 for two branded projects: Mövenpick Residences Dubai Motor City (408 residences, completion 2028, billed as the world's first standalone Mövenpick Residences and the first branded residential development in Motor City) and Pullman Residences & Offices Dubai Meydan, which will introduce Accor's first branded offices for sale globally. Together the two projects bring 690 branded residences to Dubai, supported by Accor's One Living platform and its Owner Benefits Programme for homeowners.",
+    takeaway: "Global hotel brands keep attaching their names to Dubai off-plan — the brand premium only pays if resale and rental data support it, so compare charges and yields against non-branded alternatives.",
+    source: "Zawya (press release)",
+    url: "https://in.tradingview.com/news/reuters.com,2026-10-08:newsml_Zaw6NSG6w:0-zawya-accor-to-launch-two-new-branded-residential-developments-in-dubai/"
+  },
+  {
+    date: "2026-10-06",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai rentals on track for a record year as primary sales lead Q3 — 298,984 contracts in 9 months",
+    summary: "A fäm Properties analysis of Dubai Land Department data published on 6 October 2026 shows 48,639 rental contracts were registered in Dubai's freehold areas in September, up 22.6% month-on-month, taking the first-nine-months total to 298,984 contracts — 6.8% above the same period of 2025, which set a full-year record. Q3 primary (off-plan) sales reached 25,441 deals worth AED 52.6 billion against 11,988 resales worth AED 40.3 billion, and 67% of secondary transactions were cash.",
+    takeaway: "Rentals running ahead of a record year supports the income case behind Dubai property — and with two-thirds of resales paid in cash, liquidity at exit is real, not speculative.",
+    source: "inCarabia (fäm Properties data)",
+    url: "https://en.incarabia.com/dubai-real-estate-remains-on-track-for-rental-record-while-primary-market-sales-continue-to-set-pace-891761.html"
+  },
+  {
+    date: "2026-10-08",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Mashreq partners with Expo City Dubai to expand off-plan home financing",
+    summary: "Mashreq announced on 8 October 2026 a strategic partnership with Expo City Dubai to offer structured home financing for eligible buyers across selected residential projects under construction in the master community, which has more than 3,000 units in the development phase. The bank says the offering will serve both investors and end users buying homes before completion, subject to eligibility criteria, credit approval and terms and conditions.",
+    takeaway: "A second bank in a week is targeting Expo City construction-phase financing — banks are competing for off-plan borrowers, which should keep terms sharp, but check the approved-project list and eligibility before counting on it.",
+    source: "UAE News 24/7",
+    url: "https://uaenews247.com/2026/10/08/mashreq-partners-with-expo-city-dubai-to-expand-access-to-off-plan-home-financing/"
+  },
+  {
+    date: "2026-10-08",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Nakheel awards marine works for Dubai Islands Island B — 3 km of shoreline upgraded",
+    summary: "Nakheel awarded Mar Marine & Building Contracting a contract announced on 8 October 2026 for marine and beach works on Island B at Dubai Islands, upgrading about 3 km of the island's western shoreline and adding 320 metres of beach frontage near the Bay Villas development, with completion scheduled for Q4 2027. The works support Bay Villas, a community of 636 villas and townhouses on Island B, and run in parallel with the Dh2.6 billion villa construction contract awarded in August 2025.",
+    takeaway: "Waterfront infrastructure moving in parallel with villa construction is the delivery pattern Dubai Islands needs — watch whether the Q4 2027 target holds before buying into early phases.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/business/property/nakheel-hires-mar-marine-for-dubai-island-coastal-works-1.500702909"
+  },
+  {
+    date: "2026-10-08",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi launches mandatory broker licensing curriculum as H1 deals hit AED 117B",
+    summary: "The Abu Dhabi Real Estate Centre announced on 8 October 2026 a new mandatory Abu Dhabi Real Estate Broker Transformation Course replacing the previous broker course, with MoUs signed with Mawaheb, ThinkProp and the Abu Dhabi School of Management. The announcement cites ADREC's H1 2026 data: the emirate recorded AED 117 billion in real estate transactions, up 112% year-on-year, with licensed brokers reaching 3,302.",
+    takeaway: "Abu Dhabi is professionalising its brokerage market just as volumes double — more regulated advice should help overseas investors, though the quality uplift will take time to bed in.",
+    source: "UAE News 24/7",
+    url: "https://uaenews247.com/2026/10/09/abu-dhabi-launches-new-real-estate-broker-licensing-curriculum/"
+  },
+  {
+    date: "2026-10-07",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Amwaj Development completes first Dubai handover — Starlight Park delivered on time",
+    summary: "Amwaj Development announced on 7 October 2026 the successful on-time handover of Starlight Park in Meydan's District 11, the boutique developer's first Dubai project: 172 one-to-three-bedroom apartments across four B+G+5+Roof buildings, completed in the first week of October. Amenities include rooftop pools and lounges across all four buildings, an outdoor cinema, fitness, yoga and boxing studios, paddle tennis and an indoor kids' club.",
+    takeaway: "A developer delivering its first project on schedule is the strongest trust signal in off-plan — delivered track record beats renderings when choosing between developers.",
+    source: "UAE News 24/7",
+    url: "https://uaenews247.com/2026/10/07/amwaj-development-completes-first-dubai-handover-with-on-time-delivery-of-starlight-park/"
+  },
+  {
+    date: "2026-10-08",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
     title: "ADCB × ORA Developers bring off-plan financing to BAYN buyers in Ghantoot",
@@ -132,76 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Branded homes keep multiplying on Al Maryah Island — compare service charges and resale evidence for branded vs non-branded stock before paying the premium.",
     source: "Khaleej Times",
     url: "https://www.khaleejtimes.com/business/property/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026"
-  },
-  {
-    date: "2026-10-02",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Rosewood Abu Dhabi releases 73 completed residences for private ownership — a first for the hotel",
-    summary: "Mubadala and Rosewood Abu Dhabi announced that a limited collection of 73 completed residences inside the Rosewood Abu Dhabi hotel on Al Maryah Island will be offered for private ownership for the first time, releasing to market in Q4 2026 via Abu Dhabi Sotheby’s International Realty. The announcement cites Abu Dhabi transactions of AED 117 billion in H1 2026, up 112% year-on-year, with foreign direct investment of AED 13.8 billion, up 309%, from investors of 116 nationalities.",
-    takeaway: "Completed branded stock entering private ownership is a confidence signal for Al Maryah Island — ready units carry immediate service-charge costs, so run the yield math before comparing them with off-plan.",
-    source: "Zawya (press release)",
-    url: "https://www.zawya.com/en/press-release/companies-news/rosewood-abu-dhabi-to-offer-limited-collection-of-completed-residences-for-private-ownership-on-al-maryah-island-1485976"
-  },
-  {
-    date: "2026-10-02",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai developers take the sales pitch overseas — Manila expo (Oct 2–6) and Lagos roadshow this weekend",
-    summary: "FHI Global Properties is bringing Azizi Developments to the Philippines for the first time at the Dubai Real Estate Expo 2026, running October 2–6 at SM Megamall and Richmonde Hotel Ortigas in Manila, with expo-only deals and Golden Visa briefings for Filipino buyers. Separately, Emirion Real Estate is hosting a Dubai Property Roadshow at Eko Hotel, Lagos, on October 3–4.",
-    takeaway: "Dubai developer marketing is going global — overseas buyer demand is deepening, which supports resale liquidity down the line.",
-    source: "homes.ph; beadysword.com.ng",
-    url: "https://homes.ph/news/dubai-real-estate-expo-in-manila-offers-filipinos-direct-property-access"
-  },
-  {
-    date: "2026-10-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai office sales jump 62% in September to AED 1.85B — off-plan offices dominate",
-    summary: "An Al Masdar Al Akari analysis of Dubai Land Department data shows Dubai recorded AED 1.85 billion in office property sales across 419 transactions in September 2026, up about 62% in value and 28.5% in volume from August. Off-plan offices accounted for 265 transactions worth AED 1.32 billion in the month. Over the first nine months of 2026, off-plan offices represented about 64% of office transaction volumes and 80% of the AED 20.16 billion total office sales value, with Business Bay leading at 1,100 transactions worth more than AED 9.9 billion.",
-    takeaway: "Off-plan is where Dubai’s office money is going — but offices are cyclical and concentrated in the AED 2–5M bracket, so size the ticket carefully.",
-    source: "Zawya (Al Masdar Al Akari / DLD data)",
-    url: "https://www.zawya.com/en/press-release/research-studies/dubai-office-sales-rise-62-in-september-to-aed-1.85bln-1485901"
-  },
-  {
-    date: "2026-10-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Rove Hotels and IRTH Group sign exclusive UAE residential partnership — Rove Home The Greens launching",
-    summary: "Rove Hotels and IRTH Group announced an exclusive partnership to develop standalone Rove Home residential projects across the UAE, following three previous collaborations that together sold out more than 2,000 residential and commercial units in Dubai. The first project under the new agreement, Rove Home The Greens, will comprise 200 residences in The Greens community and is scheduled to launch for sale before the end of 2026.",
-    takeaway: "Hospitality-branded homes keep expanding in Dubai — a format that has historically sold out fast; compare service-charge structures before buying branded.",
-    source: "Khaleej Times",
-    url: "https://www.khaleejtimes.com/business/rove-hotels-irth-group-to-launch-new-residential-projects-across-uae"
-  },
-  {
-    date: "2026-10-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Accor signs Pullman Residences & Offices Dubai Meydan — first branded offices for sale by a hospitality brand worldwide",
-    summary: "Accor and Cityview Developments signed an agreement at FHS World 2026 for Pullman Residences & Offices Dubai Meydan, scheduled to launch in 2029. The mixed-use project will unite 282 Pullman branded residences with branded offices — Accor’s first branded offices for sale anywhere in the world — featuring one-to-four-bedroom homes plus meeting, wellness, and dining amenities.",
-    takeaway: "Global hotel brands are now stamping their names on Dubai offices too — branded stock tends to command a premium, but the premium must be justified by resale data, not logos alone.",
-    source: "IndexBox",
-    url: "https://www.indexbox.io/blog/accor-signs-pullman-residences-offices-dubai-meydan-launching-worlds-first-branded-offices-by-a-hospitality-brand/"
-  },
-  {
-    date: "2026-10-01",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "ORAYA Developer announces debut project on Marjan Beach, RAK",
-    summary: "ORAYA Developer, a newly established UAE developer, announced on 1 October 2026 its official market entry with its first residential project on Marjan Beach, Ras Al Khaimah — a fully furnished residential address developed in partnership with a globally recognized hospitality brand, with full details due in the coming weeks. The announcement cites independent market analysis claiming prime apartment prices on Marjan Beach grew over 30% year-on-year through 2025, and notes the upcoming USD 5.1 billion integrated hospitality and entertainment destination opening in 2027.",
-    takeaway: "Another new developer is staking its debut on RAK’s coastline — a vote of confidence in Marjan Island demand, but as a first-time developer it has no delivery track record yet, so watch for construction milestones before committing.",
-    source: "Globe Newswire (via Manila Times)",
-    url: "https://www.manilatimes.net/2026/10/02/tmt-newswire/globenewswire/oraya-developer-announces-first-uae-project-on-marjan-beach/2437693"
-  },
-  {
-    date: "2026-10-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai sales hit Dh379.4B in nine months — second-highest on record",
-    summary: "Dubai real estate sales from January to end-September 2026 reached about Dh379.4 billion across 123,416 transactions, the second-highest nine-month sales value in the market’s history after 2025, based on Dubai Land Department data. Total transactions including mortgages and gifts exceeded Dh574 billion across 165,018 deals; September alone recorded Dh50.78 billion across 16,490 deals.",
-    takeaway: "Even after a record 2025, demand depth remains exceptional — a liquid market is an off-plan investor’s best friend.",
-    source: "Emirates 24/7",
-    url: "https://www.emirates247.com/business/dubai-real-estate-transactions-hit-dh574-billion-in-nine-months-second-highest-sales-value-in-market-history/6205"
   }
-
 ];
