@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-12",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Haaland buys Yas villa as Ohana launches Phase 2 of AED15bn Manchester City Yas Residences",
+    summary: "Ohana Development launched the second phase of Manchester City Yas Residences in Abu Dhabi, with Manchester City striker Erling Haaland confirming through a video appearance that he has bought a five-bedroom villa at the AED15 billion ($4.08 billion) waterfront community along Yas Canal. The Phase 2 event at Etihad Arena drew more than 4,000 guests, and Pep Guardiola was unveiled as the project's brand ambassador. Phase 2 adds two- and three-bedroom townhouses, duplex villas and four- and five-bedroom villas; two-bedroom townhouses are priced at an average AED 3.75 million, with sales scheduled to begin on 19 October 2026.",
+    takeaway: "Celebrity buyers and a 4,000-strong launch event signal demand heat — but heat at launch doesn't guarantee resale, so compare per-sqft pricing with the earlier phase before joining the queue.",
+    source: "Property News International",
+    url: "https://www.propertynewsint.com/news/haaland-buys-villa-as-aed-15bn-abu-dhabi-project-launches-phase-2"
+  },
+  {
+    date: "2026-10-09",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Taj Wellington Mews launches on Al Marjan Island — IHCL's first RAK property",
+    summary: "Indian Hotels Company announced it has signed the Taj Wellington Mews project on Al Marjan Island in Ras Al Khaimah with BNW Developments, marking IHCL's entry into the emirate. The greenfield development will introduce the Taj brand to RAK with 336 apartments alongside multiple dining options, meeting spaces, gym, spa and outdoor swimming pool. Marjan's CEO Abdulla Al Abdouli called BNW Developments the largest private developer of real estate in the emirate.",
+    takeaway: "Another global hotel brand choosing Al Marjan Island keeps adding tourism weight behind RAK's coastal off-plan market — watch actual visitor growth around the 2027 resort openings for the demand follow-through.",
+    source: "Travel Industry News",
+    url: "https://www.travelindustry.news/ihcl-opens-taj-wellington-in-ras-al-khaimah/"
+  },
+  {
+    date: "2026-10-01",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Oraya Developers enters UAE with debut project on Marjan Beach, RAK",
+    summary: "Newly established Oraya Developers announced its entry into the UAE market with a first residential project on Marjan Beach, Ras Al Khaimah, aiming to set a benchmark for lifestyle-led coastal living. Independent market analysis cited by the developer puts prime apartment prices on Marjan Beach at their highest level in the current cycle, with year-on-year growth exceeding 30%, and points to the $5.1 billion integrated hospitality and entertainment destination opening in 2027 as a further boost to tourism and residential capital values.",
+    takeaway: "A new developer choosing Marjan Beach as its debut location shows where capital sees RAK momentum — but cycle-high prices and 30%+ growth also mean less margin for error, so stress-test your entry price.",
+    source: "GlobeNewswire",
+    url: "https://www.globenewswire.com/news-release/2026/10/01/3373464/0/en/oraya-developer-announces-first-uae-project-on-marjan-beach.html"
+  },
+  {
     date: "2026-10-08",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,25 +212,5 @@ const NEWS_ITEMS = [
     takeaway: "The credit agency’s vote of confidence underpins RAK’s long-term thesis — but the outlook stays Negative, so keep geopolitical risk priced in, not priced away.",
     source: "Khaleej Times",
     url: "https://www.khaleejtimes.com/business/ras-al-khaimah-to-see-positive-growth-as-regional-conflict-risks-ease-says-fitch"
-  },
-  {
-    date: "2026-10-02",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai jumps 11 places to 17th globally in JLL–LaSalle 2026 transparency index",
-    summary: "Dubai climbed from 28th to 17th in the 2026 Global Real Estate Transparency Index by JLL and LaSalle, ranking first in the Arab world with a score of 1.98. The index credited the Dubai Land Department’s real-time public data, the digitalisation of services and new regulations; Dubai and Abu Dhabi were both named among the most improved markets of the past decade.",
-    takeaway: "Transparency is structural investor protection — open data and digital title and escrow systems make Dubai’s off-plan market easier to verify than most emerging markets.",
-    source: "Dubai Global News (JLL–LaSalle index)",
-    url: "https://www.dubaiglobalnews.com/en/2026/10/02/general_news-en/352823/"
-  },
-  {
-    date: "2026-10-02",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "SAAS Properties launches Ritz-Carlton Residences on Al Maryah Island — construction underway, handover Q2 2030",
-    summary: "SAAS Properties officially launched The Ritz-Carlton Residences, Al Maryah Island at LIVEX 2026: a 165-home waterfront collection of one-to-four-bedroom residences plus a signature penthouse, designed by Shaun Killa with interiors by Tara Bernerd in her first Middle East project. Construction is already underway and handover is anticipated in Q2 2030.",
-    takeaway: "Branded homes keep multiplying on Al Maryah Island — compare service charges and resale evidence for branded vs non-branded stock before paying the premium.",
-    source: "Khaleej Times",
-    url: "https://www.khaleejtimes.com/business/property/saas-properties-launches-the-ritz-carlton-residences-al-maryah-island-at-livex-2026"
   }
 ];
