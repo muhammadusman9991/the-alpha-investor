@@ -4,6 +4,46 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-14",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Aldar to launch major villa and townhouse community in Dubai by end of year",
+    summary: "Aldar Development's CEO Jonathan Emery told The National the developer will launch a large villa and townhouse community near Dubai Silicon Oasis before year-end, its fourth Dubai project after Haven, Athlon and The Wilds. The project is another partnership with Dubai Holding and sits above the Blue Line extension. Emery said Aldar's Dubai joint venture is adding two plots to deliver almost 14,000 new homes with a combined gross development value of more than Dh38 billion, and that the products it has brought to market have all done well despite a cooling Q3.",
+    takeaway: "Aldar's Dubai launches have historically moved fast — villa communities near metro extensions are a proven format, but check the launched per-sqft against their earlier Dubai projects before queuing.",
+    source: "The National",
+    url: "https://www.thenationalnews.com/business/property/2026/10/14/aldar-to-launch-major-dubai-villa-and-townhouse-project-by-end-of-year/"
+  },
+  {
+    date: "2026-10-13",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wolfe Research: Wynn Al Marjan could beat its own gaming revenue forecasts",
+    summary: "Wolfe Research analyst Peter Supino says Wynn Al Marjan Island's $5.7 billion resort could generate more gaming revenue than Wynn's own forecast of up to $1.66 billion annually, benchmarking against Singapore's limited-licence casino market. The analysis values Wynn's 40% stake at around $48 per share with a $128 price target, and expects the resort — the Middle East's first integrated resort casino, opening September 2027 — to capture a significant share of UAE gaming revenue in its early years. Separately, RAK officials toured Nevada in October to seek tourism partnerships ahead of the opening.",
+    takeaway: "Analysts are upgrading the earnings case for RAK's 2027 catalyst — the resort schedule holding matters more than revenue forecasts, so watch construction milestones toward the September 2027 opening.",
+    source: "CDC Gaming",
+    url: "https://cdcgaming.com/brief/uae-officials-tour-nevada-as-wynn-project-advances/"
+  },
+  {
+    date: "2026-10-14",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Savills: Dubai luxury prices up 4% YoY in Q3 as rentals rebound 16% — AED70.8B across 34,500 deals",
+    summary: "Savills' Q3 2026 Dubai Residential Market Report shows luxury apartment prices rose 4% year-on-year (luxury villas 3.6%), while rental transactions rebounded 16% quarter-on-quarter to 181,900 deals. Total Q3 residential transactions reached AED70.8 billion across 34,500 deals, including 669 transactions above AED10 million. Imtiaz's AED1.5 billion RAW District 2 sold out on its launch day, while only about 5,000 units were launched in Q3 (~50,000 so far in 2026) as developers take a more selective approach.",
+    takeaway: "Demand is concentrating in well-priced launches while rental activity recovers — rental and resale evidence is strengthening, but compare any project against launched-price data rather than headlines.",
+    source: "Emirates 24/7 (Savills data)",
+    url: "https://www.emirates247.com/business/dubai-luxury-property-prices-up-by-4-with-rentals-jumping-16/6715"
+  },
+  {
+    date: "2026-10-13",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Tabeer hands over Dh250M 48 Parkside in Arjan within 24 months, eyes major expansion",
+    summary: "Tabeer Developments has handed over its Dh250 million residential project 48 Parkside in Arjan, delivering it within 24 months of launch. The company presented the handover as proof of its delivery capability as it prepares for a larger phase of expansion across Dubai.",
+    takeaway: "Developers delivering on time is the strongest trust signal for off-plan buyers — handover track record matters more than brochure promises.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/business/property/tabeer-hands-over-dh250-million-48-parkside-in-24-months-eyes-major-expansion-1.500707506"
+  },
+  {
     date: "2026-10-12",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
@@ -22,16 +62,6 @@ const NEWS_ITEMS = [
     takeaway: "Another global hotel brand choosing Al Marjan Island keeps adding tourism weight behind RAK's coastal off-plan market — watch actual visitor growth around the 2027 resort openings for the demand follow-through.",
     source: "Travel Industry News",
     url: "https://www.travelindustry.news/ihcl-opens-taj-wellington-in-ras-al-khaimah/"
-  },
-  {
-    date: "2026-10-01",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Oraya Developers enters UAE with debut project on Marjan Beach, RAK",
-    summary: "Newly established Oraya Developers announced its entry into the UAE market with a first residential project on Marjan Beach, Ras Al Khaimah, aiming to set a benchmark for lifestyle-led coastal living. Independent market analysis cited by the developer puts prime apartment prices on Marjan Beach at their highest level in the current cycle, with year-on-year growth exceeding 30%, and points to the $5.1 billion integrated hospitality and entertainment destination opening in 2027 as a further boost to tourism and residential capital values.",
-    takeaway: "A new developer choosing Marjan Beach as its debut location shows where capital sees RAK momentum — but cycle-high prices and 30%+ growth also mean less margin for error, so stress-test your entry price.",
-    source: "GlobeNewswire",
-    url: "https://www.globenewswire.com/news-release/2026/10/01/3373464/0/en/oraya-developer-announces-first-uae-project-on-marjan-beach.html"
   },
   {
     date: "2026-10-08",
@@ -144,16 +174,6 @@ const NEWS_ITEMS = [
     url: "https://gulfnews.com/business/tourism/wynn-al-marjan-island-unveils-98-berth-marina-for-2027-ras-al-khaimah-resort-1.500698468"
   },
   {
-    date: "2026-10-05",
-    tag: "uae",
-    tagLabel: "UAE",
-    title: "IHG brings midscale Garner brand to Dubai and Ras Al Khaimah — 285 rooms",
-    summary: "IHG Hotels & Resorts signed two hotels with Nooa Holdings to introduce its midscale Garner brand to the Middle East for the first time: Garner Hotel Dubai Al Jaddaf (81 rooms, near Al Jaddaf Waterfront) and Garner Hotel Ras Al Khaimah Downtown (204 rooms by the creek in Al Nakheel). Both properties are conversions expected to open in 2026, targeting business and leisure travellers with an accessible price point. IHG said the UAE was a suitable launch market given demand for midscale accommodation.",
-    takeaway: "A new global midscale brand choosing both Dubai and RAK signals deepening tourism demand — more visitors and longer stays support rental demand behind off-plan investments.",
-    source: "Hotelier Middle East",
-    url: "https://www.hoteliermiddleeast.com/news/ihg-signs-first-middle-east-garner-hotels-in-dubai-and-ras-al-khaimah"
-  },
-  {
     date: "2026-10-06",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -183,34 +203,4 @@ const NEWS_ITEMS = [
     source: "Business Today Middle East",
     url: "https://businesstoday.me/real-estate/nakheel-launches-bay-estates-dubai-islands/"
   },
-  {
-    date: "2026-10-05",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Bab Al Qasr Beach Resort Residence 77 launches on Al Reem Island — handover Q4 2031",
-    summary: "Burtville Developments unveiled Bab Al Qasr Beach Resort Residence 77 on Al Reem Island, Abu Dhabi: a 17,534 sq m beachfront site where around 92% of residences are designed with direct sea views. The fully furnished freehold project offers one-to-five-bedroom homes plus four- and five-bedroom duplexes (largest ~3,100 sq ft), with 73% of the site dedicated to landscaping, a separate beach club, hotel services via the Bab Al Qasr brand, and handover scheduled for Q4 2031.",
-    takeaway: "Abu Dhabi’s beachfront pipeline keeps growing — a long-dated 2031 handover means the price should reflect the wait, so compare payment terms against nearer-completion stock.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/uae/abu-dhabi/new-abu-dhabi-beachfront-homes-launched-on-al-reem-island-1.500698718"
-  },
-  {
-    date: "2026-10-05",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Q3 transactions reach AED 90.62B — off-plan stays the largest residential segment",
-    summary: "Dubai recorded AED 90.62 billion across 36,738 residential and commercial transactions in Q3 2026, per a market release published by Zawya. Residential sales reached AED 72.58 billion across 33,949 transactions: off-plan contributed AED 41.58 billion (23,457 deals) while the secondary market added AED 30.83 billion, up 24.2% in value from Q2. Homes below AED 3 million made up 84.3% of Q3 transactions, and Dubai South was the most active location with 5,165 deals at an average AED 1,690 per sq. ft.",
-    takeaway: "Off-plan is still the market’s engine and sub-AED 3M homes are 84% of deals — the entry-level sweet spot stays wide open.",
-    source: "Zawya (market release)",
-    url: "https://www.zawya.com/en/press-release/research-studies/dubai-real-estate-transactions-reach-aed-90.62bln-in-q3-as-off-plan-remains-the-largest-residential-segment-1510107"
-  },
-  {
-    date: "2026-10-04",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Fitch affirms Ras Al Khaimah A+ rating as war-related risks ease",
-    summary: "Fitch Ratings said Ras Al Khaimah’s direct war-related risks have eased since April 2026 and affirmed the emirate’s long-term rating at A+, supported by low public-sector debt, substantial fiscal buffers and UAE federation membership. The agency noted the regional conflict \"only set back modestly the planned opening time\" of the $5.1 billion Wynn Al Marjan resort, where construction continues with opening delayed by roughly six months.",
-    takeaway: "The credit agency’s vote of confidence underpins RAK’s long-term thesis — but the outlook stays Negative, so keep geopolitical risk priced in, not priced away.",
-    source: "Khaleej Times",
-    url: "https://www.khaleejtimes.com/business/ras-al-khaimah-to-see-positive-growth-as-regional-conflict-risks-ease-says-fitch"
-  }
 ];
