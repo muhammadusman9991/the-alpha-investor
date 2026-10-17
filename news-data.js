@@ -4,6 +4,56 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-16",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Samana launches AED4bn+ Collecta flagship on World Islands — 849 residences from under AED2m",
+    summary: "Samana Developers has launched Samana Collecta, its new premium brand, debuting with a flagship project on Dubai's World Islands with a gross development value above AED 4 billion. The project comprises 840 branded apartments plus seven floating villas and two tree villas, with prices expected to start below AED 2 million. CEO Imran Farooq said the goal is to create a permanent year-round residential community on the islands rather than a tourist destination, targeting completion around 39 months after construction starts.",
+    takeaway: "A sub-AED2m entry price into a branded World Islands project is unusual — but the islands have a two-decade history of unfulfilled promises, so verify escrow, infrastructure commitments and delivery milestones before paying any launch premium.",
+    source: "Gulf Business",
+    url: "https://gulfbusiness.com/en/2026/real-estate/samana-world-islands-dubai-4bn-project/"
+  },
+  {
+    date: "2026-10-16",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "TARAF × Marriott launch JW Marriott Residences on Yas Island beachfront",
+    summary: "TARAF, the real estate arm of Yas Holding, and Steppe have signed an agreement through their joint venture with Marriott International to launch JW Marriott Residences Abu Dhabi on Yas Island. The branded residential development sits directly on the beach with the golf course alongside it, close to Yas Marina, Yas Mall, Yas Marina Circuit and the island's leisure attractions. The project draws on JW Marriott's design principles of architectural awe, serene spaces, nature and warm touches.",
+    takeaway: "A Marriott-branded beachfront residence on Yas Island targets exactly the kind of buyer Yas attracts — but branded premiums need service-charge scrutiny; branded homes in the region have carried premium entry prices, so check resale comparables first.",
+    source: "Mid-East Info",
+    url: "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/"
+  },
+  {
+    date: "2026-10-16",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "fäm: 94% of Dubai off-plan projects held launch prices in 2026 — absorption adjusts, not prices",
+    summary: "A fäm Properties analysis of 717 off-plan projects launched since July 2023 found only 44 — 6% of the sample — had reduced prices by 5% or more since the end of February, with more than nine out of ten projects retaining launch pricing. Projects priced close to prevailing area benchmarks are recording higher median absorption than those carrying significant premiums, while two- and three-bedroom sales fell 16% and 13% respectively. Dubai South stood out for entry-level demand, with studio transactions up 185% to 11,147 in the first eight months of 2026.",
+    takeaway: "Developers are holding prices and letting absorption adjust — which means launch-day pricing power is weaker than it looks; compare any project's price against area benchmarks before paying a launch premium.",
+    source: "Realty+ (fäm Properties data)",
+    url: "https://www.rprealtyplus.com/newsviews/dubai-developers-keep-off-plan-prices-steady-as-sales-absorption-adjusts-127059.html"
+  },
+  {
+    date: "2026-10-15",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Tomorrow World Properties and Missoni announce The Bay Interiors by Missoni on Dubai Islands",
+    summary: "Tomorrow World Properties and Missoni announced The Bay Interiors by Missoni, a branded residential project on Island A at Dubai Islands, described as the final unlaunched waterfront plot directly on the main marina, immediately adjacent to the main yacht club. The project promises residences where the majority command direct or open marina and sea views, and will be exclusively presented by OCTA Properties. Further details on residences, amenities and the official launch will be announced in due course.",
+    takeaway: "Another global design brand attaches to a Dubai waterfront off-plan project — branding adds a premium at launch, so check service charges and resale evidence in Dubai Islands before paying for the name.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530"
+  },
+  {
+    date: "2026-10-14",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Mondrian Al Marjan Island 75% sold after landmark AED73M single deal",
+    summary: "Mondrian Al Marjan Island Beach Residences, developed by ELEVATE with Ennismore, recorded a landmark AED 73 million single transaction in October 2026 — the largest single deal on Al Marjan Island of the year — taking the project to 75% sold. The deal, completed with a buyer from North America, covered four homes: a five-bedroom penthouse, a four-bedroom penthouse, a three-bedroom townhouse and a three-bedroom residence. The project recorded more than AED 100 million in closed sales in August 2026 alone, with shoring works 100% complete and piling 80% complete.",
+    takeaway: "International money is still writing big cheques on Al Marjan Island ahead of the 2027 Wynn opening — but this milestone is project-specific; demand is concentrating in branded, well-located projects, not the whole island.",
+    source: "UAE News 24/7",
+    url: "https://uaenews247.com/2026/10/14/north-american-buyer-seals-mega-aed-73-million-deal-at-mondrian-al-marjan-island-the-largest-single-deal-on-al-marjan-island-of-2026/"
+  },
+  {
     date: "2026-10-14",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -152,55 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Off-plan offices are 80% of Dubai's office sales value — commercial off-plan is a genuine growth segment, though offices are cyclical, so size the ticket carefully.",
     source: "Zawya (press release)",
     url: "https://www.zawya.com/en/press-release/companies-news/beyond-unveils-the-yards-plaza-a-new-workplace-destination-shaped-around-people-connection-and-wellbeing-1537512"
-  },
-  {
-    date: "2026-10-06",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Almal tops out The Unexpected on Al Marjan Island — construction past 50%",
-    summary: "Almal Real Estate Development completed the full superstructure and concrete works at The Unexpected Al Marjan Island Hotel & Residences in Ras Al Khaimah, topping out with the final upper roof slab above the restaurant and wellness amenities. Overall progress has moved well beyond 50%, ahead of the 42% officially recorded by RERA in July 2026, and the site has shifted into facade, MEP and interior fit-out phases. The 422-unit entertainment-led hotel and residential development will be operated by Palladium Hotel Group.",
-    takeaway: "Topped-out with progress ahead of the RERA-recorded pace is exactly the delivery signal off-plan buyers want — keep comparing construction evidence across RAK projects rather than trusting renderings.",
-    source: "Property News International",
-    url: "https://www.propertynewsint.com/news/almal-tops-out-the-unexpected-al-marjan-island-development"
-  },
-  {
-    date: "2026-10-05",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wynn Al Marjan Island unveils 98-berth superyacht marina for 2027 resort",
-    summary: "Wynn Al Marjan Island in Ras Al Khaimah announced Wynn Marina, a 98-berth superyacht facility for its $5.7 billion resort, accommodating yachts up to 85 metres — billed as the largest hotel-attached marina in the UAE, arriving by sea directly into the resort experience. The marina, designed by Marina Solutions International with IGY Marinas as operating partner, centres on a circular harbour with a radial berth layout inside a protected basin up to five metres deep. The resort itself remains on track toward a 2027 opening.",
-    takeaway: "The 2027 Wynn opening is RAK's biggest demand catalyst — every completed milestone de-risks the coastal off-plan thesis, though resale will still hinge on actual visitor numbers, not promises.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/business/tourism/wynn-al-marjan-island-unveils-98-berth-marina-for-2027-ras-al-khaimah-resort-1.500698468"
-  },
-  {
-    date: "2026-10-06",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "DIB and Expo City Dubai launch off-plan home financing — open to non-residents",
-    summary: "Dubai Islamic Bank entered a strategic partnership with Expo City Dubai to offer Shariah-compliant home financing for properties under construction. Once a DIB-approved project reaches 35% construction completion and the buyer has paid at least 50% of the price, DIB can finance up to 50% of the property value — buyers pay only the profit amount during construction and move to full instalments at handover or within 24 months. The proposition is open to eligible UAE nationals, residents and non-residents with no salary transfer required, with financing available for up to 25 years.",
-    takeaway: "Banks are now competing to finance off-plan construction periods — easier entry for buyers, but the 50%-paid and 35%-built thresholds mean this suits mid-stage projects, not launch-day cash.",
-    source: "The Gulf Time (WAM)",
-    url: "https://gulftime.ae/dib-expo-city-dubai-partner-to-advance-off-plan-home-financing/"
-  },
-  {
-    date: "2026-10-06",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai resale market holds steady — 40,963 deals worth Dh153.4B in Jan–Aug 2026",
-    summary: "Property Finder data reported by Emirates 24/7 shows Dubai’s secondary (resale) market recorded about 40,963 transactions worth Dh153.4 billion from January to August 2026. Deal counts eased from 2025 levels but values stayed stable, and capital rotated from Business Bay and Downtown Dubai toward newer, more affordable communities such as Dubai South and MBR City.",
-    takeaway: "Capital is rotating, not leaving — newer communities are where resale liquidity is building, which matters for off-plan exits in those areas.",
-    source: "Emirates 24/7 (Property Finder data)",
-    url: "https://www.emirates247.com/business/dubai-secondary-real-estate-market-2026-fewer-transactions-higher-average-values-and-shifting-capital/6375"
-  },
-  {
-    date: "2026-10-05",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Nakheel launches Bay Estates on Dubai Islands — 360 homes plus beachfront plots",
-    summary: "Nakheel, part of Dubai Holding Real Estate, launched Bay Estates, a gated waterfront community on Dubai Islands off the Deira coastline, comprising around 360 homes alongside beachfront and waterfront plots. The 653,709 sq m development spans 2.4 km of beachfront and 6.5 km of waterfront across three districts — Cala, Verda and Agora — with villas, townhouses, community and sports facilities, a yacht marina, and planned accommodation for more than 12,000 residents.",
-    takeaway: "Another branded waterfront district is opening on Dubai Islands — early phases of large masterplans are where the price curve starts, so check delivery pace on prior phases first.",
-    source: "Business Today Middle East",
-    url: "https://businesstoday.me/real-estate/nakheel-launches-bay-estates-dubai-islands/"
   },
 ];
