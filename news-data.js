@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-17",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai weekly deals hit AED13.5B across 4,193 transactions — off-plan AED3.2B, up ~20% on prior week",
+    summary: "Dubai property transactions reached approximately AED 13.47 billion across 4,193 deals in the week ending Friday 16 October, up about 20% in value on the previous week, according to Dubai REST app data republished from Dubai Land Department records. Off-plan sales accounted for approximately AED 3.22 billion across 1,714 transactions, including 1,517 residential units. Dubai Marina led all areas with more than AED 1.01 billion in sales, and one of the week's largest deals was a property linked to the Oceanz 1 project in Dubai Maritime City at AED 96 million.",
+    takeaway: "Off-plan still moved 1,714 deals in a single week — demand is there; the buyer edge is choosing which launch, not whether the market is alive.",
+    source: "ایرانیان امارات (Dubai REST/DLD data)",
+    url: "https://iranianuae.ae/en/business/real-estate/Dubai-property-market-records-AED-135-billion-in-deals/"
+  },
+  {
+    date: "2026-10-17",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "KASCO launches FALA waterfront homes on Jaddaf Waterfront — 109 residences, 40/60 plan, Q4 2028",
+    summary: "KASCO Developments has launched FALA by KASCO, a 109-home waterfront project on the Jaddaf Waterfront in Al Jaddaf, announced on 16 October 2026. The development offers studios from 419 sq ft up to three-bedroom apartments, with a 40/60 payment plan and expected completion in Q4 2028. Planned amenities include a rooftop pool, landscaped terraces and waterfront promenade access, with the metro described as about two minutes away.",
+    takeaway: "A 40/60 structure with a 2028 handover near Downtown is buyer-friendly — but Al Jaddaf is a patchy submarket, so compare per-sqft pricing with nearby ready stock before paying a launch premium.",
+    source: "PropTech Pulse",
+    url: "https://www.aurumproptech.in/pulse/media/kasco-launches-fala-waterfront-homes-in-dubais-al-jaddaf"
+  },
+  {
+    date: "2026-10-17",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai Municipality eases villa rules for Emiratis — second family homes, 1.5m setbacks under Home First",
+    summary: "Dubai Municipality has introduced new regulations under the Home First initiative allowing Emirati homeowners to expand villas, build second homes for family members and add residential annexes. The changes let homeowners reduce building setbacks to 1.5 metres, build a second floor covering the full area of the first floor, and construct a separate villa for family use — with conditions including neighbour consent where setbacks are removed and a minimum beneficiary age of 18 for a second villa.",
+    takeaway: "This is a policy win for Emirati end-users rather than off-plan investors — but easing family housing pressure is a demand-side support signal for the local market.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/uae/dubai-eases-villa-construction-rules-for-emiratis-allows-second-family-homes-1.500713942"
+  },
+  {
     date: "2026-10-16",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Abu Dhabi is professionalising its brokerage market just as volumes double — more regulated advice should help overseas investors, though the quality uplift will take time to bed in.",
     source: "UAE News 24/7",
     url: "https://uaenews247.com/2026/10/09/abu-dhabi-launches-new-real-estate-broker-licensing-curriculum/"
-  },
-  {
-    date: "2026-10-07",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Amwaj Development completes first Dubai handover — Starlight Park delivered on time",
-    summary: "Amwaj Development announced on 7 October 2026 the successful on-time handover of Starlight Park in Meydan's District 11, the boutique developer's first Dubai project: 172 one-to-three-bedroom apartments across four B+G+5+Roof buildings, completed in the first week of October. Amenities include rooftop pools and lounges across all four buildings, an outdoor cinema, fitness, yoga and boxing studios, paddle tennis and an indoor kids' club.",
-    takeaway: "A developer delivering its first project on schedule is the strongest trust signal in off-plan — delivered track record beats renderings when choosing between developers.",
-    source: "UAE News 24/7",
-    url: "https://uaenews247.com/2026/10/07/amwaj-development-completes-first-dubai-handover-with-on-time-delivery-of-starlight-park/"
-  },
-  {
-    date: "2026-10-08",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "ADCB × ORA Developers bring off-plan financing to BAYN buyers in Ghantoot",
-    summary: "Abu Dhabi Commercial Bank and ORA Developers UAE announced on 8 October 2026 a strategic partnership offering an off-plan home financing solution for eligible buyers at BAYN, ORA's 4.8-million-sqm flagship masterplan in the Ghantoot corridor between Abu Dhabi and Dubai. Buyers can access financing during construction once the mandatory regulated payment of 50% of the unit value is complete, securing funding for amounts due through to handover. Customers get pre-approvals valid for up to 12 months, digital onboarding and ADCB's specialist Mortgage Centres; applications are subject to the bank's eligibility, credit and documentation checks.",
-    takeaway: "Banks are now racing to finance off-plan construction periods in Abu Dhabi too — financing certainty to handover eases the cash burden on mid-stage projects, but only after 50% is paid, so entry discipline still matters.",
-    source: "UAE News 24/7",
-    url: "https://uaenews247.com/2026/10/08/adcb-and-ora-developers-uae-enter-into-a-strategic-partnership-to-offer-an-off-plan-financing-solution-to-eligible-bayn-customers/"
-  },
-  {
-    date: "2026-10-07",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "BEYOND launches The Yards Plaza as off-plan offices dominate Dubai office sales",
-    summary: "BEYOND Developments announced The Yards Plaza, its second commercial project in Dubai: 272 offices across four blocks along Sheikh Mohammed Bin Zayed Road with retail and F&B at ground level, following the sell-out of its first commercial development, 31 Above in Dubai Maritime City. The launch lands amid strong commercial momentum — analysis of Dubai Land Department data shows office sales reached AED 20.16 billion across 3,695 transactions in the first nine months of 2026, with off-plan offices accounting for 80% of total sales value; September alone reached AED 1.85 billion, up roughly 54% year-on-year.",
-    takeaway: "Off-plan offices are 80% of Dubai's office sales value — commercial off-plan is a genuine growth segment, though offices are cyclical, so size the ticket carefully.",
-    source: "Zawya (press release)",
-    url: "https://www.zawya.com/en/press-release/companies-news/beyond-unveils-the-yards-plaza-a-new-workplace-destination-shaped-around-people-connection-and-wellbeing-1537512"
   },
 ];
