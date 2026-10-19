@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-19",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "JW Marriott Residences Yas Island: ~199 branded homes revealed — 1BR to 4BR duplexes + 3 penthouses",
+    summary: "New details published on 19 October 2026 show the TARAF (Yas Holding) and Steppe joint venture with Marriott International will offer approximately 199 branded residences on Yas Island, ranging from one-bedroom apartments to four-bedroom duplexes and three penthouses. The beachfront project sits beside the island's golf course, near Yas Marina, Yas Mall and Yas Marina Circuit. Marriott's regional vice president said this is the partners' second collaboration after the W Residences Abu Dhabi – Al Maryah Island, which he described as sold out.",
+    takeaway: "A branded beachfront launch on Yas Island with a claimed sold-out predecessor — treat the sell-out claim as the developer's, and check service charges and resale comparables before paying a branded premium.",
+    source: "brandedresi.com",
+    url: "https://brandedresi.com/jw-marriott-residences-abu-dhabi-yas-island/"
+  },
+  {
+    date: "2026-10-18",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Manchester City Yas Residences Phase 2 on sale from today — townhouses, duplex villas, 4-5BR villas",
+    summary: "Ohana Development's AED 15 billion Manchester City Yas Residences on Yas Canal opened Phase 2 sales on 19 October 2026, adding two- and three-bedroom townhouses, duplex villas and four- and five-bedroom villas to the 2,000-plus-home masterplan, with phased completion targeted for 2029. Erling Haaland confirmed through a video appearance at the launch that he bought a five-bedroom villa outright — described as a personal purchase, not a sponsorship — and his father Alfie Haaland has received the keys to his own home in the development.",
+    takeaway: "A Phase 2 opening is the real demand test for football-branded homes in the Gulf — watch actual sell-through rather than celebrity headlines before deciding.",
+    source: "Further Arabia",
+    url: "https://furtherarabia.com/yas-island-residences-get-a-premier-league-stamp/"
+  },
+  {
     date: "2026-10-17",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "A second bank in a week is targeting Expo City construction-phase financing — banks are competing for off-plan borrowers, which should keep terms sharp, but check the approved-project list and eligibility before counting on it.",
     source: "UAE News 24/7",
     url: "https://uaenews247.com/2026/10/08/mashreq-partners-with-expo-city-dubai-to-expand-access-to-off-plan-home-financing/"
-  },
-  {
-    date: "2026-10-08",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Nakheel awards marine works for Dubai Islands Island B — 3 km of shoreline upgraded",
-    summary: "Nakheel awarded Mar Marine & Building Contracting a contract announced on 8 October 2026 for marine and beach works on Island B at Dubai Islands, upgrading about 3 km of the island's western shoreline and adding 320 metres of beach frontage near the Bay Villas development, with completion scheduled for Q4 2027. The works support Bay Villas, a community of 636 villas and townhouses on Island B, and run in parallel with the Dh2.6 billion villa construction contract awarded in August 2025.",
-    takeaway: "Waterfront infrastructure moving in parallel with villa construction is the delivery pattern Dubai Islands needs — watch whether the Q4 2027 target holds before buying into early phases.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/business/property/nakheel-hires-mar-marine-for-dubai-island-coastal-works-1.500702909"
-  },
-  {
-    date: "2026-10-08",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi launches mandatory broker licensing curriculum as H1 deals hit AED 117B",
-    summary: "The Abu Dhabi Real Estate Centre announced on 8 October 2026 a new mandatory Abu Dhabi Real Estate Broker Transformation Course replacing the previous broker course, with MoUs signed with Mawaheb, ThinkProp and the Abu Dhabi School of Management. The announcement cites ADREC's H1 2026 data: the emirate recorded AED 117 billion in real estate transactions, up 112% year-on-year, with licensed brokers reaching 3,302.",
-    takeaway: "Abu Dhabi is professionalising its brokerage market just as volumes double — more regulated advice should help overseas investors, though the quality uplift will take time to bed in.",
-    source: "UAE News 24/7",
-    url: "https://uaenews247.com/2026/10/09/abu-dhabi-launches-new-real-estate-broker-licensing-curriculum/"
   },
 ];
