@@ -5,6 +5,26 @@
 const NEWS_ITEMS = [
   {
     date: "2026-10-19",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "RAK Oasis names India master marketing partner for 406-acre freehold community",
+    summary: "On 19 October 2026, Shahab Building Contracting LLC appointed Lionexa LLP (CEO Kauser Nawaz) as master marketing partner for RAK Oasis in Ras Al Khaimah, making the Noida-based firm the official channel for buyers across India. RAK Oasis is a 406-acre master-planned community offering freehold residential plots and commercial units, with plots bookable at 10% down and the balance in interest-free monthly instalments paid directly to the developer. The announcement noted RAK is drawing growing buyer interest on the back of major tourism projects including the Wynn resort on Al Marjan Island.",
+    takeaway: "An overseas marketing push widens RAK's buyer pool ahead of the Wynn opening — but freehold plots on extended payment plans need title, delivery-milestone and infrastructure checks before any booking.",
+    source: "The Tribune",
+    url: "https://www.tribuneindia.com/news/business/rak-oasis-appoints-lionexa-llp-as-its-master-marketing-partner-in-india/"
+  },
+  {
+    date: "2026-10-19",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Meraki Developers enters Dubai South — 7-project pipeline worth ~USD 1bn",
+    summary: "Meraki Group announced in October 2026 that it is entering Dubai South with a new mixed-use development, describing the district as one of Dubai's fastest-growing residential and investment corridors. The developer says it has seven projects worth nearly USD 1 billion in its Dubai pipeline, with approximately 2,400 residential units currently under construction. Its completed Haven I project achieved a 73% snag-free handover rate, and the company reports one-bedroom apartments there commanding about AED 75,000 annually against an area average of AED 63,000 — a premium of nearly 19%.",
+    takeaway: "The rental premium and snag-free handover figures are the developer's own — still, delivery track record claims like these are exactly what off-plan buyers should ask for evidence on before booking.",
+    source: "Mid-East Info",
+    url: "https://mid-east.info/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-seven-projects-in-the-pipeline/"
+  },
+  {
+    date: "2026-10-19",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
     title: "JW Marriott Residences Yas Island: ~199 branded homes revealed — 1BR to 4BR duplexes + 3 penthouses",
@@ -87,6 +107,16 @@ const NEWS_ITEMS = [
     date: "2026-10-15",
     tag: "dubai",
     tagLabel: "Dubai",
+    title: "betterhomes Q3 2026: secondary sales up 16% QoQ, highest-ever leasing enquiries",
+    summary: "betterhomes' Q3 2026 Dubai residential report found secondary transactions rose 16% quarter-on-quarter to 10,055, lifting ready homes' share of all residential sales from 24% to 29% and of sales value from 30% to 37%, reaching AED 27.1 billion. Dubai recorded 34,615 residential sales in the quarter, broadly in line with Q2. The brokerage also recorded its highest quarterly level of leasing enquiries on record.",
+    takeaway: "Buyers are rotating toward ready homes with immediate occupancy or rent — for off-plan buyers that means the resale bar is rising, so compare any launch against actual ready-stock comparables.",
+    source: "Mid-East Info (betterhomes data)",
+    url: "https://mid-east.info/dubai-secondary-sales-rise-16-as-betterhomes-records-highest-ever-quarterly-leasing-enquiries-in-q3-2026/"
+  },
+  {
+    date: "2026-10-15",
+    tag: "dubai",
+    tagLabel: "Dubai",
     title: "Tomorrow World Properties and Missoni announce The Bay Interiors by Missoni on Dubai Islands",
     summary: "Tomorrow World Properties and Missoni announced The Bay Interiors by Missoni, a branded residential project on Island A at Dubai Islands, described as the final unlaunched waterfront plot directly on the main marina, immediately adjacent to the main yacht club. The project promises residences where the majority command direct or open marina and sea views, and will be exclusively presented by OCTA Properties. Further details on residences, amenities and the official launch will be announced in due course.",
     takeaway: "Another global design brand attaches to a Dubai waterfront off-plan project — branding adds a premium at launch, so check service charges and resale evidence in Dubai Islands before paying for the name.",
@@ -114,16 +144,6 @@ const NEWS_ITEMS = [
     url: "https://www.thenationalnews.com/business/property/2026/10/14/aldar-to-launch-major-dubai-villa-and-townhouse-project-by-end-of-year/"
   },
   {
-    date: "2026-10-13",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wolfe Research: Wynn Al Marjan could beat its own gaming revenue forecasts",
-    summary: "Wolfe Research analyst Peter Supino says Wynn Al Marjan Island's $5.7 billion resort could generate more gaming revenue than Wynn's own forecast of up to $1.66 billion annually, benchmarking against Singapore's limited-licence casino market. The analysis values Wynn's 40% stake at around $48 per share with a $128 price target, and expects the resort — the Middle East's first integrated resort casino, opening September 2027 — to capture a significant share of UAE gaming revenue in its early years. Separately, RAK officials toured Nevada in October to seek tourism partnerships ahead of the opening.",
-    takeaway: "Analysts are upgrading the earnings case for RAK's 2027 catalyst — the resort schedule holding matters more than revenue forecasts, so watch construction milestones toward the September 2027 opening.",
-    source: "CDC Gaming",
-    url: "https://cdcgaming.com/brief/uae-officials-tour-nevada-as-wynn-project-advances/"
-  },
-  {
     date: "2026-10-14",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -132,6 +152,16 @@ const NEWS_ITEMS = [
     takeaway: "Demand is concentrating in well-priced launches while rental activity recovers — rental and resale evidence is strengthening, but compare any project against launched-price data rather than headlines.",
     source: "Emirates 24/7 (Savills data)",
     url: "https://www.emirates247.com/business/dubai-luxury-property-prices-up-by-4-with-rentals-jumping-16/6715"
+  },
+  {
+    date: "2026-10-13",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wolfe Research: Wynn Al Marjan could beat its own gaming revenue forecasts",
+    summary: "Wolfe Research analyst Peter Supino says Wynn Al Marjan Island's $5.7 billion resort could generate more gaming revenue than Wynn's own forecast of up to $1.66 billion annually, benchmarking against Singapore's limited-licence casino market. The analysis values Wynn's 40% stake at around $48 per share with a $128 price target, and expects the resort — the Middle East's first integrated resort casino, opening September 2027 — to capture a significant share of UAE gaming revenue in its early years. Separately, RAK officials toured Nevada in October to seek tourism partnerships ahead of the opening.",
+    takeaway: "Analysts are upgrading the earnings case for RAK's 2027 catalyst — the resort schedule holding matters more than revenue forecasts, so watch construction milestones toward the September 2027 opening.",
+    source: "CDC Gaming",
+    url: "https://cdcgaming.com/brief/uae-officials-tour-nevada-as-wynn-project-advances/"
   },
   {
     date: "2026-10-13",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Danube is running the same 30:70 structure across its launches — consistent payment plans make their pipeline easy to compare, so check per-sqft pricing against other Danube stock before picking a project.",
     source: "RealtyNMore",
     url: "https://realtynmore.com/danube-properties-launches-shahrukhz-residence/"
-  },
-  {
-    date: "2026-10-08",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Accor to launch two branded developments in Dubai — 690 residences in Motor City and Meydan",
-    summary: "Accor and Cityview Developments signed an agreement announced on 8 October 2026 for two branded projects: Mövenpick Residences Dubai Motor City (408 residences, completion 2028, billed as the world's first standalone Mövenpick Residences and the first branded residential development in Motor City) and Pullman Residences & Offices Dubai Meydan, which will introduce Accor's first branded offices for sale globally. Together the two projects bring 690 branded residences to Dubai, supported by Accor's One Living platform and its Owner Benefits Programme for homeowners.",
-    takeaway: "Global hotel brands keep attaching their names to Dubai off-plan — the brand premium only pays if resale and rental data support it, so compare charges and yields against non-branded alternatives.",
-    source: "Zawya (press release)",
-    url: "https://in.tradingview.com/news/reuters.com,2026-10-08:newsml_Zaw6NSG6w:0-zawya-accor-to-launch-two-new-branded-residential-developments-in-dubai/"
-  },
-  {
-    date: "2026-10-06",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai rentals on track for a record year as primary sales lead Q3 — 298,984 contracts in 9 months",
-    summary: "A fäm Properties analysis of Dubai Land Department data published on 6 October 2026 shows 48,639 rental contracts were registered in Dubai's freehold areas in September, up 22.6% month-on-month, taking the first-nine-months total to 298,984 contracts — 6.8% above the same period of 2025, which set a full-year record. Q3 primary (off-plan) sales reached 25,441 deals worth AED 52.6 billion against 11,988 resales worth AED 40.3 billion, and 67% of secondary transactions were cash.",
-    takeaway: "Rentals running ahead of a record year supports the income case behind Dubai property — and with two-thirds of resales paid in cash, liquidity at exit is real, not speculative.",
-    source: "inCarabia (fäm Properties data)",
-    url: "https://en.incarabia.com/dubai-real-estate-remains-on-track-for-rental-record-while-primary-market-sales-continue-to-set-pace-891761.html"
-  },
-  {
-    date: "2026-10-08",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Mashreq partners with Expo City Dubai to expand off-plan home financing",
-    summary: "Mashreq announced on 8 October 2026 a strategic partnership with Expo City Dubai to offer structured home financing for eligible buyers across selected residential projects under construction in the master community, which has more than 3,000 units in the development phase. The bank says the offering will serve both investors and end users buying homes before completion, subject to eligibility criteria, credit approval and terms and conditions.",
-    takeaway: "A second bank in a week is targeting Expo City construction-phase financing — banks are competing for off-plan borrowers, which should keep terms sharp, but check the approved-project list and eligibility before counting on it.",
-    source: "UAE News 24/7",
-    url: "https://uaenews247.com/2026/10/08/mashreq-partners-with-expo-city-dubai-to-expand-access-to-off-plan-home-financing/"
   },
 ];
