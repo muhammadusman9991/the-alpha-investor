@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-21",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi Q3 2026: Dh21.5B residential sales across 6,085 transactions",
+    summary: "Abu Dhabi recorded Dh21.5 billion in residential property sales across 6,085 transactions in the third quarter of 2026, per market data reported by Gulf News on 21 October 2026. Residential sales reached Dh73.2 billion in full-year 2025, with transaction counts up 55% on 2024. On Yas Island, transaction values doubled in summer 2025 to Dh11.8 billion with 70% of purchasers being foreign buyers led by Indian, Chinese and British nationals; average apartment prices on Saadiyat reached Dh43,100 per sq m, up 21% year-on-year. Erling Haaland bought a five-bedroom villa in Ohana's Manchester City Yas Residences in October 2026, and Disneyland Abu Dhabi's planned Yas Island project was cited as a major demand catalyst.",
+    takeaway: "Abu Dhabi's transaction values are accelerating while Dubai's off-plan volumes cooled in Q3 — but treat reported totals as market snapshots; compare island per-sqft against ready-stock comparables before buying the narrative.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/business/property/abu-dhabi-records-dh215-billion-in-residential-property-sales-in-q3-2026-across-6085-transactions-1.500717696"
+  },
+  {
+    date: "2026-10-21",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wynn re-confirms September 2027 opening for Al Marjan resort after construction pause",
+    summary: "Wynn Resorts confirmed to investors in October 2026 that Wynn Al Marjan Island will open in September 2027, ending uncertainty after construction was paused during the Iran war. The company contributed $48.1 million in Q2 2026 to the 40%-owned joint venture, bringing life-to-date cash contributions to $1.06 billion; Texas Capital puts total project cost at around $5.7 billion and notes the contribution potential is not yet fully reflected in Wynn's share valuation. Around the opening, neighbouring RAK hotels are renovating: Rixos Al Mairid is refurbishing 323 rooms and Pullman Resort Al Marjan Island 300 rooms, reopening as adults-only in Q2 2027. Analysts estimate more than 5,000 branded residential units will be created in RAK by 2030.",
+    takeaway: "The September 2027 date is back on the table after a wobble — RAK's off-plan thesis hinges on that opening; track construction milestones rather than gaming-revenue forecasts.",
+    source: "Casino.org",
+    url: "https://gamblerss.com/wynn-says-uae-casino-will-open-in-september-2027-q2-results-beat-estimates-67096"
+  },
+  {
+    date: "2026-10-20",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai Islands: AED18.8B in sales over 12 months, median prices up 17.7%",
+    summary: "Dubai Islands recorded approximately AED18.8 billion ($5.12 billion) in residential property sales across 5,035 transactions in the 12 months to 28 September 2026, per Dubai Land Department data reported by Arabian Business. Separately, median residential transaction prices reached AED30,571 per sq m (about AED2,840 per sq ft) in the first seven months of 2026, up 17.7% against the full-year 2025 median, according to AXD Immobilien's analysis of DLD records. Grovy Developers chose the district for its first branded residential project, Ramada Residences by Wyndham with USquare Luxe Properties; construction began in August 2026 with handover targeted for Q3 2027.",
+    takeaway: "A waterfront corridor posting both volume and median-price growth — but medians include new launches at rising prices; check per-project comparables before assuming appreciation.",
+    source: "Arabian Business",
+    url: "https://www.arabianbusiness.com/real-estate/dubai-islands-property-sales-hit-5-1bn-as-residential-prices-climb-17-7"
+  },
+  {
     date: "2026-10-19",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Developers delivering on time is the strongest trust signal for off-plan buyers — handover track record matters more than brochure promises.",
     source: "Gulf News",
     url: "https://gulfnews.com/business/property/tabeer-hands-over-dh250-million-48-parkside-in-24-months-eyes-major-expansion-1.500707506"
-  },
-  {
-    date: "2026-10-12",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Haaland buys Yas villa as Ohana launches Phase 2 of AED15bn Manchester City Yas Residences",
-    summary: "Ohana Development launched the second phase of Manchester City Yas Residences in Abu Dhabi, with Manchester City striker Erling Haaland confirming through a video appearance that he has bought a five-bedroom villa at the AED15 billion ($4.08 billion) waterfront community along Yas Canal. The Phase 2 event at Etihad Arena drew more than 4,000 guests, and Pep Guardiola was unveiled as the project's brand ambassador. Phase 2 adds two- and three-bedroom townhouses, duplex villas and four- and five-bedroom villas; two-bedroom townhouses are priced at an average AED 3.75 million, with sales scheduled to begin on 19 October 2026.",
-    takeaway: "Celebrity buyers and a 4,000-strong launch event signal demand heat — but heat at launch doesn't guarantee resale, so compare per-sqft pricing with the earlier phase before joining the queue.",
-    source: "Property News International",
-    url: "https://www.propertynewsint.com/news/haaland-buys-villa-as-aed-15bn-abu-dhabi-project-launches-phase-2"
-  },
-  {
-    date: "2026-10-09",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Taj Wellington Mews launches on Al Marjan Island — IHCL's first RAK property",
-    summary: "Indian Hotels Company announced it has signed the Taj Wellington Mews project on Al Marjan Island in Ras Al Khaimah with BNW Developments, marking IHCL's entry into the emirate. The greenfield development will introduce the Taj brand to RAK with 336 apartments alongside multiple dining options, meeting spaces, gym, spa and outdoor swimming pool. Marjan's CEO Abdulla Al Abdouli called BNW Developments the largest private developer of real estate in the emirate.",
-    takeaway: "Another global hotel brand choosing Al Marjan Island keeps adding tourism weight behind RAK's coastal off-plan market — watch actual visitor growth around the 2027 resort openings for the demand follow-through.",
-    source: "Travel Industry News",
-    url: "https://www.travelindustry.news/ihcl-opens-taj-wellington-in-ras-al-khaimah/"
-  },
-  {
-    date: "2026-10-08",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Danube launches Shahrukhz Residences in Dubai Maritime City — from AED 1.65M, 30:70 plan",
-    summary: "Danube Properties launched Shahrukhz Residences on 8 October 2026, a fully furnished waterfront tower in Dubai Maritime City presented as the world's first celebrity-named residential tower, with penthouses designed by Gauri Khan. Prices start at AED 1.65 million with a 30% during construction / 70% on handover payment plan, and the project advertises 40+ amenities including a longevity lounge, a rooftop King's Club and access to a private yacht.",
-    takeaway: "Danube is running the same 30:70 structure across its launches — consistent payment plans make their pipeline easy to compare, so check per-sqft pricing against other Danube stock before picking a project.",
-    source: "RealtyNMore",
-    url: "https://realtynmore.com/danube-properties-launches-shahrukhz-residence/"
   },
 ];
