@@ -5,6 +5,36 @@
 const NEWS_ITEMS = [
   {
     date: "2026-10-21",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 86 homes at $10M+ in Q3 — wealthy buyers keep buying despite Iran war",
+    summary: "Dubai recorded 86 residential transactions valued at $10 million or more in the third quarter of 2026, down 17% on a year earlier, with 13 deals above $25 million, Knight Frank said in a report published by The National on 21 October 2026. The 73 deals in the $10-25 million bracket totalled Dh3.93 billion; the 13 deals above $25 million totalled Dh1.84 billion. Prime prices across the city's 10 prime neighbourhoods dipped 5% quarter-on-quarter — their first decline since 2020 — while overall prime volumes were 29.4% below the prior year, which Knight Frank attributed mainly to the regional conflict dampening confidence.",
+    takeaway: "Ultra-prime still transacts in a down quarter, but the 5% prime price dip is the first since 2020 — for off-plan buyers that means less bidding pressure on premium launches, not an automatic discount.",
+    source: "The National (Knight Frank data)",
+    url: "https://www.thenationalnews.com/business/property/2026/10/21/dubai-records-86-deals-for-10m-homes-in-q3-as-wealthy-flock-despite-iran-war/"
+  },
+  {
+    date: "2026-10-21",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Zoya Developments launches Elvora in DLRC — 10+ projects in two years, portfolio over AED 1.2bn",
+    summary: "Zoya Developments unveiled Elvora, a new residential development in Dubai Land Residence Complex (DLRC), at an event in Abu Dhabi on 21 October 2026, as reported by MENAFN/fleishmanhillard. The company says it has launched more than 10 projects since entering the Dubai market two years ago, with launched and pipeline projects valued at more than AED 1.2 billion. Zoya cites its Elinor project in Dubai South — which it says commenced construction two months after launch — as evidence of its delivery pace.",
+    takeaway: "A young developer scaling fast in DLRC and Dubai South — two-month launch-to-construction claims are exactly the kind of statement to verify against DLD escrow and construction records before booking.",
+    source: "MENAFN (company announcement)",
+    url: "https://menafn.com/1111844031/10-Projects-Launched-in-Just-Two-Years-Zoya-Developments-Adds-Elvora-to-Its-Growing-Dubai-Portfolio"
+  },
+  {
+    date: "2026-10-20",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai posts AED 853M across 424 sales in a single day — off-plan at 70.5%",
+    summary: "On 19 October 2026, Dubai registered 424 property sales totalling AED 853 million, with a median transaction price of AED 1.26 million, per Dubai Land Department data republished by Broker Terminal on 20 October 2026. Off-plan sales accounted for 70.5% of transactions (299 off-plan vs 125 ready). Dubai Academic & Outsource City led all communities with AED 101 million across 23 transactions, followed by Dubai Islands with AED 43 million. Separately, 2,843 tenancy contracts were registered the same day, with a median annual rent of AED 67,000.",
+    takeaway: "Off-plan at 70%+ of a single day's deals — the buyer's edge this quarter is launch choice and pricing, with developers holding prices while absorption adjusts.",
+    source: "Broker Terminal (DLD data)",
+    url: "https://brokerterminal.com/market-news/daily/dubai-property-sales-aed-853m-off-plan-19-october-2026"
+  },
+  {
+    date: "2026-10-21",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
     title: "Abu Dhabi Q3 2026: Dh21.5B residential sales across 6,085 transactions",
@@ -155,16 +185,6 @@ const NEWS_ITEMS = [
   },
   {
     date: "2026-10-14",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Mondrian Al Marjan Island 75% sold after landmark AED73M single deal",
-    summary: "Mondrian Al Marjan Island Beach Residences, developed by ELEVATE with Ennismore, recorded a landmark AED 73 million single transaction in October 2026 — the largest single deal on Al Marjan Island of the year — taking the project to 75% sold. The deal, completed with a buyer from North America, covered four homes: a five-bedroom penthouse, a four-bedroom penthouse, a three-bedroom townhouse and a three-bedroom residence. The project recorded more than AED 100 million in closed sales in August 2026 alone, with shoring works 100% complete and piling 80% complete.",
-    takeaway: "International money is still writing big cheques on Al Marjan Island ahead of the 2027 Wynn opening — but this milestone is project-specific; demand is concentrating in branded, well-located projects, not the whole island.",
-    source: "UAE News 24/7",
-    url: "https://uaenews247.com/2026/10/14/north-american-buyer-seals-mega-aed-73-million-deal-at-mondrian-al-marjan-island-the-largest-single-deal-on-al-marjan-island-of-2026/"
-  },
-  {
-    date: "2026-10-14",
     tag: "dubai",
     tagLabel: "Dubai",
     title: "Aldar to launch major villa and townhouse community in Dubai by end of year",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Demand is concentrating in well-priced launches while rental activity recovers — rental and resale evidence is strengthening, but compare any project against launched-price data rather than headlines.",
     source: "Emirates 24/7 (Savills data)",
     url: "https://www.emirates247.com/business/dubai-luxury-property-prices-up-by-4-with-rentals-jumping-16/6715"
-  },
-  {
-    date: "2026-10-13",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wolfe Research: Wynn Al Marjan could beat its own gaming revenue forecasts",
-    summary: "Wolfe Research analyst Peter Supino says Wynn Al Marjan Island's $5.7 billion resort could generate more gaming revenue than Wynn's own forecast of up to $1.66 billion annually, benchmarking against Singapore's limited-licence casino market. The analysis values Wynn's 40% stake at around $48 per share with a $128 price target, and expects the resort — the Middle East's first integrated resort casino, opening September 2027 — to capture a significant share of UAE gaming revenue in its early years. Separately, RAK officials toured Nevada in October to seek tourism partnerships ahead of the opening.",
-    takeaway: "Analysts are upgrading the earnings case for RAK's 2027 catalyst — the resort schedule holding matters more than revenue forecasts, so watch construction milestones toward the September 2027 opening.",
-    source: "CDC Gaming",
-    url: "https://cdcgaming.com/brief/uae-officials-tour-nevada-as-wynn-project-advances/"
-  },
-  {
-    date: "2026-10-13",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Tabeer hands over Dh250M 48 Parkside in Arjan within 24 months, eyes major expansion",
-    summary: "Tabeer Developments has handed over its Dh250 million residential project 48 Parkside in Arjan, delivering it within 24 months of launch. The company presented the handover as proof of its delivery capability as it prepares for a larger phase of expansion across Dubai.",
-    takeaway: "Developers delivering on time is the strongest trust signal for off-plan buyers — handover track record matters more than brochure promises.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/business/property/tabeer-hands-over-dh250-million-48-parkside-in-24-months-eyes-major-expansion-1.500707506"
   },
 ];
