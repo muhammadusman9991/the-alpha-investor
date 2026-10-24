@@ -4,6 +4,56 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-24",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "JPMorgan: Wynn UAE concerns exaggerated — $5.7bn Al Marjan project on track for September 2027",
+    summary: "JPMorgan analysts came away with a constructive tone on Wynn Al Marjan Island after meeting Wynn executives at the Global Gaming Expo in Las Vegas this week, saying regional conditions are \"back to normal\" and the $5.7 billion resort remains on pace to open in September 2027, per the GambleRss report on 24 October 2026. The bank says UAE lodging demand and revenue per available room are pacing about 25% below last year in September — versus 50% below earlier in the year. The report also cites Ras Al Khaimah Tourism Development Authority data showing the emirate attracted 670,000 visitors in the first half of this year despite the Iran war.",
+    takeaway: "A second institutional confirmation of the September 2027 date this week — the RAK off-plan thesis keeps getting support, but pricing already assumes the opening, so track construction milestones, not revenue forecasts.",
+    source: "GambleRss (JPMorgan analyst note)",
+    url: "https://gamblerss.com/jpmorgan-wynn-uae-casino-concerns-exaggerated-70339"
+  },
+  {
+    date: "2026-10-23",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Al Hamra CEO: RAK property boom rewards legacy players as Wynn rush gathers pace",
+    summary: "Al Hamra Group CEO Benoy Kurien told Gulf Business this week that Wynn Al Marjan Island is transforming Ras Al Khaimah's property market, with developers racing to capitalise on the UAE's first integrated gaming resort arriving in September 2027. Kurien pointed to the developer's long delivery track record, and the interview notes a three-level Sky Palace in Al Hamra's Waldorf Astoria branded development sold for Dhs130 million earlier this year — setting a residential transaction record for the emirate.",
+    takeaway: "A record sale at one flagship project doesn't set market prices — in a boom, the developer's delivery history is the harder data point to check.",
+    source: "Gulf Business",
+    url: "https://gulfbusiness.com/en/2026/ras-al-khaimah/al-hamra-ceo-wynn-ras-al-khaimah-property-boom/"
+  },
+  {
+    date: "2026-10-23",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi registers its first mortgage on an off-plan property — ADREC's new financing system goes live",
+    summary: "Abu Dhabi has registered the first mortgage on an off-plan property under a new system from the Abu Dhabi Real Estate Centre (ADREC), completed by Aldar Properties in cooperation with Abu Dhabi Commercial Bank, per the DOM LiVE digest on 23 October 2026. Under the new rules, buyers who have paid 50% of an eligible off-plan property can obtain a mortgage for the remaining value before construction completes — covering remaining scheduled payments during construction and the final payment at handover. Buyers can lock in financing terms earlier and hold less cash in reserve through the build period.",
+    takeaway: "Off-plan financing just got a real option in Abu Dhabi — but it only kicks in after 50% is paid, so check the project's bank eligibility before counting on it.",
+    source: "DOM LiVE (UAE News Digest)",
+    url: "https://ae.dom.com.cy/en/live/digest/the-first-mortgage-for-real-estate-under-construction-was-registered-in-abu-dhabi/"
+  },
+  {
+    date: "2026-10-23",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi real estate market sets new record — investment zones draw AED 75B in H1 2026, up 181%",
+    summary: "Abu Dhabi's investment zones — where buyers of all nationalities can purchase — attracted AED 75 billion in the first half of 2026, up 181% from AED 26.7 billion a year earlier, per the DOM LiVE digest published 23 October 2026. ADREC raised the number of investment zones to 50, approved eight new zones and registered 28 new projects in the half-year, with real estate licences up 34% to 2,040 and licensed brokers at 3,302. The digest attributes the surge to open investment policies including the Golden Visa programme.",
+    takeaway: "The capital's international buyer funnel is accelerating — more investment zones and licensed brokers means more competition at launches, not automatic appreciation.",
+    source: "DOM LiVE (UAE News Digest)",
+    url: "https://ae.dom.com.cy/en/live/digest/abu-dhabi-real-estate-market-updates-record/"
+  },
+  {
+    date: "2026-10-22",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Metropolitan forecasts 30 Abu Dhabi launches worth up to $12.25bn — about one every three days",
+    summary: "Metropolitan Capital expects roughly 30 new project launches in Abu Dhabi worth up to $12.25 billion, about one every three days, per Property News International on 22 October 2026. The consultancy says selective buyers, phased launches and gradual sales strategies will define the next phase, with developers moving away from immediate sell-outs toward complete districts with schools, leisure, marinas and transport links. Trends flagged include more branded and serviced residences, wider financing options, more international developers, and infrastructure plays such as Etihad Rail and new bridges.",
+    takeaway: "A dense launch pipeline with more selective buyers — oversupply risk lives at the project level, so pick districts with completed infrastructure, not just render images.",
+    source: "Property News International (Metropolitan Capital)",
+    url: "https://www.propertynewsint.com/news/metropolitan-forecasts-30-abu-dhabi-launches-worth-up-to-12-25bn"
+  },
+  {
     date: "2026-10-21",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -152,55 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "A Marriott-branded beachfront residence on Yas Island targets exactly the kind of buyer Yas attracts — but branded premiums need service-charge scrutiny; branded homes in the region have carried premium entry prices, so check resale comparables first.",
     source: "Mid-East Info",
     url: "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/"
-  },
-  {
-    date: "2026-10-16",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "fäm: 94% of Dubai off-plan projects held launch prices in 2026 — absorption adjusts, not prices",
-    summary: "A fäm Properties analysis of 717 off-plan projects launched since July 2023 found only 44 — 6% of the sample — had reduced prices by 5% or more since the end of February, with more than nine out of ten projects retaining launch pricing. Projects priced close to prevailing area benchmarks are recording higher median absorption than those carrying significant premiums, while two- and three-bedroom sales fell 16% and 13% respectively. Dubai South stood out for entry-level demand, with studio transactions up 185% to 11,147 in the first eight months of 2026.",
-    takeaway: "Developers are holding prices and letting absorption adjust — which means launch-day pricing power is weaker than it looks; compare any project's price against area benchmarks before paying a launch premium.",
-    source: "Realty+ (fäm Properties data)",
-    url: "https://www.rprealtyplus.com/newsviews/dubai-developers-keep-off-plan-prices-steady-as-sales-absorption-adjusts-127059.html"
-  },
-  {
-    date: "2026-10-15",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "betterhomes Q3 2026: secondary sales up 16% QoQ, highest-ever leasing enquiries",
-    summary: "betterhomes' Q3 2026 Dubai residential report found secondary transactions rose 16% quarter-on-quarter to 10,055, lifting ready homes' share of all residential sales from 24% to 29% and of sales value from 30% to 37%, reaching AED 27.1 billion. Dubai recorded 34,615 residential sales in the quarter, broadly in line with Q2. The brokerage also recorded its highest quarterly level of leasing enquiries on record.",
-    takeaway: "Buyers are rotating toward ready homes with immediate occupancy or rent — for off-plan buyers that means the resale bar is rising, so compare any launch against actual ready-stock comparables.",
-    source: "Mid-East Info (betterhomes data)",
-    url: "https://mid-east.info/dubai-secondary-sales-rise-16-as-betterhomes-records-highest-ever-quarterly-leasing-enquiries-in-q3-2026/"
-  },
-  {
-    date: "2026-10-15",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Tomorrow World Properties and Missoni announce The Bay Interiors by Missoni on Dubai Islands",
-    summary: "Tomorrow World Properties and Missoni announced The Bay Interiors by Missoni, a branded residential project on Island A at Dubai Islands, described as the final unlaunched waterfront plot directly on the main marina, immediately adjacent to the main yacht club. The project promises residences where the majority command direct or open marina and sea views, and will be exclusively presented by OCTA Properties. Further details on residences, amenities and the official launch will be announced in due course.",
-    takeaway: "Another global design brand attaches to a Dubai waterfront off-plan project — branding adds a premium at launch, so check service charges and resale evidence in Dubai Islands before paying for the name.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/gn-focus/company-news/tomorrow-world-properties-and-missoni-announce-the-bay-interiors-by-missoni-on-dubai-islands-1.500711530"
-  },
-  {
-    date: "2026-10-14",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Aldar to launch major villa and townhouse community in Dubai by end of year",
-    summary: "Aldar Development's CEO Jonathan Emery told The National the developer will launch a large villa and townhouse community near Dubai Silicon Oasis before year-end, its fourth Dubai project after Haven, Athlon and The Wilds. The project is another partnership with Dubai Holding and sits above the Blue Line extension. Emery said Aldar's Dubai joint venture is adding two plots to deliver almost 14,000 new homes with a combined gross development value of more than Dh38 billion, and that the products it has brought to market have all done well despite a cooling Q3.",
-    takeaway: "Aldar's Dubai launches have historically moved fast — villa communities near metro extensions are a proven format, but check the launched per-sqft against their earlier Dubai projects before queuing.",
-    source: "The National",
-    url: "https://www.thenationalnews.com/business/property/2026/10/14/aldar-to-launch-major-dubai-villa-and-townhouse-project-by-end-of-year/"
-  },
-  {
-    date: "2026-10-14",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Savills: Dubai luxury prices up 4% YoY in Q3 as rentals rebound 16% — AED70.8B across 34,500 deals",
-    summary: "Savills' Q3 2026 Dubai Residential Market Report shows luxury apartment prices rose 4% year-on-year (luxury villas 3.6%), while rental transactions rebounded 16% quarter-on-quarter to 181,900 deals. Total Q3 residential transactions reached AED70.8 billion across 34,500 deals, including 669 transactions above AED10 million. Imtiaz's AED1.5 billion RAW District 2 sold out on its launch day, while only about 5,000 units were launched in Q3 (~50,000 so far in 2026) as developers take a more selective approach.",
-    takeaway: "Demand is concentrating in well-priced launches while rental activity recovers — rental and resale evidence is strengthening, but compare any project against launched-price data rather than headlines.",
-    source: "Emirates 24/7 (Savills data)",
-    url: "https://www.emirates247.com/business/dubai-luxury-property-prices-up-by-4-with-rentals-jumping-16/6715"
   },
 ];
