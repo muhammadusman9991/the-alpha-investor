@@ -4,6 +4,16 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-25",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai breaks transaction record — AED 525.87bn in 9.5 months of 2026, already past full-year 2024",
+    summary: "Dubai recorded AED 525.87 billion in property transactions in the first nine and a half months of 2026, already surpassing the total for all of 2024, per Dubai Land Department data reported by DOM LiVE on 25 October 2026. Some 168,540 sales were registered between January and mid-October, against 180,860 for the whole of last year. In the past week alone, Dubai logged 5,494 transactions worth AED 14.64 billion, including AED 10.82 billion in direct sales, with Business Bay leading at AED 648 million.",
+    takeaway: "Record transaction value with prime prices cooling — the market is busy, not uniformly rising, so judge each launch on price per sq ft and delivery record, not headline totals.",
+    source: "DOM LiVE (DLD data)",
+    url: "https://ae.dom.com.cy/en/live/digest/dubai-has-broken-the-historical-record-for-the-volume-of-real-estate-transactions/"
+  },
+  {
     date: "2026-10-24",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
@@ -193,14 +203,5 @@ const NEWS_ITEMS = [
     source: "Gulf Business",
     url: "https://gulfbusiness.com/en/2026/real-estate/samana-world-islands-dubai-4bn-project/"
   },
-  {
-    date: "2026-10-16",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "TARAF × Marriott launch JW Marriott Residences on Yas Island beachfront",
-    summary: "TARAF, the real estate arm of Yas Holding, and Steppe have signed an agreement through their joint venture with Marriott International to launch JW Marriott Residences Abu Dhabi on Yas Island. The branded residential development sits directly on the beach with the golf course alongside it, close to Yas Marina, Yas Mall, Yas Marina Circuit and the island's leisure attractions. The project draws on JW Marriott's design principles of architectural awe, serene spaces, nature and warm touches.",
-    takeaway: "A Marriott-branded beachfront residence on Yas Island targets exactly the kind of buyer Yas attracts — but branded premiums need service-charge scrutiny; branded homes in the region have carried premium entry prices, so check resale comparables first.",
-    source: "Mid-East Info",
-    url: "https://mid-east.info/taraf-and-marriott-international-sign-agreement-to-launch-jw-marriott-residences-abu-dhabi-yas-island/"
-  },
 ];
+
