@@ -4,6 +4,76 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-27",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai land sales hit AED 146bn in 2026 — 10,770 plots sold so far",
+    summary: "Land sales in Dubai have reached approximately AED 146 billion across 10,770 transactions since the start of 2026, per Dubai Land Department data reported by Gulf Today on 27 October 2026. Residential land accounted for 61% of total value at AED 88.6 billion across 7,545 plots, while commercial land reached AED 57.2 billion across 3,225 deals. Me'aisem 2 led by area value at AED 10.7 billion, followed by Al Yelayiss 5 at AED 7.4 billion and Palm Jebel Ali at AED 7 billion.",
+    takeaway: "Land is where developers stock up before launches — AED 146bn of plot sales this year points to a deep pipeline, so compare each launch against the land cost behind it, not just the brochure price.",
+    source: "Gulf Today (DLD data)",
+    url: "https://www.gulftoday.ae/business/2026/10/27/10770-plots-of-land-in-dubai-sold-for-dhs146-billion-in-2026"
+  },
+  {
+    date: "2026-10-27",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Three landmark Dubai launches bet on architecture as off-plan supply tightens",
+    summary: "Three newly launched Dubai projects are competing on design as off-plan launches slow, per Dubai Chronicle on 27 October 2026: LMD's Christian A. Rockefeller Business Tower on Sheikh Zayed Road (87 floors, completion 2031, the first building in the world to carry the Rockefeller name), H&H's Water Gardens in DIFC designed by Pritzker winner David Chipperfield (completion 2028), and SAMANA Collecta on The World Islands (840 branded apartments plus villas, over AED 4 billion, from under AED 2 million). Developers brought about 50,000 units to market in 2026, close to a third of last year's pace, while Dubai's population reached 4,807,185 in late September, up 226,885 since January.",
+    takeaway: "Fewer launches against a fast-growing population is the backdrop — but these are premium, design-led projects with long timelines, so judge them on the developer's delivery record and price per sq ft, not the architect's name alone.",
+    source: "Dubai Chronicle",
+    url: "https://www.dubaichronicle.com/2026/10/27/dubai-off-plan-launches-unique-architecture/"
+  },
+  {
+    date: "2026-10-27",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi launches the region's first fully digital property buy & sell platform",
+    summary: "Abu Dhabi has launched the Digital Buy & Sell Journey, a government platform from the Abu Dhabi Real Estate Centre (ADREC) that lets buyers and sellers complete the entire transaction — from application to registration — fully online, per DOM LiVE on 27 October 2026. The platform is integrated with the TAMM government ecosystem, uses UAE Pass digital signatures, and handles escrow payments and mortgage settlement through ADREC. ADREC acting CEO Rashid Al-Omaira called the launch a strategic leap in the emirate's digital transformation.",
+    takeaway: "Overseas buyers can now close an Abu Dhabi deal without flying in — useful at handover and resale, but the platform doesn't change the fundamentals: check the project, the price per sq ft and the developer first.",
+    source: "DOM LiVE (ADREC)",
+    url: "https://ae.dom.com.cy/en/live/digest/abu-dhabi-has-launched-the-region-s-first-fully-digital-real-estate-purchase-and-sale-platform-/"
+  },
+  {
+    date: "2026-10-27",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai rentals: one-beds lead demand, new leases beat renewals as handovers flood in",
+    summary: "New rental contracts are driving Dubai's rental growth as off-plan units bought in 2022–2023 reach completion, per a FAM Properties analysis of 114,300 contracts reported by Emirates247 on 27 October 2026. Average new-lease rents in the first nine months of 2026 were AED 45,000 for a studio, AED 70,000 for a one-bedroom and AED 110,000 for a two-bedroom, with studios to two-beds making up about nine in ten new contracts. Villa rentals fell 11% in the period, while new leases in fast-growing communities such as Al Yufrah 1 rose 144% year-on-year after around 1,290 homes were handed over since early 2025.",
+    takeaway: "Handovers are turning into rental supply fast — for off-plan buyers that means real tenants at handover, but also more competition for rents in newly completed communities.",
+    source: "Emirates247 (FAM Properties)",
+    url: "https://www.emirates247.com/uae/dubai-rental-market-2026-one-bedroom-apartments-lead-demand-villas-fall-11-and-new-leases-beat-renewals/7145"
+  },
+  {
+    date: "2026-10-26",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai South home sales already beat all of 2025 — in just 8 months",
+    summary: "Dubai South recorded 12,428 residential transactions between January and August 2026, surpassing the 9,788 recorded in all of 2025, per property consultancy Anarock reported by The Week on 26 October 2026. Total sales value reached AED 15.9 billion, with off-plan homes at 94% of volume. Studios were 45% of transactions and one-beds 31%, while the average price reached AED 1,656 per sq ft and the average ticket eased to AED 1.28 million. Anarock flags 38,116 homes scheduled for delivery in 2027–2029, with handovers peaking in 2028.",
+    takeaway: "Record volumes at lower ticket sizes — the area is selling smaller homes at rising per-sq-ft prices, but 38,000 homes due by 2029 is the number to watch before buying the growth story.",
+    source: "The Week (Anarock)",
+    url: "https://www.theweek.in/news/middle-east/2026/10/26/dubai-south-residential-transactions-surpass-2025-figures.amp.html"
+  },
+  {
+    date: "2026-10-26",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai rental market hits record — 1.38m contracts worth over AED 126bn in 2025",
+    summary: "Dubai registered about 1.38 million rental contracts in 2025, up 6% on the previous year, with their total value up 17% to more than AED 126 billion, per Dubai Land Department data reported by DOM LiVE on 26 October 2026. More than half a million of those were new contracts, up about 10% year-on-year, reflecting continued relocation of foreign professionals, entrepreneurs and investors. Analysts cited by the digest expect rental growth to continue, though the pace may slow as supply saturates and prices stabilise.",
+    takeaway: "Rental demand is still absorbing new supply — for off-plan buyers that supports end-user demand at handover, but check community-level yields, not city averages.",
+    source: "DOM LiVE (DLD data)",
+    url: "https://ae.dom.com.cy/en/live/digest/dubai-rental-market-breaks-records/"
+  },
+  {
+    date: "2026-10-25",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Vienna House Residences debuts on Al Marjan Island as RAK logs Dh2.89bn in H1 deals",
+    summary: "Sugee Group and Wyndham Hotels & Resorts have partnered to develop the world's first Vienna House Residences by Wyndham on Al Marjan Island, Ras Al Khaimah, per Khaleej Times on 25 October 2026. The fully furnished, hospitality-led residences will be the only development on the island offering short-term rentals. Ras Al Khaimah municipality data cited in the same report put total transactions in the first half of 2026 at Dh2.89 billion, including Dh1.353 billion in property sales.",
+    takeaway: "Branded hospitality product keeps landing on Al Marjan ahead of Wynn's September 2027 opening — verify service charges and short-term rental terms before paying a branded premium.",
+    source: "Khaleej Times",
+    url: "https://www.khaleejtimes.com/business/dubai-ras-al-khaimah-real-estate-growth-diverges-as-market-evolves"
+  },
+  {
     date: "2026-10-25",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -62,6 +132,16 @@ const NEWS_ITEMS = [
     takeaway: "A dense launch pipeline with more selective buyers — oversupply risk lives at the project level, so pick districts with completed infrastructure, not just render images.",
     source: "Property News International (Metropolitan Capital)",
     url: "https://www.propertynewsint.com/news/metropolitan-forecasts-30-abu-dhabi-launches-worth-up-to-12-25bn"
+  },
+  {
+    date: "2026-10-22",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Janu Al Marjan Island residences go on sale — 73 beachfront homes from USD 2.3m",
+    summary: "Sales open in late October 2026 for Janu Al Marjan Island Residences, 73 beachfront homes beside Wynn Al Marjan Island in Ras Al Khaimah, per OffPlan Insider (updated 22 October 2026). The one- to five-bedroom residences, five Marina Villas and a penthouse start from USD 2.3 million, with the resort opening in 2029. Marjan and Wynn Resorts broke ground on the Janu resort in July 2026.",
+    takeaway: "A branded beachfront launch right beside the Wynn site — check service charges and the short-term rental rules before paying a branded premium, and remember the resort opens in 2029, not at handover.",
+    source: "OffPlan Insider (Marjan / Gulf News)",
+    url: "https://offplaninsider.com/news/janu-al-marjan-island-residences-sales-late-october-2026/"
   },
   {
     date: "2026-10-21",
@@ -123,85 +203,7 @@ const NEWS_ITEMS = [
     source: "Arabian Business",
     url: "https://www.arabianbusiness.com/real-estate/dubai-islands-property-sales-hit-5-1bn-as-residential-prices-climb-17-7"
   },
-  {
-    date: "2026-10-19",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "RAK Oasis names India master marketing partner for 406-acre freehold community",
-    summary: "On 19 October 2026, Shahab Building Contracting LLC appointed Lionexa LLP (CEO Kauser Nawaz) as master marketing partner for RAK Oasis in Ras Al Khaimah, making the Noida-based firm the official channel for buyers across India. RAK Oasis is a 406-acre master-planned community offering freehold residential plots and commercial units, with plots bookable at 10% down and the balance in interest-free monthly instalments paid directly to the developer. The announcement noted RAK is drawing growing buyer interest on the back of major tourism projects including the Wynn resort on Al Marjan Island.",
-    takeaway: "An overseas marketing push widens RAK's buyer pool ahead of the Wynn opening — but freehold plots on extended payment plans need title, delivery-milestone and infrastructure checks before any booking.",
-    source: "The Tribune",
-    url: "https://www.tribuneindia.com/news/business/rak-oasis-appoints-lionexa-llp-as-its-master-marketing-partner-in-india/"
-  },
-  {
-    date: "2026-10-19",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Meraki Developers enters Dubai South — 7-project pipeline worth ~USD 1bn",
-    summary: "Meraki Group announced in October 2026 that it is entering Dubai South with a new mixed-use development, describing the district as one of Dubai's fastest-growing residential and investment corridors. The developer says it has seven projects worth nearly USD 1 billion in its Dubai pipeline, with approximately 2,400 residential units currently under construction. Its completed Haven I project achieved a 73% snag-free handover rate, and the company reports one-bedroom apartments there commanding about AED 75,000 annually against an area average of AED 63,000 — a premium of nearly 19%.",
-    takeaway: "The rental premium and snag-free handover figures are the developer's own — still, delivery track record claims like these are exactly what off-plan buyers should ask for evidence on before booking.",
-    source: "Mid-East Info",
-    url: "https://mid-east.info/meraki-developers-enters-dubai-south-as-its-portfolio-expands-with-seven-projects-in-the-pipeline/"
-  },
-  {
-    date: "2026-10-19",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "JW Marriott Residences Yas Island: ~199 branded homes revealed — 1BR to 4BR duplexes + 3 penthouses",
-    summary: "New details published on 19 October 2026 show the TARAF (Yas Holding) and Steppe joint venture with Marriott International will offer approximately 199 branded residences on Yas Island, ranging from one-bedroom apartments to four-bedroom duplexes and three penthouses. The beachfront project sits beside the island's golf course, near Yas Marina, Yas Mall and Yas Marina Circuit. Marriott's regional vice president said this is the partners' second collaboration after the W Residences Abu Dhabi – Al Maryah Island, which he described as sold out.",
-    takeaway: "A branded beachfront launch on Yas Island with a claimed sold-out predecessor — treat the sell-out claim as the developer's, and check service charges and resale comparables before paying a branded premium.",
-    source: "brandedresi.com",
-    url: "https://brandedresi.com/jw-marriott-residences-abu-dhabi-yas-island/"
-  },
-  {
-    date: "2026-10-18",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Manchester City Yas Residences Phase 2 on sale from today — townhouses, duplex villas, 4-5BR villas",
-    summary: "Ohana Development's AED 15 billion Manchester City Yas Residences on Yas Canal opened Phase 2 sales on 19 October 2026, adding two- and three-bedroom townhouses, duplex villas and four- and five-bedroom villas to the 2,000-plus-home masterplan, with phased completion targeted for 2029. Erling Haaland confirmed through a video appearance at the launch that he bought a five-bedroom villa outright — described as a personal purchase, not a sponsorship — and his father Alfie Haaland has received the keys to his own home in the development.",
-    takeaway: "A Phase 2 opening is the real demand test for football-branded homes in the Gulf — watch actual sell-through rather than celebrity headlines before deciding.",
-    source: "Further Arabia",
-    url: "https://furtherarabia.com/yas-island-residences-get-a-premier-league-stamp/"
-  },
-  {
-    date: "2026-10-17",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai weekly deals hit AED13.5B across 4,193 transactions — off-plan AED3.2B, up ~20% on prior week",
-    summary: "Dubai property transactions reached approximately AED 13.47 billion across 4,193 deals in the week ending Friday 16 October, up about 20% in value on the previous week, according to Dubai REST app data republished from Dubai Land Department records. Off-plan sales accounted for approximately AED 3.22 billion across 1,714 transactions, including 1,517 residential units. Dubai Marina led all areas with more than AED 1.01 billion in sales, and one of the week's largest deals was a property linked to the Oceanz 1 project in Dubai Maritime City at AED 96 million.",
-    takeaway: "Off-plan still moved 1,714 deals in a single week — demand is there; the buyer edge is choosing which launch, not whether the market is alive.",
-    source: "ایرانیان امارات (Dubai REST/DLD data)",
-    url: "https://iranianuae.ae/en/business/real-estate/Dubai-property-market-records-AED-135-billion-in-deals/"
-  },
-  {
-    date: "2026-10-17",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "KASCO launches FALA waterfront homes on Jaddaf Waterfront — 109 residences, 40/60 plan, Q4 2028",
-    summary: "KASCO Developments has launched FALA by KASCO, a 109-home waterfront project on the Jaddaf Waterfront in Al Jaddaf, announced on 16 October 2026. The development offers studios from 419 sq ft up to three-bedroom apartments, with a 40/60 payment plan and expected completion in Q4 2028. Planned amenities include a rooftop pool, landscaped terraces and waterfront promenade access, with the metro described as about two minutes away.",
-    takeaway: "A 40/60 structure with a 2028 handover near Downtown is buyer-friendly — but Al Jaddaf is a patchy submarket, so compare per-sqft pricing with nearby ready stock before paying a launch premium.",
-    source: "PropTech Pulse",
-    url: "https://www.aurumproptech.in/pulse/media/kasco-launches-fala-waterfront-homes-in-dubais-al-jaddaf"
-  },
-  {
-    date: "2026-10-17",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Municipality eases villa rules for Emiratis — second family homes, 1.5m setbacks under Home First",
-    summary: "Dubai Municipality has introduced new regulations under the Home First initiative allowing Emirati homeowners to expand villas, build second homes for family members and add residential annexes. The changes let homeowners reduce building setbacks to 1.5 metres, build a second floor covering the full area of the first floor, and construct a separate villa for family use — with conditions including neighbour consent where setbacks are removed and a minimum beneficiary age of 18 for a second villa.",
-    takeaway: "This is a policy win for Emirati end-users rather than off-plan investors — but easing family housing pressure is a demand-side support signal for the local market.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/uae/dubai-eases-villa-construction-rules-for-emiratis-allows-second-family-homes-1.500713942"
-  },
-  {
-    date: "2026-10-16",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Samana launches AED4bn+ Collecta flagship on World Islands — 849 residences from under AED2m",
-    summary: "Samana Developers has launched Samana Collecta, its new premium brand, debuting with a flagship project on Dubai's World Islands with a gross development value above AED 4 billion. The project comprises 840 branded apartments plus seven floating villas and two tree villas, with prices expected to start below AED 2 million. CEO Imran Farooq said the goal is to create a permanent year-round residential community on the islands rather than a tourist destination, targeting completion around 39 months after construction starts.",
-    takeaway: "A sub-AED2m entry price into a branded World Islands project is unusual — but the islands have a two-decade history of unfulfilled promises, so verify escrow, infrastructure commitments and delivery milestones before paying any launch premium.",
-    source: "Gulf Business",
-    url: "https://gulfbusiness.com/en/2026/real-estate/samana-world-islands-dubai-4bn-project/"
-  },
 ];
+
+
 
