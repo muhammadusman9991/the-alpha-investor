@@ -4,6 +4,66 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-30",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai absorbed H1 shocks with only a 4–7% dip, says ANAROCK",
+    summary: "Dubai recorded AED 225.7 billion in residential transactions in H1 2026, per ANAROCK's report 'Dubai Real Estate: Built on Vision. Proven by Numbers' published by RP Realty Plus on 30 October 2026. Regional tensions briefly slowed transactions in March and April, but prices softened only 4–7% between February and April, while the DFM real estate stock index fell as much as 34% at its low — the widest gap between investor sentiment and actual property values in any Dubai crisis on record. Average residential prices stood near AED 1,900 per sq ft in H1 2026, up about 6% year-on-year from AED 1,800 in H1 2025.",
+    takeaway: "A 6% annual price rise against a 34% stock-index wobble is the resilience case — but this is H1 history, so use it to judge developer confidence, not to assume prices keep climbing.",
+    source: "RP Realty Plus (ANAROCK report)",
+    url: "https://www.rprealtyplus.com/international/dubai-real-estate-weathers-regional-uncertainty-with-confidence-126723.html"
+  },
+  {
+    date: "2026-10-29",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi apartment values up 24% year-on-year in Q3 — ValuStrat",
+    summary: "Abu Dhabi's freehold residential price growth accelerated in Q3 2026, with the ValuStrat Price Index up 3.1% quarter-on-quarter to 155.8 points — annual growth of 16.8% — per Economy Middle East on 29 October 2026. Apartments led with values up 24% year-on-year, against 10.2% for villas; Al Reef rose 36.6% annually, followed by Al Bandar at 24.7%, Al Muneera Island at 24.4% and Al Reem Island at 22.1%. New launches in the quarter included Aldar's first phase of Sei Saadiyat on Saadiyat Island, The Canopies at Yas Point, and Cosmo Developments' AED 6 billion mixed-use Wadi project on Yas Island. Abu Dhabi completed 1,888 apartments and 1,620 villas in the first nine months of 2026, with 13,534 homes projected for the full year.",
+    takeaway: "Apartments are doing the heavy lifting at 24% annual growth, more than double villas — strong for recent buyers, but at this pace check whether the launch you're eyeing is priced ahead of the data.",
+    source: "Economy Middle East (ValuStrat)",
+    url: "https://economymiddleeast.com/news/abu-dhabi-real-estate-maintains-upward-trajectory-in-q3-2026-as-apartment-prices-rise-24-percent/"
+  },
+  {
+    date: "2026-10-29",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai Q3: Dh141bn in sales and mortgages; apartment yields at 7.7%",
+    summary: "Dubai recorded about Dh141 billion in combined sales and mortgage transactions in Q3 2026, per a Windmills Group report published by Dubai Currents on 29 October 2026. Apartment rental yields averaged around 7.7% in the quarter and villas about 7.0%, with shops at 8.5% and offices at 8.2%. Mortgage transactions held steady at about Dh49 billion, matching the same period last year. Dubai South saw the highest community-level activity, followed by Business Bay, Wadi Al Safa 4, Al Barsha South Fourth and Palm Jumeirah.",
+    takeaway: "A 7.7% average apartment yield is the income case in one number — but it's a quarter average, so verify the specific community and unit type before buying the yield story.",
+    source: "Dubai Currents (Windmills Group)",
+    url: "https://dubaicurrents.com/en/news/2115/"
+  },
+  {
+    date: "2026-10-28",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi apartment asking prices climb up to 9.2% in Q3 as demand holds",
+    summary: "Apartment asking prices in Abu Dhabi rose by as much as 9.2% in the third quarter of 2026, led by mid-tier flats in Baniyas, with affordable flats in Al Ghadeer up 6.2% and Al Maryah Island up 3.2%, per Bayut's market analysis reported by Khaleej Times on 28 October 2026. Search demand for mid-tier apartments was led by Al Reem Island, with Masdar City and Baniyas also drawing increased interest. Bayut's live index put the average Abu Dhabi asking price at AED 2,045 per sq ft in September, up 5.77% over 12 months. The report is based on advertised asking prices and search activity, not completed transactions.",
+    takeaway: "Affordable and mid-tier areas led the gains — for off-plan buyers, that points to where end-user demand is deepest, but asking prices are not sold prices, so check completed deals before paying up.",
+    source: "Khaleej Times (Bayut data)",
+    url: "https://www.khaleejtimes.com/business/abu-dhabi-apartment-prices-climb-by-up-to-92-buyers-turn-to-affordable-areas?amp=1"
+  },
+  {
+    date: "2026-10-28",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Zimaya launches AED 185m Lawncrest in Dubai Production City, studios from AED 595,000",
+    summary: "Zimaya Properties has launched Lawncrest, an AED 185 million residential development in Dubai Production City, per Zawya on 28 October 2026. The ten-storey building comprises 183 studio, one- and two-bedroom apartments overlooking the greens of Jumeirah Golf Estates, with prices starting from AED 595,000 for a studio. Lawncrest is the boutique developer's fifth Dubai project; it says four of its previous projects have sold out.",
+    takeaway: "A sub-AED 600k entry point near Jumeirah Golf Estates is the kind of ticket first-time investors watch — but a boutique developer's sell-out record is not a delivery record, so check construction progress and escrow before booking.",
+    source: "Zawya",
+    url: "https://www.tradingview.com/news/reuters.com,2026-10-28:newsml_Zaw8Kyc4R:0-zawya-dubai-s-zimaya-launches-50-3mln-residential-project/"
+  },
+  {
+    date: "2026-10-28",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "RAK Properties adds three restaurants and cafes at Mina in RAK's final-quarter push",
+    summary: "RAK Properties plans to open three restaurants and cafes at Mina, its waterfront destination in Ras Al Khaimah, during the final quarter of 2026, per a report published 28 October 2026. Mina combines residential, tourism and commercial development, and the developer says it selects food and beverage concepts based on their contribution to community amenities. The same week, Bayut data showed Al Marjan Island accounted for nearly two-thirds of views for off-plan apartments in Ras Al Khaimah between March and August 2026.",
+    takeaway: "Lifestyle amenities landing at Mina while Al Marjan dominates off-plan search — useful context for RAK buyers, but amenities don't set prices, so compare per-sq-ft against comparable island stock.",
+    source: "Aurum PropTech / Bayut",
+    url: "https://www.aurumproptech.in/pulse/media/rak-properties-plans-three-new-restaurants-at-mina"
+  },
+  {
     date: "2026-10-27",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -143,67 +203,8 @@ const NEWS_ITEMS = [
     source: "OffPlan Insider (Marjan / Gulf News)",
     url: "https://offplaninsider.com/news/janu-al-marjan-island-residences-sales-late-october-2026/"
   },
-  {
-    date: "2026-10-21",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai logs 86 homes at $10M+ in Q3 — wealthy buyers keep buying despite Iran war",
-    summary: "Dubai recorded 86 residential transactions valued at $10 million or more in the third quarter of 2026, down 17% on a year earlier, with 13 deals above $25 million, Knight Frank said in a report published by The National on 21 October 2026. The 73 deals in the $10-25 million bracket totalled Dh3.93 billion; the 13 deals above $25 million totalled Dh1.84 billion. Prime prices across the city's 10 prime neighbourhoods dipped 5% quarter-on-quarter — their first decline since 2020 — while overall prime volumes were 29.4% below the prior year, which Knight Frank attributed mainly to the regional conflict dampening confidence.",
-    takeaway: "Ultra-prime still transacts in a down quarter, but the 5% prime price dip is the first since 2020 — for off-plan buyers that means less bidding pressure on premium launches, not an automatic discount.",
-    source: "The National (Knight Frank data)",
-    url: "https://www.thenationalnews.com/business/property/2026/10/21/dubai-records-86-deals-for-10m-homes-in-q3-as-wealthy-flock-despite-iran-war/"
-  },
-  {
-    date: "2026-10-21",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Zoya Developments launches Elvora in DLRC — 10+ projects in two years, portfolio over AED 1.2bn",
-    summary: "Zoya Developments unveiled Elvora, a new residential development in Dubai Land Residence Complex (DLRC), at an event in Abu Dhabi on 21 October 2026, as reported by MENAFN/fleishmanhillard. The company says it has launched more than 10 projects since entering the Dubai market two years ago, with launched and pipeline projects valued at more than AED 1.2 billion. Zoya cites its Elinor project in Dubai South — which it says commenced construction two months after launch — as evidence of its delivery pace.",
-    takeaway: "A young developer scaling fast in DLRC and Dubai South — two-month launch-to-construction claims are exactly the kind of statement to verify against DLD escrow and construction records before booking.",
-    source: "MENAFN (company announcement)",
-    url: "https://menafn.com/1111844031/10-Projects-Launched-in-Just-Two-Years-Zoya-Developments-Adds-Elvora-to-Its-Growing-Dubai-Portfolio"
-  },
-  {
-    date: "2026-10-20",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai posts AED 853M across 424 sales in a single day — off-plan at 70.5%",
-    summary: "On 19 October 2026, Dubai registered 424 property sales totalling AED 853 million, with a median transaction price of AED 1.26 million, per Dubai Land Department data republished by Broker Terminal on 20 October 2026. Off-plan sales accounted for 70.5% of transactions (299 off-plan vs 125 ready). Dubai Academic & Outsource City led all communities with AED 101 million across 23 transactions, followed by Dubai Islands with AED 43 million. Separately, 2,843 tenancy contracts were registered the same day, with a median annual rent of AED 67,000.",
-    takeaway: "Off-plan at 70%+ of a single day's deals — the buyer's edge this quarter is launch choice and pricing, with developers holding prices while absorption adjusts.",
-    source: "Broker Terminal (DLD data)",
-    url: "https://brokerterminal.com/market-news/daily/dubai-property-sales-aed-853m-off-plan-19-october-2026"
-  },
-  {
-    date: "2026-10-21",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi Q3 2026: Dh21.5B residential sales across 6,085 transactions",
-    summary: "Abu Dhabi recorded Dh21.5 billion in residential property sales across 6,085 transactions in the third quarter of 2026, per market data reported by Gulf News on 21 October 2026. Residential sales reached Dh73.2 billion in full-year 2025, with transaction counts up 55% on 2024. On Yas Island, transaction values doubled in summer 2025 to Dh11.8 billion with 70% of purchasers being foreign buyers led by Indian, Chinese and British nationals; average apartment prices on Saadiyat reached Dh43,100 per sq m, up 21% year-on-year. Erling Haaland bought a five-bedroom villa in Ohana's Manchester City Yas Residences in October 2026, and Disneyland Abu Dhabi's planned Yas Island project was cited as a major demand catalyst.",
-    takeaway: "Abu Dhabi's transaction values are accelerating while Dubai's off-plan volumes cooled in Q3 — but treat reported totals as market snapshots; compare island per-sqft against ready-stock comparables before buying the narrative.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/business/property/abu-dhabi-records-dh215-billion-in-residential-property-sales-in-q3-2026-across-6085-transactions-1.500717696"
-  },
-  {
-    date: "2026-10-21",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wynn re-confirms September 2027 opening for Al Marjan resort after construction pause",
-    summary: "Wynn Resorts confirmed to investors in October 2026 that Wynn Al Marjan Island will open in September 2027, ending uncertainty after construction was paused during the Iran war. The company contributed $48.1 million in Q2 2026 to the 40%-owned joint venture, bringing life-to-date cash contributions to $1.06 billion; Texas Capital puts total project cost at around $5.7 billion and notes the contribution potential is not yet fully reflected in Wynn's share valuation. Around the opening, neighbouring RAK hotels are renovating: Rixos Al Mairid is refurbishing 323 rooms and Pullman Resort Al Marjan Island 300 rooms, reopening as adults-only in Q2 2027. Analysts estimate more than 5,000 branded residential units will be created in RAK by 2030.",
-    takeaway: "The September 2027 date is back on the table after a wobble — RAK's off-plan thesis hinges on that opening; track construction milestones rather than gaming-revenue forecasts.",
-    source: "Casino.org",
-    url: "https://gamblerss.com/wynn-says-uae-casino-will-open-in-september-2027-q2-results-beat-estimates-67096"
-  },
-  {
-    date: "2026-10-20",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Islands: AED18.8B in sales over 12 months, median prices up 17.7%",
-    summary: "Dubai Islands recorded approximately AED18.8 billion ($5.12 billion) in residential property sales across 5,035 transactions in the 12 months to 28 September 2026, per Dubai Land Department data reported by Arabian Business. Separately, median residential transaction prices reached AED30,571 per sq m (about AED2,840 per sq ft) in the first seven months of 2026, up 17.7% against the full-year 2025 median, according to AXD Immobilien's analysis of DLD records. Grovy Developers chose the district for its first branded residential project, Ramada Residences by Wyndham with USquare Luxe Properties; construction began in August 2026 with handover targeted for Q3 2027.",
-    takeaway: "A waterfront corridor posting both volume and median-price growth — but medians include new launches at rising prices; check per-project comparables before assuming appreciation.",
-    source: "Arabian Business",
-    url: "https://www.arabianbusiness.com/real-estate/dubai-islands-property-sales-hit-5-1bn-as-residential-prices-climb-17-7"
-  },
 ];
+
 
 
 
