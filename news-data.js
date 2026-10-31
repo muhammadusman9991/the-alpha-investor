@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-10-31",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai real estate crosses Dh625 billion in 10 months — off-plan now two-thirds of sales",
+    summary: "Dubai real estate transactions approached AED 625 billion in the first 10 months of 2026 across 181,866 transactions — about 68% of 2025's full-year total of AED 919 billion — per Dubai Land Department data reported by Emirates 24|7 on 31 October 2026. Sales amounted to approximately AED 411.98 billion through 134,730 transactions, of which off-plan sales were AED 196.38 billion through 90,760 transactions — roughly two-thirds of sales by number — against AED 215.6 billion of ready sales through 43,970 transactions. Business Bay led best-selling areas at over AED 21.96 billion, followed by Airport City at AED 18.35 billion and Al Yalayis 1 at AED 16.63 billion. In October alone, sales were AED 34.12 billion through 11,610 transactions, of which off-plan accounted for AED 13.13 billion through 6,698 deals.",
+    takeaway: "Off-plan is now about two-thirds of Dubai sales by number — the market is structurally off-plan, so project selection matters more than timing the cycle.",
+    source: "Emirates 24|7 (Dubai Land Department)",
+    url: "https://www.emirates247.com/business/dubai-real-estate-reaches-dh625-billion-in-10-months-181866-transactions-and-dh412-billion-in-sales/7301?ot=ot.AMPPageLayout"
+  },
+  {
+    date: "2026-10-30",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Missoni's first Abu Dhabi branded residence: 'Waterfront by Missoni' on Al Reem Island",
+    summary: "Missoni and Emirates Developments have unveiled 'Waterfront by Missoni', the Italian fashion house's first branded residential address in Abu Dhabi, rising on the waterfront at Al Reem Island, per LogisticsGulf on 30 October 2026. The 250 freehold homes range from one- to four-bedroom apartments to five-bedroom penthouses on the 38th floor, and are available to international buyers. Completion is scheduled for Q2 2030.",
+    takeaway: "Branded residences keep landing in Abu Dhabi — judge the launch on price per sq ft and the district, not the fashion-house name, and check service charges before paying any premium.",
+    source: "LogisticsGulf",
+    url: "https://logisticsgulf.com/2026/10/missoni-and-emirates-developments-partner-to-launch-waterfront-by-missoni/"
+  },
+  {
+    date: "2026-10-30",
+    tag: "uae",
+    tagLabel: "UAE",
+    title: "Arada raises $400m in first UAE developer debt issuance since the February 2026 conflict began",
+    summary: "UAE developer Arada raised $400 million through a five-year sukuk issuance, the first debt offering by a UAE real estate developer since the regional conflict began in February 2026, per Khaleej Times on 30 October 2026. The senior unsecured sukuk attracted more than $700 million in orders — roughly double the offering size — and was priced at an 8.875% annual coupon, below initial guidance of 9.375%. The sukuk is listed on the London Stock Exchange and Nasdaq Dubai; part of the proceeds will fund a tender offer to repurchase up to $180 million of existing sukuk ahead of a $411.7 million maturity in June 2027. Arada says its global pipeline of existing and future projects exceeds Dh185 billion.",
+    takeaway: "International bond markets lending to a UAE developer at better-than-guided pricing is institutional confidence in bricks — watch whether more developers follow into debt markets.",
+    source: "Khaleej Times",
+    url: "https://www.khaleejtimes.com/business/uaes-arada-raises-400-million-in-first-property-debt-issuance-since-regional-conflict-began"
+  },
+  {
     date: "2026-10-30",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -173,38 +203,4 @@ const NEWS_ITEMS = [
     source: "DOM LiVE (UAE News Digest)",
     url: "https://ae.dom.com.cy/en/live/digest/the-first-mortgage-for-real-estate-under-construction-was-registered-in-abu-dhabi/"
   },
-  {
-    date: "2026-10-23",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi real estate market sets new record — investment zones draw AED 75B in H1 2026, up 181%",
-    summary: "Abu Dhabi's investment zones — where buyers of all nationalities can purchase — attracted AED 75 billion in the first half of 2026, up 181% from AED 26.7 billion a year earlier, per the DOM LiVE digest published 23 October 2026. ADREC raised the number of investment zones to 50, approved eight new zones and registered 28 new projects in the half-year, with real estate licences up 34% to 2,040 and licensed brokers at 3,302. The digest attributes the surge to open investment policies including the Golden Visa programme.",
-    takeaway: "The capital's international buyer funnel is accelerating — more investment zones and licensed brokers means more competition at launches, not automatic appreciation.",
-    source: "DOM LiVE (UAE News Digest)",
-    url: "https://ae.dom.com.cy/en/live/digest/abu-dhabi-real-estate-market-updates-record/"
-  },
-  {
-    date: "2026-10-22",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Metropolitan forecasts 30 Abu Dhabi launches worth up to $12.25bn — about one every three days",
-    summary: "Metropolitan Capital expects roughly 30 new project launches in Abu Dhabi worth up to $12.25 billion, about one every three days, per Property News International on 22 October 2026. The consultancy says selective buyers, phased launches and gradual sales strategies will define the next phase, with developers moving away from immediate sell-outs toward complete districts with schools, leisure, marinas and transport links. Trends flagged include more branded and serviced residences, wider financing options, more international developers, and infrastructure plays such as Etihad Rail and new bridges.",
-    takeaway: "A dense launch pipeline with more selective buyers — oversupply risk lives at the project level, so pick districts with completed infrastructure, not just render images.",
-    source: "Property News International (Metropolitan Capital)",
-    url: "https://www.propertynewsint.com/news/metropolitan-forecasts-30-abu-dhabi-launches-worth-up-to-12-25bn"
-  },
-  {
-    date: "2026-10-22",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Janu Al Marjan Island residences go on sale — 73 beachfront homes from USD 2.3m",
-    summary: "Sales open in late October 2026 for Janu Al Marjan Island Residences, 73 beachfront homes beside Wynn Al Marjan Island in Ras Al Khaimah, per OffPlan Insider (updated 22 October 2026). The one- to five-bedroom residences, five Marina Villas and a penthouse start from USD 2.3 million, with the resort opening in 2029. Marjan and Wynn Resorts broke ground on the Janu resort in July 2026.",
-    takeaway: "A branded beachfront launch right beside the Wynn site — check service charges and the short-term rental rules before paying a branded premium, and remember the resort opens in 2029, not at handover.",
-    source: "OffPlan Insider (Marjan / Gulf News)",
-    url: "https://offplaninsider.com/news/janu-al-marjan-island-residences-sales-late-october-2026/"
-  },
 ];
-
-
-
-
