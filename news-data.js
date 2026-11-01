@@ -7,6 +7,26 @@ const NEWS_ITEMS = [
     date: "2026-10-31",
     tag: "dubai",
     tagLabel: "Dubai",
+    title: "Dubai October sales jump 18% to AED 34bn as land deals surge 50%",
+    summary: "Dubai property sales rose 18.1% month-on-month to $9.3 billion (AED 34 billion) in October 2026 across 11,948 transactions (+6.9%), per Al Masdar Al Aqaari's analysis of Dubai Land Department data published 31 October 2026. Land sales jumped 50% in value to $3.6 billion (AED 13.2 billion) across 1,463 transactions — up 86.8% in volume — pointing to developers restocking plots for future launches. October also recorded 4,634 mortgage transactions worth $3.6 billion and 1,016 gift transfers worth $1.6 billion; combined sales, mortgages and gifts reached about $14.4 billion (AED 53 billion) across 17,598 transactions.",
+    takeaway: "Land is the pipeline — a 50% jump in land deals this month is developers buying for 2027–2028 launches, so expect more launch choice soon.",
+    source: "Al Masdar Al Aqaari (DLD data)",
+    url: "https://masdarak.com/en/market-insights-en/dubai-property-sales-rise-18-to-9-3-billion-in-october-2026/"
+  },
+  {
+    date: "2026-10-31",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Knight Frank: record 296 Dubai sales above $10m in H1 2026; Nakheel releases 44 Palm Jebel Ali beachfront villas",
+    summary: "Knight Frank counted 296 Dubai home sales above $10 million in the first half of 2026, up 16% on a year earlier — an all-time high — while overall residential volumes (Jan–Jul) were 8% lower, per Mint Real Estate's analysis of DLD data cited by Miami Living Magazine on 31 October 2026. Dubai Hills Estate (51), Palm Jumeirah (50) and Palm Jebel Ali (40) led; the most expensive home was a six-bedroom Aman Residences apartment at $114.9 million. Nakheel has just released 44 new beachfront villas on Palm Jebel Ali, still under construction and due for completion in 2028. Knight Frank notes early softening in prime pricing alongside the records.",
+    takeaway: "Ultra-luxury buyers are committing years before keys — confidence at the top, but not a read on the broader market, where volumes fell 8%.",
+    source: "Miami Living Magazine (Knight Frank)",
+    url: "https://www.miamilivingmagazine.com/post/dubai-s-ultra-luxury-market-breaks-another-record-as-palm-jebel-ali-releases-new-beachfront-villas"
+  },
+  {
+    date: "2026-10-31",
+    tag: "dubai",
+    tagLabel: "Dubai",
     title: "Dubai real estate crosses Dh625 billion in 10 months — off-plan now two-thirds of sales",
     summary: "Dubai real estate transactions approached AED 625 billion in the first 10 months of 2026 across 181,866 transactions — about 68% of 2025's full-year total of AED 919 billion — per Dubai Land Department data reported by Emirates 24|7 on 31 October 2026. Sales amounted to approximately AED 411.98 billion through 134,730 transactions, of which off-plan sales were AED 196.38 billion through 90,760 transactions — roughly two-thirds of sales by number — against AED 215.6 billion of ready sales through 43,970 transactions. Business Bay led best-selling areas at over AED 21.96 billion, followed by Airport City at AED 18.35 billion and Al Yalayis 1 at AED 16.63 billion. In October alone, sales were AED 34.12 billion through 11,610 transactions, of which off-plan accounted for AED 13.13 billion through 6,698 deals.",
     takeaway: "Off-plan is now about two-thirds of Dubai sales by number — the market is structurally off-plan, so project selection matters more than timing the cycle.",
@@ -172,26 +192,6 @@ const NEWS_ITEMS = [
     takeaway: "Record transaction value with prime prices cooling — the market is busy, not uniformly rising, so judge each launch on price per sq ft and delivery record, not headline totals.",
     source: "DOM LiVE (DLD data)",
     url: "https://ae.dom.com.cy/en/live/digest/dubai-has-broken-the-historical-record-for-the-volume-of-real-estate-transactions/"
-  },
-  {
-    date: "2026-10-24",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "JPMorgan: Wynn UAE concerns exaggerated — $5.7bn Al Marjan project on track for September 2027",
-    summary: "JPMorgan analysts came away with a constructive tone on Wynn Al Marjan Island after meeting Wynn executives at the Global Gaming Expo in Las Vegas this week, saying regional conditions are \"back to normal\" and the $5.7 billion resort remains on pace to open in September 2027, per the GambleRss report on 24 October 2026. The bank says UAE lodging demand and revenue per available room are pacing about 25% below last year in September — versus 50% below earlier in the year. The report also cites Ras Al Khaimah Tourism Development Authority data showing the emirate attracted 670,000 visitors in the first half of this year despite the Iran war.",
-    takeaway: "A second institutional confirmation of the September 2027 date this week — the RAK off-plan thesis keeps getting support, but pricing already assumes the opening, so track construction milestones, not revenue forecasts.",
-    source: "GambleRss (JPMorgan analyst note)",
-    url: "https://gamblerss.com/jpmorgan-wynn-uae-casino-concerns-exaggerated-70339"
-  },
-  {
-    date: "2026-10-23",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Al Hamra CEO: RAK property boom rewards legacy players as Wynn rush gathers pace",
-    summary: "Al Hamra Group CEO Benoy Kurien told Gulf Business this week that Wynn Al Marjan Island is transforming Ras Al Khaimah's property market, with developers racing to capitalise on the UAE's first integrated gaming resort arriving in September 2027. Kurien pointed to the developer's long delivery track record, and the interview notes a three-level Sky Palace in Al Hamra's Waldorf Astoria branded development sold for Dhs130 million earlier this year — setting a residential transaction record for the emirate.",
-    takeaway: "A record sale at one flagship project doesn't set market prices — in a boom, the developer's delivery history is the harder data point to check.",
-    source: "Gulf Business",
-    url: "https://gulfbusiness.com/en/2026/ras-al-khaimah/al-hamra-ceo-wynn-ras-al-khaimah-property-boom/"
   },
   {
     date: "2026-10-23",
