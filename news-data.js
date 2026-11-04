@@ -5,6 +5,16 @@
 const NEWS_ITEMS = [
   {
     date: "2026-11-03",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Mubadala and Aldar launch AED 60bn expansion of Abu Dhabi's Al Maryah Island",
+    summary: "Mubadala Investment Company and Aldar have launched a joint venture (60% Aldar, 40% Mubadala) to expand Al Maryah Island, with a gross development value exceeding AED 60 billion, per RP Realty Plus on 3 November 2026. The north side of the island — the final undeveloped bank of land at nearly 500,000 sqm — will add 1.5 million sqm of new office, residential, retail and hospitality space, including over 450,000 sqm of Grade A offices and more than 3,000 luxury waterfront residences. Enabling works are scheduled to begin in 2026.",
+    takeaway: "A sovereign-backed expansion of the ADGM district adds a long runway of premium supply — for off-plan buyers, watch what Aldar actually launches on the island before paying premiums in neighbouring districts.",
+    source: "RP Realty Plus",
+    url: "https://www.rprealtyplus.com/newsviews/abu-dhabi-mubadala-aldar-announce-aed-60-billion-expansion-on-al-maryah-island-123090.html"
+  },
+  {
+    date: "2026-11-03",
     tag: "dubai",
     tagLabel: "Dubai",
     title: "Casa Vista's AED 350m AQUORA sells out Phase 1 on Dubai Islands; Phase 2 opens",
@@ -192,15 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Land is where developers stock up before launches — AED 146bn of plot sales this year points to a deep pipeline, so compare each launch against the land cost behind it, not just the brochure price.",
     source: "Gulf Today (DLD data)",
     url: "https://www.gulftoday.ae/business/2026/10/27/10770-plots-of-land-in-dubai-sold-for-dhs146-billion-in-2026"
-  },
-  {
-    date: "2026-10-27",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Three landmark Dubai launches bet on architecture as off-plan supply tightens",
-    summary: "Three newly launched Dubai projects are competing on design as off-plan launches slow, per Dubai Chronicle on 27 October 2026: LMD's Christian A. Rockefeller Business Tower on Sheikh Zayed Road (87 floors, completion 2031, the first building in the world to carry the Rockefeller name), H&H's Water Gardens in DIFC designed by Pritzker winner David Chipperfield (completion 2028), and SAMANA Collecta on The World Islands (840 branded apartments plus villas, over AED 4 billion, from under AED 2 million). Developers brought about 50,000 units to market in 2026, close to a third of last year's pace, while Dubai's population reached 4,807,185 in late September, up 226,885 since January.",
-    takeaway: "Fewer launches against a fast-growing population is the backdrop — but these are premium, design-led projects with long timelines, so judge them on the developer's delivery record and price per sq ft, not the architect's name alone.",
-    source: "Dubai Chronicle",
-    url: "https://www.dubaichronicle.com/2026/10/27/dubai-off-plan-launches-unique-architecture/"
   },
 ];
