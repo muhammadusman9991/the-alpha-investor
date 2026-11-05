@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-04",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai October sales hit AED 32.64bn, residential value up 12.4% on September",
+    summary: "Dubai's property market recorded AED 32.64 billion in total sales in October 2026 — AED 25.15 billion residential plus AED 7.49 billion commercial — per Springfield Properties' latest Dubai Real Estate Report, published by Dubai News Week on 4 November 2026. Residential sales covered 10,178 transactions, with sales value up 12.40% on September; nearly 80% of residential sales were below AED 3 million, with the AED 1–3 million band accounting for 47.39% of deals. Off-plan properties represented more than 62% of residential transactions; Jumeirah Village Circle led areas with 812 sales, followed by Dubai South with 780, and 66 deals were priced above AED 25 million.",
+    takeaway: "The autumn rebound is led by the sub-AED 3m ticket — for off-plan buyers, end-user demand is deepest in the mid-market, so judge any launch by its price per sq ft against recent sold deals in the same district, not headline launch prices.",
+    source: "Dubai News Week (Springfield Properties report)",
+    url: "https://dubainewsweek.com/dubai-sees-strong-demand-for-homes-below-dhs3-million-as-property-sales-rise/"
+  },
+  {
+    date: "2026-11-04",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "MERED launches Riviera Residences Phase 2 on Al Reem Island",
+    summary: "MERED has announced Phase 2 of Riviera Residences on Al Reem Island, within Abu Dhabi Global Market, per UAE News 4U and MEP Middle East on 3–4 November 2026. The phase adds 389 apartments plus eight Bay Villas, six Sky Villas and a penthouse, designed by Herzog & de Meuron, with construction starting by year-end and completion targeted for Q2 2030. The announcement cites Abu Dhabi Real Estate Centre data showing residential sales across Al Reem and Al Maryah islands reached AED 10.5 billion in H1 2026, up 153% year-on-year; all pre-launch units at Riviera Residences 1 sold out in Q4 2025.",
+    takeaway: "Al Reem's 153% sales surge is the context behind this launch — but Phase 1's sell-out belongs to a year ago, so price Phase 2 against today's per-sq-ft sold prices on the island before committing.",
+    source: "MEP Middle East (MERED announcement)",
+    url: "https://www.mepmiddleeast.com/projects/riviera-residences-phase-2-launches"
+  },
+  {
+    date: "2026-11-03",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Qube Development launches Sawa Residences in Meydan Horizon, MBR City",
+    summary: "Qube Development has launched Sawa Residences within the Meydan Horizon district of Mohammed Bin Rashid City, per Gaia Living News on 3 November 2026. The lower-density waterfront project offers one-, two- and three-bedroom apartments on one of the area's largest lagoon frontages, with direct access to 2 km of crystal lagoons and a 4 km landscaped promenade, inside MBR City's 54 million sq ft destination.",
+    takeaway: "Fresh waterfront stock in Meydan competes with the mid-market off-plan pipeline — compare its lagoon-front per-sq-ft against Meydan's existing completed towers before booking.",
+    source: "Gaia Living News",
+    url: "https://www.gaiarealty.ae/news/qube-development-launches-sawa-residences-in-meydan-horizon-dubai"
+  },
+  {
     date: "2026-11-03",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Affordable and mid-tier areas led the gains — for off-plan buyers, that points to where end-user demand is deepest, but asking prices are not sold prices, so check completed deals before paying up.",
     source: "Khaleej Times (Bayut data)",
     url: "https://www.khaleejtimes.com/business/abu-dhabi-apartment-prices-climb-by-up-to-92-buyers-turn-to-affordable-areas?amp=1"
-  },
-  {
-    date: "2026-10-28",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Zimaya launches AED 185m Lawncrest in Dubai Production City, studios from AED 595,000",
-    summary: "Zimaya Properties has launched Lawncrest, an AED 185 million residential development in Dubai Production City, per Zawya on 28 October 2026. The ten-storey building comprises 183 studio, one- and two-bedroom apartments overlooking the greens of Jumeirah Golf Estates, with prices starting from AED 595,000 for a studio. Lawncrest is the boutique developer's fifth Dubai project; it says four of its previous projects have sold out.",
-    takeaway: "A sub-AED 600k entry point near Jumeirah Golf Estates is the kind of ticket first-time investors watch — but a boutique developer's sell-out record is not a delivery record, so check construction progress and escrow before booking.",
-    source: "Zawya",
-    url: "https://www.tradingview.com/news/reuters.com,2026-10-28:newsml_Zaw8Kyc4R:0-zawya-dubai-s-zimaya-launches-50-3mln-residential-project/"
-  },
-  {
-    date: "2026-10-28",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "RAK Properties adds three restaurants and cafes at Mina in RAK's final-quarter push",
-    summary: "RAK Properties plans to open three restaurants and cafes at Mina, its waterfront destination in Ras Al Khaimah, during the final quarter of 2026, per a report published 28 October 2026. Mina combines residential, tourism and commercial development, and the developer says it selects food and beverage concepts based on their contribution to community amenities. The same week, Bayut data showed Al Marjan Island accounted for nearly two-thirds of views for off-plan apartments in Ras Al Khaimah between March and August 2026.",
-    takeaway: "Lifestyle amenities landing at Mina while Al Marjan dominates off-plan search — useful context for RAK buyers, but amenities don't set prices, so compare per-sq-ft against comparable island stock.",
-    source: "Aurum PropTech / Bayut",
-    url: "https://www.aurumproptech.in/pulse/media/rak-properties-plans-three-new-restaurants-at-mina"
-  },
-  {
-    date: "2026-10-27",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai land sales hit AED 146bn in 2026 — 10,770 plots sold so far",
-    summary: "Land sales in Dubai have reached approximately AED 146 billion across 10,770 transactions since the start of 2026, per Dubai Land Department data reported by Gulf Today on 27 October 2026. Residential land accounted for 61% of total value at AED 88.6 billion across 7,545 plots, while commercial land reached AED 57.2 billion across 3,225 deals. Me'aisem 2 led by area value at AED 10.7 billion, followed by Al Yelayiss 5 at AED 7.4 billion and Palm Jebel Ali at AED 7 billion.",
-    takeaway: "Land is where developers stock up before launches — AED 146bn of plot sales this year points to a deep pipeline, so compare each launch against the land cost behind it, not just the brochure price.",
-    source: "Gulf Today (DLD data)",
-    url: "https://www.gulftoday.ae/business/2026/10/27/10770-plots-of-land-in-dubai-sold-for-dhs146-billion-in-2026"
   },
 ];
