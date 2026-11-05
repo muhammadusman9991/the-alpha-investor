@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-05",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai Q3 sales hit AED 73.8bn as buyer enquiries reach highest since January 2024",
+    summary: "Dubai recorded AED 73.8 billion in residential sales in Q3 2026, with more than 34,600 homes changing hands between July and September, per betterhomes, reported on 5 November 2026. Buyer enquiries recorded by the brokerage rose steadily from March through September, reaching their highest monthly level since January 2024. Dubai also added more than 161,000 residents between January and July 2026.",
+    takeaway: "Demand is being driven by people actually moving to Dubai, not just investors — for off-plan buyers, that means projects handing over into a growing end-user market, so weigh rental demand in the district, not just launch pricing.",
+    source: "Middle East Business News (betterhomes)",
+    url: "https://mid-east.info/investor-interest-in-uae-property-gathers-pace-as-dubai-records-aed-73-8bn-in-residential-sales-despite-months-of-regional-uncertainty/"
+  },
+  {
+    date: "2026-11-05",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai records 510 sales worth AED 1.51bn in a day — off-plan 56% of deals",
+    summary: "Dubai recorded 510 property sales worth AED 1.51 billion on 4 November 2026, per Dubai Land Department data reported on 5 November 2026. Off-plan accounted for 284 of the deals (56%) against 226 ready sales, though ready sales carried most of the value at AED 1.03 billion. The median sale price was AED 1.52 million and the average price was AED 1,739 per sq ft. Dubai Islands and Dubai South tied as busiest areas with 38 deals each.",
+    takeaway: "Off-plan still leads on deal count while ready leads on value — a normal split, so judge any launch on its own price per sq ft against the district median, not the daily headline.",
+    source: "BuyDubai.realestate (DLD data)",
+    url: "https://buydubai.realestate/dubai-property-4-november-2026-510-sales-aed-1-51bn-56-off-plan/"
+  },
+  {
     date: "2026-11-04",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -57,11 +77,11 @@ const NEWS_ITEMS = [
     date: "2026-11-03",
     tag: "uae",
     tagLabel: "UAE",
-    title: "UAE pilots nomination-based Golden Visa for India and Bangladesh residents",
-    summary: "The UAE has introduced a pilot nomination-based Golden Visa scheme for residents of India and Bangladesh, offering lifetime residency for an application fee of AED 100,000 without requiring property or business investment, per Dhyeya IAS current affairs dated 3 November 2026. Eligibility is based on background checks and societal contribution rather than investment size, and the programme is framed as part of the UAE's broader immigration and economic strategy following the 2022 India-UAE CEPA.",
-    takeaway: "This route doesn't need a property purchase — but it widens the pool of long-term UAE residents, and every new resident is potential future property demand. Verify the scheme's official status before quoting it to buyers.",
-    source: "Dhyeya IAS",
-    url: "https://www.dhyeyaias.com/current-affairs/daily-pre-pare/view/uaes-nomination-based-golden-visa-scheme-for-india-and-bangladesh-residents"
+    title: "Nomination-based Golden Visa pilot covers India and Bangladesh only — no lifetime route, Pakistan not included",
+    summary: "A nomination-based Golden Visa pilot priced around AED 100,000 was introduced in 2025 for nationals of India and Bangladesh only — Pakistan was not included. The UAE's Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) publicly rejected any guaranteed, fixed-price or 'lifetime' visa product in July 2025: the Golden Visa remains a 5- or 10-year renewable residence permit granted only through the official categories, and no agency is an authorised intermediary. Pakistanis qualify on the same terms as any other nationality via the standard routes — including property worth AED 2 million in total value, which since February 2026 counts even on a mortgage or off-plan payment plan, with no 50% paid-up requirement.",
+    takeaway: "For Pakistani buyers, the property route is the real path: an off-plan property worth AED 2 million in total qualifies for the 10-year visa even while still on a payment plan. Treat any fixed-fee 'nomination' offer with caution.",
+    source: "Hijrat (ICP statements)",
+    url: "https://hijrat.pk/uae-golden-visa-pakistan-2026.html"
   },
   {
     date: "2026-11-02",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Apartments are doing the heavy lifting at 24% annual growth, more than double villas — strong for recent buyers, but at this pace check whether the launch you're eyeing is priced ahead of the data.",
     source: "Economy Middle East (ValuStrat)",
     url: "https://economymiddleeast.com/news/abu-dhabi-real-estate-maintains-upward-trajectory-in-q3-2026-as-apartment-prices-rise-24-percent/"
-  },
-  {
-    date: "2026-10-29",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Q3: Dh141bn in sales and mortgages; apartment yields at 7.7%",
-    summary: "Dubai recorded about Dh141 billion in combined sales and mortgage transactions in Q3 2026, per a Windmills Group report published by Dubai Currents on 29 October 2026. Apartment rental yields averaged around 7.7% in the quarter and villas about 7.0%, with shops at 8.5% and offices at 8.2%. Mortgage transactions held steady at about Dh49 billion, matching the same period last year. Dubai South saw the highest community-level activity, followed by Business Bay, Wadi Al Safa 4, Al Barsha South Fourth and Palm Jumeirah.",
-    takeaway: "A 7.7% average apartment yield is the income case in one number — but it's a quarter average, so verify the specific community and unit type before buying the yield story.",
-    source: "Dubai Currents (Windmills Group)",
-    url: "https://dubaicurrents.com/en/news/2115/"
-  },
-  {
-    date: "2026-10-28",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi apartment asking prices climb up to 9.2% in Q3 as demand holds",
-    summary: "Apartment asking prices in Abu Dhabi rose by as much as 9.2% in the third quarter of 2026, led by mid-tier flats in Baniyas, with affordable flats in Al Ghadeer up 6.2% and Al Maryah Island up 3.2%, per Bayut's market analysis reported by Khaleej Times on 28 October 2026. Search demand for mid-tier apartments was led by Al Reem Island, with Masdar City and Baniyas also drawing increased interest. Bayut's live index put the average Abu Dhabi asking price at AED 2,045 per sq ft in September, up 5.77% over 12 months. The report is based on advertised asking prices and search activity, not completed transactions.",
-    takeaway: "Affordable and mid-tier areas led the gains — for off-plan buyers, that points to where end-user demand is deepest, but asking prices are not sold prices, so check completed deals before paying up.",
-    source: "Khaleej Times (Bayut data)",
-    url: "https://www.khaleejtimes.com/business/abu-dhabi-apartment-prices-climb-by-up-to-92-buyers-turn-to-affordable-areas?amp=1"
   },
 ];
