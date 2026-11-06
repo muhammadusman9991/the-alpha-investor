@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-06",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wynn reaffirms September 2027 opening for Al Marjan Island resort — and eyes more UAE investment",
+    summary: "Wynn Resorts CEO Craig Billings reaffirmed on the company's third-quarter earnings call that the US$5.7 billion Wynn Al Marjan Island resort in Ras Al Khaimah will open in September 2027, per GGRAsia on 6 November 2026. Fitting-out is under way, with the resort handed to its operations team in phases through July 2027; Billings said demand already exceeds supply at the 1,530-key resort. He added that Wynn holds a land bank in the UAE and 'should think about how we're going to use that land bank, because there's significant returns to be earned there.'",
+    takeaway: "The opening date is now firm from the operator itself — for RAK off-plan buyers, the catalyst window is real, but check any project's handover against September 2027 and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
+    source: "GGRAsia (Wynn Resorts Q3 earnings call)",
+    url: "https://www.ggrasia.com/enclave-hotel-in-macau-a-no-brainer-uae-resort-handed-to-ops-team-by-july-2027-wynn-ceo"
+  },
+  {
+    date: "2026-11-05",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai South leads off-plan sales for an eighth straight month — 720 deals in October",
+    summary: "Dubai South recorded 720 off-plan sales worth AED 894.6 million in October 2026, keeping its lead as Dubai's top area for new-property purchases for an eighth consecutive month, per Dubai News Week on 5 November 2026, citing fäm Properties and DXBinteract data. Dubai recorded 11,974 sales worth AED 35.01 billion in October, up 18% in value on September, with off-plan accounting for 7,609 deals worth AED 19.2 billion. Freehold rental contracts also hit 44,841 in October, keeping 2026 on course for a record rental year.",
+    takeaway: "Eight months at the top is a pattern, not a blip — Dubai South demand is tied to the Al Maktoum airport build-out, so compare launch prices there against the district's own recent sold prices before buying the airport story.",
+    source: "Dubai News Week (fäm Properties / DXBinteract)",
+    url: "https://dubainewsweek.com/dubai-south-leads-off-plan-property-sales-for-eighth-consecutive-month/"
+  },
+  {
+    date: "2026-11-05",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Playa Viva targets Q2 2027 handover — first Al Marjan Island homes delivered before Wynn opens",
+    summary: "Uniestate's Playa Viva development on Al Marjan Island is on course for handover in Q2 2027, which the developer says would make it the first residential project delivered on the island ahead of the Wynn Al Marjan Island resort opening, per LanaTime on 5 November 2026. The project is in its final sales phase with a substantial majority of units already sold, and the developer says exclusive mortgage offers for non-resident buyers will be announced shortly. RAK recorded 1.35 million visitors in 2025 and targets more than 3.5 million a year by 2030.",
+    takeaway: "First-mover handovers on Al Marjan Island are arriving months before the resort — for buyers, that means rental demand is still unproven until Wynn opens, so price the gap, not just the promise.",
+    source: "LanaTime (Uniestate)",
+    url: "https://en.lanatime.com/news/playa-viva-targets-q2-2027-handover-ahead-of-wynn-opening-2026-11-05/"
+  },
+  {
     date: "2026-11-05",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Branded residences keep landing in Abu Dhabi — judge the launch on price per sq ft and the district, not the fashion-house name, and check service charges before paying any premium.",
     source: "LogisticsGulf",
     url: "https://logisticsgulf.com/2026/10/missoni-and-emirates-developments-partner-to-launch-waterfront-by-missoni/"
-  },
-  {
-    date: "2026-10-30",
-    tag: "uae",
-    tagLabel: "UAE",
-    title: "Arada raises $400m in first UAE developer debt issuance since the February 2026 conflict began",
-    summary: "UAE developer Arada raised $400 million through a five-year sukuk issuance, the first debt offering by a UAE real estate developer since the regional conflict began in February 2026, per Khaleej Times on 30 October 2026. The senior unsecured sukuk attracted more than $700 million in orders — roughly double the offering size — and was priced at an 8.875% annual coupon, below initial guidance of 9.375%. The sukuk is listed on the London Stock Exchange and Nasdaq Dubai; part of the proceeds will fund a tender offer to repurchase up to $180 million of existing sukuk ahead of a $411.7 million maturity in June 2027. Arada says its global pipeline of existing and future projects exceeds Dh185 billion.",
-    takeaway: "International bond markets lending to a UAE developer at better-than-guided pricing is institutional confidence in bricks — watch whether more developers follow into debt markets.",
-    source: "Khaleej Times",
-    url: "https://www.khaleejtimes.com/business/uaes-arada-raises-400-million-in-first-property-debt-issuance-since-regional-conflict-began"
-  },
-  {
-    date: "2026-10-30",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai absorbed H1 shocks with only a 4–7% dip, says ANAROCK",
-    summary: "Dubai recorded AED 225.7 billion in residential transactions in H1 2026, per ANAROCK's report 'Dubai Real Estate: Built on Vision. Proven by Numbers' published by RP Realty Plus on 30 October 2026. Regional tensions briefly slowed transactions in March and April, but prices softened only 4–7% between February and April, while the DFM real estate stock index fell as much as 34% at its low — the widest gap between investor sentiment and actual property values in any Dubai crisis on record. Average residential prices stood near AED 1,900 per sq ft in H1 2026, up about 6% year-on-year from AED 1,800 in H1 2025.",
-    takeaway: "A 6% annual price rise against a 34% stock-index wobble is the resilience case — but this is H1 history, so use it to judge developer confidence, not to assume prices keep climbing.",
-    source: "RP Realty Plus (ANAROCK report)",
-    url: "https://www.rprealtyplus.com/international/dubai-real-estate-weathers-regional-uncertainty-with-confidence-126723.html"
-  },
-  {
-    date: "2026-10-29",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi apartment values up 24% year-on-year in Q3 — ValuStrat",
-    summary: "Abu Dhabi's freehold residential price growth accelerated in Q3 2026, with the ValuStrat Price Index up 3.1% quarter-on-quarter to 155.8 points — annual growth of 16.8% — per Economy Middle East on 29 October 2026. Apartments led with values up 24% year-on-year, against 10.2% for villas; Al Reef rose 36.6% annually, followed by Al Bandar at 24.7%, Al Muneera Island at 24.4% and Al Reem Island at 22.1%. New launches in the quarter included Aldar's first phase of Sei Saadiyat on Saadiyat Island, The Canopies at Yas Point, and Cosmo Developments' AED 6 billion mixed-use Wadi project on Yas Island. Abu Dhabi completed 1,888 apartments and 1,620 villas in the first nine months of 2026, with 13,534 homes projected for the full year.",
-    takeaway: "Apartments are doing the heavy lifting at 24% annual growth, more than double villas — strong for recent buyers, but at this pace check whether the launch you're eyeing is priced ahead of the data.",
-    source: "Economy Middle East (ValuStrat)",
-    url: "https://economymiddleeast.com/news/abu-dhabi-real-estate-maintains-upward-trajectory-in-q3-2026-as-apartment-prices-rise-24-percent/"
   },
 ];
