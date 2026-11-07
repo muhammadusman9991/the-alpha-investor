@@ -7,6 +7,16 @@ const NEWS_ITEMS = [
     date: "2026-11-06",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
+    title: "RAK Properties targets record 1,400+ handovers by year-end as Wynn opening nears",
+    summary: "RAK Properties reported revenue of AED 809.72 million and net profit after tax of AED 111.37 million for the first nine months of 2026, and said it is preparing to make more than 1,400 homes ready for handover by the end of the year, per Khaleej Times on 6 November 2026. Unit sales slowed to 260 units worth AED 476 million, which the developer attributed to regional volatility and a recalibrated launch calendar. CEO Sameh Muhtadi said the handover target 'would be a record year' for the company, citing major infrastructure progress and 'the positive sentiment driven by the Wynn's anticipated opening next year'.",
+    takeaway: "Handovers are the proof point RAK buyers have been waiting for — over 1,400 homes landing before Wynn opens in September 2027 means completed stock is coming, so compare off-plan prices against what actually completes and resells.",
+    source: "Khaleej Times (RAK Properties 9M 2026 results)",
+    url: "https://prod.khaleejtimes.com/business/rak-properties-targets-record-home-handovers-by-year-end-despite-sales-slowdown"
+  },
+  {
+    date: "2026-11-06",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
     title: "Wynn reaffirms September 2027 opening for Al Marjan Island resort — and eyes more UAE investment",
     summary: "Wynn Resorts CEO Craig Billings reaffirmed on the company's third-quarter earnings call that the US$5.7 billion Wynn Al Marjan Island resort in Ras Al Khaimah will open in September 2027, per GGRAsia on 6 November 2026. Fitting-out is under way, with the resort handed to its operations team in phases through July 2027; Billings said demand already exceeds supply at the 1,530-key resort. He added that Wynn holds a land bank in the UAE and 'should think about how we're going to use that land bank, because there's significant returns to be earned there.'",
     takeaway: "The opening date is now firm from the operator itself — for RAK off-plan buyers, the catalyst window is real, but check any project's handover against September 2027 and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
@@ -193,14 +203,5 @@ const NEWS_ITEMS = [
     source: "Emirates 24|7 (Dubai Land Department)",
     url: "https://www.emirates247.com/business/dubai-real-estate-reaches-dh625-billion-in-10-months-181866-transactions-and-dh412-billion-in-sales/7301?ot=ot.AMPPageLayout"
   },
-  {
-    date: "2026-10-30",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Missoni's first Abu Dhabi branded residence: 'Waterfront by Missoni' on Al Reem Island",
-    summary: "Missoni and Emirates Developments have unveiled 'Waterfront by Missoni', the Italian fashion house's first branded residential address in Abu Dhabi, rising on the waterfront at Al Reem Island, per LogisticsGulf on 30 October 2026. The 250 freehold homes range from one- to four-bedroom apartments to five-bedroom penthouses on the 38th floor, and are available to international buyers. Completion is scheduled for Q2 2030.",
-    takeaway: "Branded residences keep landing in Abu Dhabi — judge the launch on price per sq ft and the district, not the fashion-house name, and check service charges before paying any premium.",
-    source: "LogisticsGulf",
-    url: "https://logisticsgulf.com/2026/10/missoni-and-emirates-developments-partner-to-launch-waterfront-by-missoni/"
-  },
 ];
+
