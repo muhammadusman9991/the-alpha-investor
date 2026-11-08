@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-07",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Abu Dhabi transactions jump 76% to Dh171bn in first nine months of 2026",
+    summary: "Abu Dhabi recorded real estate transactions worth Dh171.26 billion in the first nine months of 2026, up 76.1% on the same period of 2025, per the Abu Dhabi Real Estate Centre (ADREC), reported by The National on 7 November 2026. Sales value more than doubled to Dh119.33 billion across 23,749 sales, up from Dh58.20 billion across 15,910 sales a year earlier. Al Reem Island led districts at Dh29.86 billion, followed by Al Hudayriyat Island at Dh28.62 billion; foreign investment in Abu Dhabi's investment zones rose 131% to Dh86.11 billion.",
+    takeaway: "The capital's surge is real but concentrated on a few islands — for off-plan buyers, Al Reem and Al Maryah are where the money is moving, so compare any new launch there against the island's recent sold prices, not the launch price alone.",
+    source: "The National (ADREC 9M 2026 figures)",
+    url: "https://www.thenationalnews.com/business/property/2026/11/07/abu-dhabi-property-transactions-jump-76-to-dh171bn-in-first-nine-months-of-2026/"
+  },
+  {
+    date: "2026-11-07",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 376 sales worth AED 1.21bn in a day; 7-day total hits AED 7.51bn",
+    summary: "Dubai recorded 376 property sales worth AED 1.21 billion on 6 November 2026, per Dubai Land Department data reported by BuyDubai.realestate on 7 November 2026. Off-plan accounted for 200 deals (53%) worth AED 484.9 million, while ready property led on value at AED 724.2 million. Over the previous seven days the market logged 2,709 deals worth AED 7.51 billion, 57% of them off-plan; Dubai South was the busiest area with 42 deals, 95% off-plan, at a median AED 1,559 per sq ft.",
+    takeaway: "Off-plan is still winning on deal count week after week — for buyers, that means launch choice is wide, so judge each project on its district's median price per sq ft, not the daily headline.",
+    source: "BuyDubai.realestate (DLD data)",
+    url: "https://buydubai.realestate/dubai-property-6-nov-2026-7-day-sales-reach-2-709-worth-aed-7-51bn/"
+  },
+  {
     date: "2026-11-06",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
@@ -182,26 +202,4 @@ const NEWS_ITEMS = [
     takeaway: "Land is the pipeline — a 50% jump in land deals this month is developers buying for 2027–2028 launches, so expect more launch choice soon.",
     source: "Al Masdar Al Aqaari (DLD data)",
     url: "https://masdarak.com/en/market-insights-en/dubai-property-sales-rise-18-to-9-3-billion-in-october-2026/"
-  },
-  {
-    date: "2026-10-31",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Knight Frank: record 296 Dubai sales above $10m in H1 2026; Nakheel releases 44 Palm Jebel Ali beachfront villas",
-    summary: "Knight Frank counted 296 Dubai home sales above $10 million in the first half of 2026, up 16% on a year earlier — an all-time high — while overall residential volumes (Jan–Jul) were 8% lower, per Mint Real Estate's analysis of DLD data cited by Miami Living Magazine on 31 October 2026. Dubai Hills Estate (51), Palm Jumeirah (50) and Palm Jebel Ali (40) led; the most expensive home was a six-bedroom Aman Residences apartment at $114.9 million. Nakheel has just released 44 new beachfront villas on Palm Jebel Ali, still under construction and due for completion in 2028. Knight Frank notes early softening in prime pricing alongside the records.",
-    takeaway: "Ultra-luxury buyers are committing years before keys — confidence at the top, but not a read on the broader market, where volumes fell 8%.",
-    source: "Miami Living Magazine (Knight Frank)",
-    url: "https://www.miamilivingmagazine.com/post/dubai-s-ultra-luxury-market-breaks-another-record-as-palm-jebel-ali-releases-new-beachfront-villas"
-  },
-  {
-    date: "2026-10-31",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai real estate crosses Dh625 billion in 10 months — off-plan now two-thirds of sales",
-    summary: "Dubai real estate transactions approached AED 625 billion in the first 10 months of 2026 across 181,866 transactions — about 68% of 2025's full-year total of AED 919 billion — per Dubai Land Department data reported by Emirates 24|7 on 31 October 2026. Sales amounted to approximately AED 411.98 billion through 134,730 transactions, of which off-plan sales were AED 196.38 billion through 90,760 transactions — roughly two-thirds of sales by number — against AED 215.6 billion of ready sales through 43,970 transactions. Business Bay led best-selling areas at over AED 21.96 billion, followed by Airport City at AED 18.35 billion and Al Yalayis 1 at AED 16.63 billion. In October alone, sales were AED 34.12 billion through 11,610 transactions, of which off-plan accounted for AED 13.13 billion through 6,698 deals.",
-    takeaway: "Off-plan is now about two-thirds of Dubai sales by number — the market is structurally off-plan, so project selection matters more than timing the cycle.",
-    source: "Emirates 24|7 (Dubai Land Department)",
-    url: "https://www.emirates247.com/business/dubai-real-estate-reaches-dh625-billion-in-10-months-181866-transactions-and-dh412-billion-in-sales/7301?ot=ot.AMPPageLayout"
-  },
-];
-
+  },];
