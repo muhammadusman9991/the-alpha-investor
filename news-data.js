@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-08",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "IREIS 2026 opens tomorrow in Abu Dhabi as emirate's project pipeline tops $758bn",
+    summary: "The International Real Estate and Investment Show (IREIS) 2026 runs 10–12 November at ADNEC Centre Abu Dhabi, with more than 4,000 buyers, investors and property professionals expected, per IndexBox on 8 November 2026, citing TradeArabia. Abu Dhabi's active development pipeline is valued above $758.79 billion (AED 2.78 trillion), per BNC Networks. Abu Dhabi recorded 21,416 home sales worth AED 95.8 billion in the first nine months of 2026, with total real estate transactions of AED 175.7 billion, per the Abu Dhabi Real Estate Centre.",
+    takeaway: "A showcase week for the capital — for off-plan buyers, the pipeline figure is a long-term demand signal, not a launch price guide; compare any Al Reem or Al Maryah launch against the island's recent sold prices.",
+    source: "IndexBox (TradeArabia / BNC Networks / ADREC)",
+    url: "https://www.indexbox.io/blog/abu-dhabi-to-host-ireis-2026-as-75879-billion-development-pipeline-drives-real-estate-investment/"
+  },
+  {
+    date: "2026-11-08",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Danube opens EOI for Shahrukhz Residences in Dubai Maritime City",
+    summary: "Danube Properties is collecting AED 50,000 expression-of-interest cheques for Shahrukhz Residences in Dubai Maritime City, with the sales launch set for November 2026 and handover listed as December 2029, per Lucretia International on 8 November 2026. The exact plot, unit mix and payment plan have not yet been made public, and the project is taking shape on the artificial peninsula between Port Rashid and Dubai Drydocks.",
+    takeaway: "EOI stage means no firm prices yet — wait for the plot, unit mix and payment plan before comparing it against neighbouring Maritime City projects, and confirm the RERA registration and escrow account at reservation.",
+    source: "Lucretia International (Danube Properties)",
+    url: "https://www.lucretia-international.com/en/projects/danube-shahrukhz-residences-by-danube"
+  },
+  {
+    date: "2026-11-07",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai registers 2,682 sales worth AED 7.61bn in a week — 59% off-plan",
+    summary: "Dubai registered 2,682 property sales worth AED 7.61 billion in the week from 31 October to 6 November 2026, per Dubai Land Department open data reported by Dubai Week on 7 November 2026. Off-plan accounted for 1,573 of the deals (59%) against 1,109 ready sales. In the same week 1,196 mortgages worth AED 5.55 billion and 349 gift transfers worth AED 2.62 billion were registered.",
+    takeaway: "Off-plan is still the majority of weekly deals — for buyers, that means launch choice stays wide, so judge each project on its district's median price per sq ft, not the weekly headline.",
+    source: "Dubai Week (DLD open data)",
+    url: "https://www.dubaiweek.ae/dubai-in-numbers/property-transactions/"
+  },
+  {
     date: "2026-11-07",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
@@ -172,34 +202,4 @@ const NEWS_ITEMS = [
     takeaway: "Ready stock is moving faster than any month since February — for off-plan buyers, that means projects now under construction will hand over into a market with real end-user demand, not just investor appetite.",
     source: "Dubai News Week (Al Masdar Al Aqaari / DLD data)",
     url: "https://dubainewsweek.com/dubai-ready-apartment-sales-hit-dhs5-28-billion-in-october/"
-  },
-  {
-    date: "2026-11-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai logs AED 12.26bn in a single week — 2,579 sales deals",
-    summary: "Dubai's real estate sector recorded AED 12.26 billion (about $3.3 billion) in total transactions over one week, per Dubai Land Department data reported by FHI Global on 1 November 2026. Sales transactions accounted for AED 7.44 billion (about $2 billion) across 2,579 deals, including an AED 55 million apartment at Balqis Residence Beach Villas on Palm Jumeirah and Business Bay office spaces up to AED 43.76 million. Mortgage deals added AED 3.51 billion and gift transfers AED 1.31 billion.",
-    takeaway: "A $3.3bn week with strength from Palm luxury to Business Bay offices — busy at both ends, so judge your launch on price per sq ft and payment plan, not the crowd.",
-    source: "FHI Global (DLD data)",
-    url: "https://fhiglobal.ae/news/dubai-property-sector-records-three-point-three-billion-transactions-weekly"
-  },
-  {
-    date: "2026-11-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Municipality opens Al Satwa to eight-floor residential buildings",
-    summary: "Dubai Municipality announced new planning rules on 1 November 2026 allowing residential buildings of up to eight floors in Al Satwa, the traditionally low-rise district between Jumeirah and Bur Dubai, per The National. Plots along internal roads move from attached-villa rules to G+2 apartments, while plots of 1,000 sq m or more — including consolidated plots — qualify for G+8 residential blocks, in a stated push to consolidate smaller plots, optimise land use and raise investment potential. Further details are on the Build in Dubai online platform.",
-    takeaway: "New buildable density in a heritage district is a supply-and-value signal — watch which developers move first in Al Satwa, since zoning uplifts can lift surrounding land values before any launch is announced.",
-    source: "The National (Dubai Municipality)",
-    url: "https://www.thenationalnews.com/news/uae/2026/11/01/on-the-up-dubai-to-allow-eight-floor-residential-apartments-in-al-satwa-under-planning-revamp/"
-  },
-  {
-    date: "2026-10-31",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai October sales jump 18% to AED 34bn as land deals surge 50%",
-    summary: "Dubai property sales rose 18.1% month-on-month to $9.3 billion (AED 34 billion) in October 2026 across 11,948 transactions (+6.9%), per Al Masdar Al Aqaari's analysis of Dubai Land Department data published 31 October 2026. Land sales jumped 50% in value to $3.6 billion (AED 13.2 billion) across 1,463 transactions — up 86.8% in volume — pointing to developers restocking plots for future launches. October also recorded 4,634 mortgage transactions worth $3.6 billion and 1,016 gift transfers worth $1.6 billion; combined sales, mortgages and gifts reached about $14.4 billion (AED 53 billion) across 17,598 transactions.",
-    takeaway: "Land is the pipeline — a 50% jump in land deals this month is developers buying for 2027–2028 launches, so expect more launch choice soon.",
-    source: "Al Masdar Al Aqaari (DLD data)",
-    url: "https://masdarak.com/en/market-insights-en/dubai-property-sales-rise-18-to-9-3-billion-in-october-2026/"
   },];
