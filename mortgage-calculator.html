@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230F223E'/%3E%3Ctext x='50' y='70' font-size='56' text-anchor='middle' fill='%23C9A45C' font-family='Georgia, serif' font-weight='bold'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0F223E">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Mortgage Calc">
+<title>Mortgage Calculator — For Client Conversations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F3EF; --card:#FFFFFF; --card2:#F8F7F3; --line:#E6E1D6;
+  --navy:#0F223E; --navy2:#162F52; --gold:#B9975B; --gold2:#CDB07A; --gold-soft:#F3EAD3;
+  --text:#141E2E; --muted:#6B7788; --muted2:#8A94A6;
+  --green:#1B7A4D; --amber:#9A6B12; --red:#B42318;
+  --input-bg:#FFFFFF; --track:#E8E2D3;
+  --shadow:0 10px 30px rgba(15,34,62,.08);
+  --radius:18px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0A1526; --card:#111E33; --card2:#0F1B2E; --line:#22344F;
+    --text:#EAF0F7; --muted:#9AA8BC; --muted2:#7C8AA0;
+    --input-bg:#0D1A2E; --track:#243650; --gold-soft:#2A2416;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Manrope",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 18px 40px}
+.top{padding:22px 0 14px;display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;justify-content:space-between}
+.top h1{font-family:"Sora",sans-serif;font-size:34px;line-height:1.05;letter-spacing:-.02em;margin:0;font-weight:800;color:var(--navy)}
+@media(prefers-color-scheme:dark){.top h1{color:#fff}}
+.top h1 span{color:var(--gold)}
+.top p{margin:8px 0 0;color:var(--muted);max-width:560px;font-size:15px}
+.badge{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--gold);background:var(--gold-soft);border:1px solid var(--line);padding:7px 10px;border-radius:999px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:420px 1fr;gap:18px;align-items:start}
+.grid>*{min-width:0}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.card-pad{padding:20px}
+.card h2{font-family:"Sora",sans-serif;font-size:15px;margin:0 0 4px;letter-spacing:-.01em}
+.card h2 + p{margin:0;color:var(--muted);font-size:13px}
+.label-row{display:flex;justify-content:space-between;align-items:center;margin:18px 0 8px}
+.label-row:first-of-type{margin-top:14px}
+.label-row label{font-size:13px;font-weight:700;letter-spacing:.01em}
+.label-row .hint{font-size:12px;color:var(--muted)}
+.input-wrap{display:flex;align-items:center;background:var(--input-bg);border:1.5px solid var(--line);border-radius:12px;overflow:hidden}
+.input-wrap:focus-within{border-color:var(--gold)}
+.input-wrap .prefix{padding:0 12px;font-weight:700;color:var(--muted);font-size:14px;border-right:1px solid var(--line);background:var(--card2);height:48px;display:flex;align-items:center}
+.input-wrap input{border:0;outline:0;background:transparent;width:100%;padding:13px 12px;font-size:16px;font-weight:700;color:var(--text);font-family:inherit}
+.input-wrap .suffix{padding:0 12px;color:var(--muted);font-size:13px;font-weight:700}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:6px;border-radius:999px;background:var(--track);outline:none;margin:10px 0 4px}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:var(--navy);border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.25);cursor:pointer}
+@media(prefers-color-scheme:dark){input[type=range]::-webkit-slider-thumb{background:var(--gold)}}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--navy);border:3px solid #fff;cursor:pointer}
+.range-labels{display:flex;justify-content:space-between;font-size:11px;color:var(--muted2);font-weight:600}
+.dual{display:grid;grid-template-columns:1fr 110px;gap:10px;align-items:center}
+.pills{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.pill{border:1px solid var(--line);background:var(--card2);padding:7px 11px;border-radius:999px;font-size:13px;font-weight:700;cursor:pointer}
+.pill.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+@media(prefers-color-scheme:dark){.pill.active{background:var(--gold);color:#111;border-color:var(--gold)}}
+select{width:100%;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--input-bg);color:var(--text);font-weight:700;font-family:inherit}
+.divider{height:1px;background:var(--line);margin:20px 0}
+.toggle-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0}
+.toggle-row b{font-size:14px}
+.toggle-row span{display:block;font-size:12px;color:var(--muted);font-weight:500}
+.switch{width:48px;height:28px;border-radius:999px;background:var(--track);border:1px solid var(--line);position:relative;cursor:pointer;flex-shrink:0}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:20px;height:20px;border-radius:50%;background:#fff;box-shadow:0 1px 4px rgba(0,0,0,.2);transition:.2s}
+.switch.on{background:var(--navy)}
+.switch.on::after{left:23px}
+.hero{background:var(--navy);color:#fff;border-radius:18px;padding:22px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-40px;top:-40px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle, rgba(185,151,91,.35), transparent 70%)}
+.hero small{letter-spacing:.14em;text-transform:uppercase;font-size:11px;font-weight:800;color:var(--gold2)}
+.hero .amount{font-family:"Sora",sans-serif;font-size:46px;line-height:1;font-weight:800;letter-spacing:-.03em;margin:8px 0 4px}
+.hero .sub{color:#CBD6E6;font-size:14px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px;position:relative;z-index:1}
+.hero-stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px}
+.hero-stat label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#A9BCD6;font-weight:700}
+.hero-stat b{display:block;font-size:16px;margin-top:3px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+@media(max-width:700px){.stats{grid-template-columns:1fr 1fr}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.stat label{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:800}
+.stat b{display:block;font-size:18px;margin-top:4px;letter-spacing:-.02em}
+.stat span{font-size:12px;color:var(--muted)}
+.flex-chart{display:grid;grid-template-columns:170px 1fr;gap:18px;align-items:center}
+@media(max-width:560px){.flex-chart{grid-template-columns:1fr;justify-items:center}}
+.legend{display:grid;gap:10px;width:100%}
+.legend-item{display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed var(--line);padding-bottom:8px}
+.legend-item i{width:10px;height:10px;border-radius:50%;display:inline-block;margin-right:8px}
+.progress{height:10px;background:var(--track);border-radius:999px;overflow:hidden}
+.progress i{display:block;height:100%;border-radius:999px;transition:width .3s}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:13px;min-width:560px}
+th{text-align:left;padding:11px 12px;background:var(--card2);color:var(--muted);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+td{padding:10px 12px;border-top:1px solid var(--line);font-weight:600}
+td:first-child{font-weight:800}
+.btn{appearance:none;border:0;cursor:pointer;font-family:inherit;font-weight:800;border-radius:999px;padding:11px 16px;font-size:14px}
+.btn-primary{background:var(--navy);color:#fff}
+.btn-gold{background:var(--gold);color:#fff}
+.btn-ghost{background:var(--card2);border:1px solid var(--line);color:var(--text)}
+.btn:active{transform:scale(.98)}
+.talk{background:#FFFBEB;border:1px solid #FDE68A;border-radius:14px;padding:16px}
+@media(prefers-color-scheme:dark){.talk{background:#1E1A0F;border-color:#3A3012;color:#FEF3C7}}
+.talk p{margin:0;font-size:14.5px;line-height:1.6}
+.kicker{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:var(--gold)}
+.foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.6;text-align:center}
+.hidden{display:none !important}
+.bar-row{display:grid;grid-template-columns:52px 1fr 86px;gap:10px;align-items:center;font-size:12px;margin:7px 0}
+.bar-track{height:8px;background:var(--track);border-radius:999px;overflow:hidden;display:flex}
+.bar-track i{display:block;height:100%}
+</style>
+</head>
+<body>
+<div style="background:#0F223E;padding:10px 18px;"><a href="index.html" style="color:#C9A45C;text-decoration:none;font-family:Georgia,serif;font-weight:700;font-size:15px;">← The Alpha Investor</a></div>
+<div class="wrap">
+  <div class="top">
+    <div>
+      <div class="kicker">The Alpha Investor • Client Tool</div>
+      <h1>Mortgage <span>Calculator</span></h1>
+      <p>Work out the real monthly payment in seconds — while you're talking to a client. Adjust price, down payment and rate live and show them exactly what they'll pay.</p>
+    </div>
+    <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+      <span class="badge">For client conversations</span>
+      <select id="currency" style="width:auto;padding:9px 12px;border-radius:999px" aria-label="Currency">
+        <option value="AED">AED — Dirham</option>
+        <option value="USD">USD — Dollar</option>
+        <option value="GBP">GBP — Pound</option>
+        <option value="EUR">EUR — Euro</option>
+        <option value="PKR">PKR — Rupee</option>
+        <option value="INR">INR — Rupee</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grid">
+    <!-- LEFT: INPUTS -->
+    <div class="card card-pad">
+      <h2>Loan details</h2>
+      <p>Drag the sliders or type — everything updates instantly.</p>
+
+      <div class="label-row"><label for="price">Property price</label><span class="hint" id="priceHint">AED 1,200,000</span></div>
+      <div class="input-wrap"><span class="prefix" data-cur>AED</span><input id="price" type="number" inputmode="numeric" value="1200000" min="100000" step="10000"></div>
+      <input type="range" id="priceRange" min="300000" max="5000000" step="10000" value="1200000">
+      <div class="range-labels"><span>300K</span><span>5M</span></div>
+
+      <div class="pills" id="pricePills">
+        <button class="pill" data-price="750000">750K</button>
+        <button class="pill active" data-price="1200000">1.2M</button>
+        <button class="pill" data-price="1800000">1.8M</button>
+        <button class="pill" data-price="2500000">2.5M</button>
+        <button class="pill" data-price="3500000">3.5M</button>
+      </div>
+
+      <div class="label-row"><label>Down payment</label><span class="hint" id="ltvHint">80% LTV</span></div>
+      <div class="dual">
+        <div class="input-wrap"><span class="prefix" data-cur>AED</span><input id="downAmt" type="number" value="240000" step="5000"></div>
+        <div class="input-wrap"><input id="downPct" type="number" value="20" min="5" max="80" step="1" style="text-align:center"><span class="suffix">%</span></div>
+      </div>
+      <input type="range" id="downRange" min="10" max="60" step="1" value="20">
+      <div class="range-labels"><span>10% — expat min. varies</span><span>60%</span></div>
+      <p style="font-size:12px;color:var(--muted);margin:6px 0 0">UAE guide: residents often from 15–20% down, non-residents typically 30–40%. Bank approval decides the final figure.</p>
+
+      <div class="label-row"><label for="rate">Interest rate (per year)</label><span class="hint">Bank rate</span></div>
+      <div class="input-wrap"><input id="rate" type="number" value="4.49" step="0.05" min="0" max="15"><span class="suffix">% p.a.</span></div>
+      <div class="pills">
+        <button class="pill rate-pill" data-rate="3.99">3.99%</button>
+        <button class="pill rate-pill active" data-rate="4.49">4.49%</button>
+        <button class="pill rate-pill" data-rate="5.25">5.25%</button>
+        <button class="pill rate-pill" data-rate="5.99">5.99%</button>
+      </div>
+      <input type="range" id="rateRange" min="1" max="8" step="0.05" value="4.49">
+      <div class="range-labels"><span>1%</span><span>8%</span></div>
+
+      <div class="label-row"><label>Loan term</label><span class="hint" id="termHint">25 years • 300 payments</span></div>
+      <div class="pills" id="termPills">
+        <button class="pill" data-term="15">15 yrs</button>
+        <button class="pill" data-term="20">20 yrs</button>
+        <button class="pill active" data-term="25">25 yrs</button>
+        <button class="pill" data-term="30">30 yrs</button>
+      </div>
+      <input type="range" id="termRange" min="5" max="30" step="1" value="25">
+      <div class="range-labels"><span>5 years</span><span>30 years</span></div>
+
+      <div class="divider"></div>
+
+      <div class="label-row" style="margin-top:0"><label for="extra">Extra monthly payment <span style="color:var(--muted);font-weight:600">(optional)</span></label></div>
+      <div class="input-wrap"><span class="prefix" data-cur>AED</span><input id="extra" type="number" value="0" min="0" step="100" placeholder="0"></div>
+      <p style="font-size:12px;color:var(--muted);margin:6px 0 0" id="extraNote">Add an extra amount to see how much interest you save and how much sooner the loan clears.</p>
+
+      <div class="label-row"><label for="income">Your monthly income <span style="color:var(--muted);font-weight:600">(for affordability)</span></label></div>
+      <div class="input-wrap"><span class="prefix" data-cur>AED</span><input id="income" type="number" value="25000" step="1000" placeholder="e.g. 25,000"></div>
+
+      <div class="divider"></div>
+      <div class="toggle-row">
+        <div><b>Include Dubai buying costs</b><span>DLD, agency, mortgage &amp; valuation fees</span></div>
+        <div class="switch on" id="feesToggle" role="switch" aria-checked="true" tabindex="0"></div>
+      </div>
+      <div class="toggle-row" style="padding-top:2px">
+        <div><b>Show yearly breakdown</b><span>How the balance falls year by year</span></div>
+        <div class="switch on" id="scheduleToggle" role="switch" aria-checked="true" tabindex="0"></div>
+      </div>
+
+      <button class="btn btn-gold" id="resetBtn" style="width:100%;margin-top:10px">Reset to AED 1.2M example</button>
+      <p style="font-size:11px;color:var(--muted);text-align:center;margin:10px 0 0">Estimates only — final rate, fees and approval are set by the bank.</p>
+    </div>
+
+    <!-- RIGHT: RESULTS -->
+    <div style="display:grid;gap:14px">
+      <div class="hero">
+        <small>Your monthly payment</small>
+        <div class="amount" id="monthlyBig">AED 5,335</div>
+        <div class="sub" id="monthlySub">Principal &amp; interest only • 25 years at 4.49%</div>
+        <div class="hero-grid">
+          <div class="hero-stat"><label>Loan amount</label><b id="loanAmt">AED 960,000</b></div>
+          <div class="hero-stat"><label>Down payment</label><b id="downStat">AED 240,000</b></div>
+          <div class="hero-stat"><label>Total interest</label><b id="interestStat">AED 640,000</b></div>
+          <div class="hero-stat"><label>Total you repay</label><b id="totalStat">AED 1,600,000</b></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><label>Loan-to-value</label><b id="ltvStat">80%</b><span id="ltvNote">of property price</span></div>
+        <div class="stat"><label>Interest share</label><b id="intShare">40%</b><span>of total repayment</span></div>
+        <div class="stat"><label>Payoff date</label><b id="payoffDate">—</b><span id="payoffNote">300 payments</span></div>
+        <div class="stat"><label>+1% rate would be</label><b id="stressStat">—</b><span>per month if rates rise</span></div>
+      </div>
+
+      <div class="card card-pad">
+        <h2>Where your money goes</h2>
+        <p>Principal vs. interest over the full term — plus what you put down.</p>
+        <div class="flex-chart" style="margin-top:16px">
+          <svg width="170" height="170" viewBox="0 0 170 170" aria-label="Breakdown chart">
+            <circle cx="85" cy="85" r="62" fill="none" stroke="var(--track)" stroke-width="22"/>
+            <circle id="arcPrincipal" cx="85" cy="85" r="62" fill="none" stroke="#0F223E" stroke-width="22" stroke-dasharray="389.5" stroke-dashoffset="120" transform="rotate(-90 85 85)" stroke-linecap="butt"/>
+            <circle id="arcInterest" cx="85" cy="85" r="62" fill="none" stroke="#B9975B" stroke-width="22" stroke-dasharray="389.5" stroke-dashoffset="280" transform="rotate(130 85 85)"/>
+            <text x="85" y="82" text-anchor="middle" font-family="Sora" font-weight="800" font-size="16" fill="var(--text)" id="donutCenter">80% LTV</text>
+            <text x="85" y="100" text-anchor="middle" font-size="11" fill="var(--muted)">loan share</text>
+          </svg>
+          <div class="legend">
+            <div class="legend-item"><span><i style="background:#0F223E"></i>Loan principal</span><b id="legPrincipal">—</b></div>
+            <div class="legend-item"><span><i style="background:#B9975B"></i>Total interest</span><b id="legInterest">—</b></div>
+            <div class="legend-item"><span><i style="background:#CBD5E1"></i>Down payment</span><b id="legDown">—</b></div>
+            <div id="extraSaveBox" class="hidden" style="background:var(--gold-soft);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:13px"><b id="extraSaveText"></b></div>
+          </div>
+        </div>
+        <div style="margin-top:16px">
+          <div style="display:flex;justify-content:space-between;font-size:12px;font-weight:700"><span>Affordability — payment vs. income</span><span id="dbrText">—</span></div>
+          <div class="progress" style="margin-top:8px"><i id="dbrBar" style="background:var(--green);width:20%"></i></div>
+          <p style="font-size:12px;color:var(--muted);margin:8px 0 0" id="dbrNote">UAE banks usually keep total debts under ~50% of income (DBR). Lower is stronger for approval.</p>
+        </div>
+      </div>
+
+      <div class="talk">
+        <div class="kicker" style="color:#92400E">Say this to your client</div>
+        <p id="talkTrack" style="margin-top:8px"></p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+          <button class="btn btn-primary" id="copyBtn">Copy summary for WhatsApp</button>
+          <button class="btn btn-ghost" id="copyShortBtn">Copy one-liner</button>
+          <span id="copyOk" style="align-self:center;font-size:13px;font-weight:700;color:var(--green)" class="hidden">Copied ✓</span>
+        </div>
+      </div>
+
+      <div class="card card-pad" id="feesCard">
+        <h2>Upfront cash needed in Dubai</h2>
+        <p>Beyond the down payment — what a buyer should have ready on transfer day. Estimates.</p>
+        <div id="feesList" style="margin-top:12px;display:grid;gap:0"></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;background:var(--navy);color:#fff;border-radius:12px;padding:14px;margin-top:12px">
+          <span style="font-weight:700;font-size:14px">Total cash upfront<br><span style="font-weight:500;color:#CBD6E6;font-size:12px">Down payment + fees</span></span>
+          <b style="font-family:Sora;font-size:20px" id="feesTotal">—</b>
+        </div>
+        <p style="font-size:11px;color:var(--muted);margin:10px 0 0">DLD 4% + AED 580 admin • Agency 2% + 5% VAT on agency fee • Mortgage registration 0.25% of loan + AED 290 • Valuation ~AED 3,150 incl. VAT (varies by bank). Off-plan DLD and agency terms differ — confirm for the specific project.</p>
+      </div>
+
+      <div class="card card-pad" id="compareCard">
+        <h2>Term comparison — same loan, different years</h2>
+        <p>Show a client the trade-off: shorter term = higher monthly, far less interest.</p>
+        <div id="compareRows" style="margin-top:12px"></div>
+      </div>
+
+      <div class="card card-pad" id="scheduleCard">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+          <div><h2>Year-by-year breakdown</h2><p>Balance remaining at the end of each year.</p></div>
+          <button class="btn btn-ghost" id="toggleTableBtn" style="padding:8px 13px;font-size:13px">Hide table</button>
+        </div>
+        <div id="bars" style="margin-top:14px"></div>
+        <div class="table-wrap" id="tableWrap" style="margin-top:12px">
+          <table>
+            <thead><tr><th>Year</th><th>Paid that year</th><th>Principal</th><th>Interest</th><th>Balance left</th></tr></thead>
+            <tbody id="tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="foot">This calculator gives estimates for discussion only and is not a bank offer or financial advice. Rates, fees, LTV and approval vary by bank, residency, income and property. Always confirm the final figures with the lender before a client commits.</p>
+</div>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  var state={currency:'AED'};
+  var fmtCache={};
+  function fmt(n){
+    var cur=state.currency;
+    if(!fmtCache[cur]){ try{ fmtCache[cur]=new Intl.NumberFormat('en-US',{style:'currency',currency:cur,maximumFractionDigits:0}); }catch(e){ fmtCache[cur]=new Intl.NumberFormat('en-US',{maximumFractionDigits:0}); } }
+    return fmtCache[cur].format(Math.round(n));
+  }
+  function fmtShort(n){
+    if(n>=1000000) return state.currency+' '+(n/1000000).toFixed(2).replace(/\.00$/,'')+'M';
+    if(n>=1000) return state.currency+' '+Math.round(n/1000)+'K';
+    return fmt(n);
+  }
+  function num(id){ var v=parseFloat($(id).value); return isNaN(v)?0:v; }
+
+  function monthlyPayment(P, annualPct, years){
+    var r=annualPct/100/12, n=Math.round(years*12);
+    if(P<=0||n<=0) return 0;
+    if(r===0) return P/n;
+    var f=Math.pow(1+r,n);
+    return P*r*f/(f-1);
+  }
+  function amortize(P, annualPct, years, extra){
+    var r=annualPct/100/12, n=Math.round(years*12);
+    var pay=monthlyPayment(P,annualPct,years);
+    var bal=P, totalInt=0, rows=[], yearPrincipal=0, yearInterest=0, yearPaid=0, monthsTaken=0;
+    for(var m=1;m<=n && bal>0.01;m++){
+      var interest=bal*r;
+      var principal=pay-interest+ (extra||0);
+      if(principal>bal) principal=bal;
+      var actual=principal+interest;
+      bal-=principal; totalInt+=interest; monthsTaken=m;
+      yearPrincipal+=principal; yearInterest+=interest; yearPaid+=actual;
+      if(m%12===0 || bal<=0.01){
+        rows.push({year:Math.ceil(m/12), paid:yearPaid, principal:yearPrincipal, interest:yearInterest, balance:Math.max(0,bal)});
+        yearPrincipal=0; yearInterest=0; yearPaid=0;
+      }
+      if(bal<=0.01) break;
+    }
+    return {payment:pay, totalInterest:totalInt, totalPaid:P+totalInt, rows:rows, months:monthsTaken};
+  }
+
+  function setPillActive(containerId, attr, val){
+    var c=$(containerId); if(!c) return;
+    var btns=c.querySelectorAll('.pill');
+    for(var i=0;i<btns.length;i++){ btns[i].classList.toggle('active', String(btns[i].getAttribute(attr))===String(val)); }
+  }
+
+  function calc(){
+    var price=Math.max(0,num('price'));
+    var downPct=Math.min(95,Math.max(0,num('downPct')));
+    var downAmt=Math.max(0,num('downAmt'));
+    // keep downAmt authoritative if it was last edited? Use pct to derive when price changes handled by callers; here sync: if downAmt != price*pct/100 by >1, prefer downAmt typed
+    // Simple rule: loan = price - downAmt, and pct shown = downAmt/price
+    if(price>0){ downPct = downAmt/price*100; }
+    var loan=Math.max(0, price-downAmt);
+    var rate=Math.max(0,num('rate'));
+    var years=Math.max(1, Math.round(parseFloat($('termRange').value)||25));
+    var extra=Math.max(0,num('extra'));
+    var income=Math.max(0,num('income'));
+    var cur=state.currency;
+
+    document.querySelectorAll('[data-cur]').forEach(function(el){ el.textContent=cur; });
+    $('priceHint').textContent=fmt(price);
+    $('ltvHint').textContent=(loan/ (price||1)*100).toFixed(0)+'% LTV • '+downPct.toFixed(1)+'% down';
+    $('termHint').textContent=years+' years • '+(years*12)+' payments';
+
+    var base=amortize(loan, rate, years, 0);
+    var withExtra=amortize(loan, rate, years, extra);
+    var pay=base.payment;
+    var totalMonthly = pay + extra;
+
+    $('monthlyBig').textContent=fmt(totalMonthly) + (extra>0 ? '' : '');
+    $('monthlySub').textContent = extra>0
+      ? fmt(pay)+' standard + '+fmt(extra)+' extra • clears in '+(withExtra.months/12).toFixed(1)+' years at '+rate.toFixed(2)+'%'
+      : 'Principal & interest only • '+years+' years at '+rate.toFixed(2)+'%';
+    $('loanAmt').textContent=fmt(loan);
+    $('downStat').textContent=fmt(downAmt)+' ('+downPct.toFixed(1)+'%)';
+    $('interestStat').textContent=fmt(withExtra.totalInterest);
+    $('totalStat').textContent=fmt(loan+withExtra.totalInterest);
+
+    $('ltvStat').textContent=(loan/(price||1)*100).toFixed(0)+'%';
+    var totalRep=loan+withExtra.totalInterest;
+    $('intShare').textContent=(totalRep? (withExtra.totalInterest/totalRep*100).toFixed(0):0)+'%';
+    var now=new Date(); var payoff=new Date(now.getFullYear(), now.getMonth()+withExtra.months, 1);
+    var monthNames=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    $('payoffDate').textContent=monthNames[payoff.getMonth()]+' '+payoff.getFullYear();
+    $('payoffNote').textContent=withExtra.months+' payments'+(extra>0?' with extra':'');
+    var stress=monthlyPayment(loan, rate+1, years);
+    $('stressStat').textContent=fmt(stress);
+
+    // Donut: principal vs interest proportions of (loan+interest)
+    var circ=389.5;
+    var tot=loan+withExtra.totalInterest || 1;
+    var pFrac=loan/tot, iFrac=withExtra.totalInterest/tot;
+    var pLen=pFrac*circ, iLen=iFrac*circ;
+    var arcP=$('arcPrincipal'), arcI=$('arcInterest');
+    arcP.style.strokeDasharray=pLen+' '+circ; arcP.style.strokeDashoffset='0';
+    arcI.style.strokeDasharray=iLen+' '+circ; arcI.style.strokeDashoffset='0';
+    arcI.setAttribute('transform','rotate('+(-90 + pFrac*360)+' 85 85)');
+    if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches){ arcP.setAttribute('stroke','#EAF0F7'); } else { arcP.setAttribute('stroke','#0F223E'); }
+    $('donutCenter').textContent=(loan/(price||1)*100).toFixed(0)+'% LTV';
+    $('legPrincipal').textContent=fmt(loan);
+    $('legInterest').textContent=fmt(withExtra.totalInterest);
+    $('legDown').textContent=fmt(downAmt);
+
+    if(extra>0 && base.totalInterest>withExtra.totalInterest){
+      $('extraSaveBox').classList.remove('hidden');
+      var saved=base.totalInterest-withExtra.totalInterest;
+      var monthsSaved=base.months-withExtra.months;
+      $('extraSaveText').textContent='Extra '+fmt(extra)+'/mo saves '+fmt(saved)+' in interest and clears the loan '+monthsSaved+' months sooner.';
+      $('extraNote').textContent='Nice — that extra payment goes straight to principal.';
+    } else {
+      $('extraSaveBox').classList.add('hidden');
+      $('extraNote').textContent='Add an extra amount to see how much interest you save and how much sooner the loan clears.';
+    }
+
+    // Affordability / DBR
+    if(income>0){
+      var dbr=totalMonthly/income*100;
+      $('dbrText').textContent=dbr.toFixed(1)+'% of income';
+      var bar=$('dbrBar'); bar.style.width=Math.min(100,dbr)+'%';
+      bar.style.background= dbr<=35 ? 'var(--green)' : dbr<=50 ? '#D97706' : 'var(--red)';
+      $('dbrNote').textContent= dbr<=35 ? 'Comfortable. Well inside the UAE banks\u2019 ~50% debt-burden limit — strong position for approval (subject to other debts).'
+        : dbr<=50 ? 'Manageable, but close to the ~50% DBR ceiling once car loans / cards are added. A bigger down payment would help.'
+        : 'Over the typical ~50% DBR ceiling on this payment alone. Consider a larger down payment, longer term, or a lower price.';
+    } else {
+      $('dbrText').textContent='Add income to check';
+      $('dbrBar').style.width='0%';
+    }
+
+    // Talk track
+    var talk='For a '+fmt(price)+' property, you put down '+fmt(downAmt)+' ('+downPct.toFixed(0)+'%) and finance '+fmt(loan)+' over '+years+' years at '+rate.toFixed(2)+'%. That works out to '+fmt(totalMonthly)+' a month. Over the full term you pay '+fmt(withExtra.totalInterest)+' in interest, so the loan costs '+fmt(totalRep)+' in total'+(extra>0? ', and your extra payment clears it in '+Math.ceil(withExtra.months/12)+' years':'')+'.';
+    $('talkTrack').textContent='\u201C'+talk+'\u201D';
+
+    // Fees
+    var showFees=$('feesToggle').classList.contains('on');
+    $('feesCard').classList.toggle('hidden', !showFees);
+    var dld=price*0.04+580;
+    var agency=price*0.02; var agencyVat=agency*0.05;
+    var reg=loan*0.0025+290;
+    var valuation=3150;
+    var fees=dld+agency+agencyVat+reg+valuation;
+    var rowsHtml=[
+      ['Dubai Land Dept. (DLD) — 4% + admin', dld],
+      ['Agency commission — 2%', agency],
+      ['VAT on agency fee — 5%', agencyVat],
+      ['Mortgage registration — 0.25% of loan', reg],
+      ['Bank valuation (est.)', valuation]
+    ].map(function(r){ return '<div style="display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px dashed var(--line)"><span style="font-size:13px;color:var(--muted);font-weight:600">'+r[0]+'</span><b style="font-size:13px">'+fmt(r[1])+'</b></div>'; }).join('');
+    $('feesList').innerHTML=rowsHtml+'<div style="display:flex;justify-content:space-between;padding:9px 0"><span style="font-size:13px;font-weight:700">Total fees alone</span><b>'+fmt(fees)+'</b></div>';
+    $('feesTotal').textContent=fmt(downAmt+fees);
+
+    // Compare terms
+    var terms=[15,20,25,30];
+    var maxInt=Math.max.apply(null, terms.map(function(t){ return amortize(loan,rate,t,0).totalInterest; }))||1;
+    $('compareRows').innerHTML=terms.map(function(t){
+      var a=amortize(loan,rate,t,0);
+      var isCur=t===years;
+      return '<div style="display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 12px;border-radius:12px;margin-bottom:8px;'+(isCur?'background:var(--navy);color:#fff':'background:var(--card2);border:1px solid var(--line)')+'">'
+        +'<span style="font-weight:800;font-size:14px">'+t+' years '+(isCur?'<span style="font-size:11px;background:var(--gold);color:#fff;padding:2px 7px;border-radius:999px;margin-left:6px">SELECTED</span>':'')+'</span>'
+        +'<span style="text-align:right"><b>'+fmt(a.payment)+'/mo</b><br><span style="font-size:12px;opacity:.75">Interest '+fmt(a.totalInterest)+'</span></span></div>';
+    }).join('');
+
+    // Schedule
+    var showSched=$('scheduleToggle').classList.contains('on');
+    $('scheduleCard').classList.toggle('hidden', !showSched);
+    var maxBal=loan||1;
+    $('bars').innerHTML=withExtra.rows.filter(function(_,i){ return i%2===0 || i===withExtra.rows.length-1; }).slice(0,16).map(function(r){
+      var pctBal=r.balance/maxBal*100;
+      return '<div class="bar-row"><span style="font-weight:700;color:var(--muted)">Yr '+r.year+'</span><div class="bar-track"><i style="background:#0F223E;width:'+pctBal+'%"></i></div><span style="text-align:right;font-weight:700">'+fmtShort(r.balance)+'</span></div>';
+    }).join('');
+    $('tbody').innerHTML=withExtra.rows.map(function(r){
+      return '<tr><td>'+r.year+'</td><td>'+fmt(r.paid)+'</td><td>'+fmt(r.principal)+'</td><td>'+fmt(r.interest)+'</td><td>'+fmt(r.balance)+'</td></tr>';
+    }).join('');
+
+    // store for copy
+    window.__summary={price:price,downAmt:downAmt,downPct:downPct,loan:loan,rate:rate,years:years,pay:pay,totalMonthly:totalMonthly,interest:withExtra.totalInterest,totalRep:totalRep,fees:fees,upfront:downAmt+fees,cur:cur};
+  }
+
+  function syncFromPrice(){
+    var price=num('price'); var pct=parseFloat($('downPct').value)||20;
+    $('downAmt').value=Math.round(price*pct/100);
+    $('priceRange').value=Math.min(5000000,Math.max(300000,price));
+    setPillActive('pricePills','data-price',price);
+    calc();
+  }
+  function syncFromDownAmt(){
+    var price=num('price'); var amt=num('downAmt');
+    if(price>0) $('downPct').value=(amt/price*100).toFixed(1);
+    $('downRange').value=Math.min(60,Math.max(10, amt/(price||1)*100));
+    calc();
+  }
+  function syncFromDownPct(){
+    var price=num('price'); var pct=num('downPct');
+    $('downAmt').value=Math.round(price*pct/100);
+    $('downRange').value=pct;
+    calc();
+  }
+  function syncRate(){
+    $('rateRange').value=num('rate');
+    document.querySelectorAll('.rate-pill').forEach(function(b){ b.classList.toggle('active', parseFloat(b.getAttribute('data-rate'))===num('rate')); });
+    calc();
+  }
+  function syncTerm(years){
+    $('termRange').value=years;
+    setPillActive('termPills','data-term',years);
+    calc();
+  }
+
+  // Events
+  $('price').addEventListener('input', syncFromPrice);
+  $('priceRange').addEventListener('input', function(){ $('price').value=this.value; syncFromPrice(); });
+  $('downAmt').addEventListener('input', syncFromDownAmt);
+  $('downPct').addEventListener('input', syncFromDownPct);
+  $('downRange').addEventListener('input', function(){ $('downPct').value=this.value; syncFromDownPct(); });
+  $('rate').addEventListener('input', syncRate);
+  $('rateRange').addEventListener('input', function(){ $('rate').value=this.value; syncRate(); });
+  $('termRange').addEventListener('input', function(){ syncTerm(parseInt(this.value,10)); });
+  $('extra').addEventListener('input', calc);
+  $('income').addEventListener('input', calc);
+  $('currency').addEventListener('change', function(){ state.currency=this.value; calc(); });
+
+  document.querySelectorAll('#pricePills .pill').forEach(function(b){ b.addEventListener('click', function(){ $('price').value=b.getAttribute('data-price'); syncFromPrice(); }); });
+  document.querySelectorAll('.rate-pill').forEach(function(b){ b.addEventListener('click', function(){ $('rate').value=b.getAttribute('data-rate'); syncRate(); }); });
+  document.querySelectorAll('#termPills .pill').forEach(function(b){ b.addEventListener('click', function(){ syncTerm(parseInt(b.getAttribute('data-term'),10)); }); });
+
+  function bindToggle(id){ var el=$(id); function flip(){ el.classList.toggle('on'); el.setAttribute('aria-checked', el.classList.contains('on')); calc(); } el.addEventListener('click', flip); el.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); } }); }
+  bindToggle('feesToggle'); bindToggle('scheduleToggle');
+
+  $('toggleTableBtn').addEventListener('click', function(){
+    var w=$('tableWrap'); var hidden=w.classList.toggle('hidden');
+    this.textContent= hidden ? 'Show table' : 'Hide table';
+  });
+
+  $('resetBtn').addEventListener('click', function(){
+    state.currency='AED'; $('currency').value='AED';
+    $('price').value=1200000; $('downPct').value=20; $('downAmt').value=240000;
+    $('rate').value=4.49; $('extra').value=0; $('income').value=25000;
+    $('priceRange').value=1200000; $('downRange').value=20; $('rateRange').value=4.49;
+    syncTerm(25); syncRate(); syncFromPrice();
+  });
+
+  function copyText(t, btn){
+    function done(){ var ok=$('copyOk'); ok.classList.remove('hidden'); setTimeout(function(){ ok.classList.add('hidden'); },1800); }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(t).then(done).catch(function(){ fallback(); }); } else fallback();
+    function fallback(){ var ta=document.createElement('textarea'); ta.value=t; document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta); done(); }
+  }
+  $('copyBtn').addEventListener('click', function(){
+    var s=window.__summary; if(!s) return;
+    var txt='Mortgage summary\n'
+      +'Property: '+fmt(s.price)+'\n'
+      +'Down payment: '+fmt(s.downAmt)+' ('+s.downPct.toFixed(0)+'%)\n'
+      +'Loan: '+fmt(s.loan)+' over '+s.years+' years at '+s.rate.toFixed(2)+'%\n'
+      +'Monthly payment: '+fmt(s.totalMonthly)+'\n'
+      +'Total interest: '+fmt(s.interest)+'\n'
+      +'Total cash upfront (down + Dubai fees est.): '+fmt(s.upfront)+'\n'
+      +'— Estimates only, final figures confirmed by the bank.';
+    copyText(txt);
+  });
+  $('copyShortBtn').addEventListener('click', function(){
+    var s=window.__summary; if(!s) return;
+    copyText(fmt(s.price)+' property — '+fmt(s.downAmt)+' down, '+fmt(s.totalMonthly)+'/month for '+s.years+' yrs at '+s.rate.toFixed(2)+'%. Loan '+fmt(s.loan)+'.');
+  });
+
+  // init
+  syncTerm(25);
+  calc();
+})();
+</script>
+</body>
+</html>

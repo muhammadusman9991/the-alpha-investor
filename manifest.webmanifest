@@ -1,0 +1,12 @@
+{
+  "name": "Mortgage Calculator — The Alpha Investor",
+  "short_name": "Mortgage Calc",
+  "description": "UAE mortgage calculator for off-plan property clients.",
+  "start_url": "mortgage-calculator.html",
+  "display": "standalone",
+  "background_color": "#0F223E",
+  "theme_color": "#0F223E",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
+  ]
+}
