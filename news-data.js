@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-09",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Samana and Maserati launch Maserati Island — 840 branded residences on The World Islands",
+    summary: "Samana Developers' brand Samana Collecta has partnered with Maserati to launch Maserati Island in The World Islands, Dubai, per IndexBox on 9 November 2026, citing Trade Arabia. The master-planned destination will hold 840 branded residences plus seven water villas and two tree villas, with the first release covering 232 residences with private pools in studio to four-bedroom configurations.",
+    takeaway: "Branded launches keep arriving at the top end — the entry premium on a branded island address is real, but the resale premium is unproven, so compare per-sq-ft against completed Dubai waterfront stock before booking.",
+    source: "IndexBox (Trade Arabia)",
+    url: "https://www.indexbox.io/blog/samana-collecta-and-maserati-launch-maserati-island-in-dubais-the-world-islands/"
+  },
+  {
+    date: "2026-11-09",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs AED 15.98bn in transactions in a week — off-plan 57% of sales",
+    summary: "Dubai recorded AED 15.98 billion in total property transactions across 4,236 deals between 2 and 6 November 2026, per Dubai Land Department data via Dubai REST, reported by Dubai Market Watch on 9 November 2026. Sales alone were AED 7.51 billion across 2,709 deals; off-plan accounted for 1,550 of them (57%) worth AED 3.01 billion, while ready sales totalled AED 4.5 billion across 1,159 deals.",
+    takeaway: "Off-plan is still more than half of weekly sales — for buyers, that means launch choice stays wide, so judge each project on its district's median price per sq ft, not the weekly headline.",
+    source: "Dubai Market Watch (DLD / Dubai REST)",
+    url: "https://dubaimarketwatch.com/dubai-real-estate-transactions-november-2026/"
+  },
+  {
     date: "2026-11-08",
     tag: "abudhabi",
     tagLabel: "Abu Dhabi",
@@ -182,24 +202,4 @@ const NEWS_ITEMS = [
     takeaway: "More launches means more choice and more price competition — for off-plan buyers that's negotiating power, so compare each new launch against recent completed sales in the same district.",
     source: "Binayah (industry reporting)",
     url: "https://www.binayah.ae/news/off-plan-projects-dubai-3-schemes-worth-aed-45bn-incoming"
-  },
-  {
-    date: "2026-11-02",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi signs four AI agreements with OpenAI",
-    summary: "Abu Dhabi signed four agreements with OpenAI on 2 November 2026, witnessed by Crown Prince Sheikh Khaled bin Mohamed bin Zayed, per the Abu Dhabi Media Office reported by Gulf News and Legacy Elite Real Estate. The deals cover a 'Machine-Readable Government' initiative with the Department of Government Enablement, an ADNOC deployment, an investment AI agreement with Mubadala and Inception42, and a five-year AI adoption agreement between Inception42 and OpenAI. No financial values were announced; Abu Dhabi is targeting becoming the world's first fully AI-native government by 2027.",
-    takeaway: "Another layer of long-term demand for Abu Dhabi — tech-sector hiring supports rental and resale demand, but it's a macro catalyst, not a reason to overpay on any single launch.",
-    source: "Legacy Elite Real Estate (Abu Dhabi Media Office, Gulf News)",
-    url: "https://legacyeliterealestate.com/abu-dhabi-openai-ai-native-government-property/"
-  },
-  {
-    date: "2026-11-01",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai ready-apartment sales hit Dhs5.28bn in October — strongest month since February",
-    summary: "Sales of ready-to-move-in apartments in Dubai reached Dhs5.28 billion across 2,988 transactions in October 2026 — up 25.7% in value and 22.6% in transaction count from September's 2,437 deals (Dhs4.2 billion) — per Al Masdar Al Aqaari's analysis of Dubai Land Department data reported by Dubai News Week on 1 November 2026. Jumeirah Village Circle led with 384 transactions worth Dhs364.8 million, followed by Business Bay (237 deals, Dhs448.6 million) and Liwan (187, Dhs192 million); 44 ready apartments priced at Dhs10 million or more sold for a combined Dhs700 million.",
-    takeaway: "Ready stock is moving faster than any month since February — for off-plan buyers, that means projects now under construction will hand over into a market with real end-user demand, not just investor appetite.",
-    source: "Dubai News Week (Al Masdar Al Aqaari / DLD data)",
-    url: "https://dubainewsweek.com/dubai-ready-apartment-sales-hit-dhs5-28-billion-in-october/"
   },];
