@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-10",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Nakheel launches Palm Springs villas from ~AED 3.9m; BEYOND launches SHIONE on Dubai Islands",
+    summary: "Nakheel and BEYOND Developments each launched a major project on Monday 9 November 2026, per Dubai Chronicle on 10 November 2026. Nakheel's Palm Springs is a villa and townhouse community near Palm Jebel Ali, with starting prices of about AED 3.9 million, beside Sheikh Zayed Road and a metro station. BEYOND's SHIONE is a beachfront apartment project inside its SIORA masterplan on Dubai Islands, positioned at the upper end of Dubai Islands off-plan pricing. Broker Sterling Capital reports Bay Estate on Dubai Islands sold over 350 properties within seven hours of release, though that is not yet confirmed by final transaction records.",
+    takeaway: "Two very different launches on the same day — family villas near Palm Jebel Ali at ~AED 3.9m versus premium beachfront on Dubai Islands — so compare each against recent sold prices in its own area, not the launch-day buzz.",
+    source: "Dubai Chronicle",
+    url: "https://www.dubaichronicle.com/2026/11/10/dubai-new-property-launches-nakheel-beyond-projects/"
+  },
+  {
+    date: "2026-11-10",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Ardee unveils Downtown RAK on Al Marjan Island — AED 15bn+ portfolio, delivery from 2030",
+    summary: "Ardee, a destination developer founded in 2023, officially launched its brand on 10 November 2026 with Ardee Downtown, a mixed-use district on Al Marjan Island described as RAK's first fully-fledged premium downtown, per LanaTime. The district spans 3.5 million sq ft with apartments, branded residences and townhouses plus over 600,000 sq ft of retail and dining, and sits in a portfolio valued at over AED 15 billion in gross development value. Ardee Views, twin residential towers with 652 units, was unveiled as the gateway to the district, and phased delivery is scheduled from 2030. Partners include Fairmont (Accor) and master developer Marjan.",
+    takeaway: "A whole downtown district is a long-horizon bet — delivery starts in 2030, so this is about Al Marjan's shape after Wynn opens, not a near-term handover; weigh any early pricing against the island's completed resale stock.",
+    source: "LanaTime",
+    url: "https://en.lanatime.com/news/ardee-launches-downtown-rak-on-al-marjan-island-2026-11-10/"
+  },
+  {
+    date: "2026-11-10",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Etihad Rail station lifts Jumeirah Golf Estates — off-plan villa prices up 11.2% year-on-year",
+    summary: "Jumeirah Golf Estates is seeing demand reshape around connectivity, per Gulf News on 10 November 2026, citing Bayut data. Etihad Rail's Dubai Al Yalayis Station opened on 30 September 2026 near the community, and median asking prices for new off-plan villas reached Dh2,987 per sq ft in September, up 11.2% year-on-year. Views of off-plan listings in the area rose 39% in September, and median asking rent for villas reached Dh850,000 a year. A planned Dubai Metro Gold Line interchange is expected to strengthen links further.",
+    takeaway: "Transport openings are already moving prices in Jumeirah Golf Estates — the 11.2% annual rise is asking prices, not sold prices, so check the DLD register for what villas actually closed at before paying the connectivity premium.",
+    source: "Gulf News (Bayut data)",
+    url: "https://gulfnews.com/business/property/connectivity-boost-drives-demand-at-jumeirah-golf-estates-1.500740873"
+  },
+  {
     date: "2026-11-09",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,24 +212,4 @@ const NEWS_ITEMS = [
     takeaway: "Waterfront mid-size projects are still selling out at launch — for Phase 2, check the price per sq ft against Phase 1's, not just the sell-out headline.",
     source: "EINPresswire (Casa Vista Development announcement)",
     url: "https://www.einpresswire.com/article/954012300/casa-vista-development-builds-dubai-momentum-as-aquora-enters-its-second-residential-phase"
-  },
-  {
-    date: "2026-11-03",
-    tag: "uae",
-    tagLabel: "UAE",
-    title: "Nomination-based Golden Visa pilot covers India and Bangladesh only — no lifetime route, Pakistan not included",
-    summary: "A nomination-based Golden Visa pilot priced around AED 100,000 was introduced in 2025 for nationals of India and Bangladesh only — Pakistan was not included. The UAE's Federal Authority for Identity, Citizenship, Customs and Port Security (ICP) publicly rejected any guaranteed, fixed-price or 'lifetime' visa product in July 2025: the Golden Visa remains a 5- or 10-year renewable residence permit granted only through the official categories, and no agency is an authorised intermediary. Pakistanis qualify on the same terms as any other nationality via the standard routes — including property worth AED 2 million in total value, which since February 2026 counts even on a mortgage or off-plan payment plan, with no 50% paid-up requirement.",
-    takeaway: "For Pakistani buyers, the property route is the real path: an off-plan property worth AED 2 million in total qualifies for the 10-year visa even while still on a payment plan. Treat any fixed-fee 'nomination' offer with caution.",
-    source: "Hijrat (ICP statements)",
-    url: "https://hijrat.pk/uae-golden-visa-pakistan-2026.html"
-  },
-  {
-    date: "2026-11-02",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Around 30 Dubai schemes worth up to AED 45bn entering the off-plan market",
-    summary: "Roughly 30 residential projects with an estimated combined value of up to AED 45 billion are expected to enter Dubai's off-plan market, per industry reporting cited by Binayah on 2 November 2026. The pipeline is expected to mix apartments and villas across central and suburban areas. Binayah notes buyers are becoming more selective, prioritising location, developer reputation and flexible payment terms over launch-day momentum.",
-    takeaway: "More launches means more choice and more price competition — for off-plan buyers that's negotiating power, so compare each new launch against recent completed sales in the same district.",
-    source: "Binayah (industry reporting)",
-    url: "https://www.binayah.ae/news/off-plan-projects-dubai-3-schemes-worth-aed-45bn-incoming"
   },];
