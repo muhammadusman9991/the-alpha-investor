@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-11",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai October sales rebound 18% to Dh34.8bn — first monthly rise after two months of decline",
+    summary: "Dubai recorded 11,883 property transactions worth Dh34.8 billion in October 2026, up 18% in value and 5% in volume on September, per Dubai Land Department data analysed by Property Finder and reported by Gulf News on 11 November 2026. Residential deals rose 6% to 11,294 worth Dh30.2 billion; off-plan sales held at 6,579 deals but their value rose to Dh16.7 billion from Dh13.6 billion in September, while resales climbed 13% to 5,304 deals. Mortgage registrations rose 5.2% to 3,811, the third consecutive monthly increase, and middle-income buyers earning Dh20,000–Dh59,999 a month made up 68.5% of mortgage applications.",
+    takeaway: "The rebound is real but still below early-2026 volumes — for off-plan buyers, the signal is that mid-market demand is broadening, so compare any launch price per sq ft against the district's DLD median, not the monthly headline.",
+    source: "Gulf News (DLD / Property Finder)",
+    url: "https://gulfnews.com/business/property/dubai-property-sales-jump-18-to-dh348-billion-1.500742615"
+  },
+  {
+    date: "2026-11-11",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Danube sales up 14% despite market slowdown — Shahrukhz Residences switches to 30:70 plan",
+    summary: "Danube Properties' sales rose 14% year on year despite a slowdown in Dubai's property market since February, founder Rizwan Sajan said, per Business Times on 11 November 2026. For Shahrukhz Residences, its 60-storey project in Dubai Maritime City due for completion in Q4 2029, Danube has dropped its usual 1% monthly plan for a 30:70 structure — 30% over the first 18 months and 70% on handover — with an average ticket of about AED 1.65 million. Sajan also said Dubai's population grew by more than 200,000 between January and October 2026, to around 4.8 million.",
+    takeaway: "A back-ended plan lowers the early cash outlay but concentrates 70% at handover — check the mortgage you'll need in 2029 before booking on the plan alone, and confirm the RERA registration and escrow account.",
+    source: "Business Times (Danube Properties)",
+    url: "https://www.btin.co.in/danube-properties-sales-rise-14-despite-dubai-slowdown-122536"
+  },
+  {
     date: "2026-11-10",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,26 +202,6 @@ const NEWS_ITEMS = [
     takeaway: "Al Reem's 153% sales surge is the context behind this launch — but Phase 1's sell-out belongs to a year ago, so price Phase 2 against today's per-sq-ft sold prices on the island before committing.",
     source: "MEP Middle East (MERED announcement)",
     url: "https://www.mepmiddleeast.com/projects/riviera-residences-phase-2-launches"
-  },
-  {
-    date: "2026-11-03",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Qube Development launches Sawa Residences in Meydan Horizon, MBR City",
-    summary: "Qube Development has launched Sawa Residences within the Meydan Horizon district of Mohammed Bin Rashid City, per Gaia Living News on 3 November 2026. The lower-density waterfront project offers one-, two- and three-bedroom apartments on one of the area's largest lagoon frontages, with direct access to 2 km of crystal lagoons and a 4 km landscaped promenade, inside MBR City's 54 million sq ft destination.",
-    takeaway: "Fresh waterfront stock in Meydan competes with the mid-market off-plan pipeline — compare its lagoon-front per-sq-ft against Meydan's existing completed towers before booking.",
-    source: "Gaia Living News",
-    url: "https://www.gaiarealty.ae/news/qube-development-launches-sawa-residences-in-meydan-horizon-dubai"
-  },
-  {
-    date: "2026-11-03",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Mubadala and Aldar launch AED 60bn expansion of Abu Dhabi's Al Maryah Island",
-    summary: "Mubadala Investment Company and Aldar have launched a joint venture (60% Aldar, 40% Mubadala) to expand Al Maryah Island, with a gross development value exceeding AED 60 billion, per RP Realty Plus on 3 November 2026. The north side of the island — the final undeveloped bank of land at nearly 500,000 sqm — will add 1.5 million sqm of new office, residential, retail and hospitality space, including over 450,000 sqm of Grade A offices and more than 3,000 luxury waterfront residences. Enabling works are scheduled to begin in 2026.",
-    takeaway: "A sovereign-backed expansion of the ADGM district adds a long runway of premium supply — for off-plan buyers, watch what Aldar actually launches on the island before paying premiums in neighbouring districts.",
-    source: "RP Realty Plus",
-    url: "https://www.rprealtyplus.com/newsviews/abu-dhabi-mubadala-aldar-announce-aed-60-billion-expansion-on-al-maryah-island-123090.html"
   },
   {
     date: "2026-11-03",
