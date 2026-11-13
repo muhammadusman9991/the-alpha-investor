@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-12",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Danube launches Shahrukhz Residences — Gauri Khan penthouses sell out on day one, ~500 EOIs in",
+    summary: "Danube Properties unveiled Shahrukhz Residences, a 60-storey fully furnished waterfront tower in Dubai Maritime City, at a launch event at Coca-Cola Arena on 11 November 2026, per reports on 12 November 2026. All three Gauri Khan-designed penthouses, each priced at about INR 50 crore, sold out on launch day, and Danube said it received around 500 expressions of interest after the launch. Prices start at AED 1.65 million on a 30:70 payment plan — 30% during construction, 70% on handover — with completion due in Q4 2029.",
+    takeaway: "A celebrity launch sells penthouses fast, but the real test is the standard units — compare the AED 1.65m entry price per sq ft against Maritime City's recent sold prices, and confirm the escrow account before booking on the 30:70 plan.",
+    source: "Northeast Live (Danube Properties)",
+    url: "https://northeastlivetv.com/topnews/gauri-khans-rs-50-crore-dubai-penthouses-sell-out-within-24-hours-of-launch/"
+  },
+  {
+    date: "2026-11-12",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Binghatti profit jumps 65% to Dh4.4bn in nine months as sales hit Dh14.2bn",
+    summary: "Dubai developer Binghatti reported net profit up 65% year on year to Dh4.4 billion and revenue up 66% to Dh14.9 billion for the nine months to 30 September 2026, per Khaleej Times on 12 November 2026. Sales rose 11% to Dh14.2 billion, with third-quarter revenue more than doubling from a year earlier. The company handed over about 2,600 units in the period, including Binghatti Apex, Ghost, Ivory, Haven and Grove, and said eight more projects comprising about 6,400 units are on track for completion before the end of 2026.",
+    takeaway: "A developer posting record profits while handing over thousands of units is a delivery signal — for buyers, completed and near-complete Binghatti stock is worth comparing against off-plan prices in the same districts.",
+    source: "Khaleej Times (Binghatti 9M 2026 results)",
+    url: "https://www.khaleejtimes.com/business/binghatti-profit-jumps-65-as-dubai-property-demand-fuels-growth"
+  },
+  {
+    date: "2026-11-12",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai ready-home sales hit Dh10.1bn in October — highest since March, even as overall deals fall 44% year-on-year",
+    summary: "Sales of completed homes in Dubai reached Dh10.1 billion across 3,702 transactions in October 2026, the highest monthly level since March and up more than 20% on September, per Cavendish Maxwell, reported by Khaleej Times on 12 November 2026. Ready homes were 36% of residential sales, while off-plan sales slipped 6.4% on September as developers slowed new launches. Total residential sales were Dh25.35 billion across 10,252 deals; over the first ten months of 2026 residential sales totalled Dh320.1 billion, down 29% in value on the same period of 2025.",
+    takeaway: "Buyers are rotating toward homes they can move into now while launches slow — for off-plan buyers, fewer launches means less choice but also less launch-day pressure, so negotiate on price per sq ft and check the escrow account.",
+    source: "Khaleej Times (Cavendish Maxwell)",
+    url: "https://www.khaleejtimes.com/business/dubai-ready-property-sales-hit-highest-level-at-dh101-billion?amp=1"
+  },
+  {
     date: "2026-11-11",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -173,43 +203,4 @@ const NEWS_ITEMS = [
     source: "Middle East Business News (betterhomes)",
     url: "https://mid-east.info/investor-interest-in-uae-property-gathers-pace-as-dubai-records-aed-73-8bn-in-residential-sales-despite-months-of-regional-uncertainty/"
   },
-  {
-    date: "2026-11-05",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai records 510 sales worth AED 1.51bn in a day — off-plan 56% of deals",
-    summary: "Dubai recorded 510 property sales worth AED 1.51 billion on 4 November 2026, per Dubai Land Department data reported on 5 November 2026. Off-plan accounted for 284 of the deals (56%) against 226 ready sales, though ready sales carried most of the value at AED 1.03 billion. The median sale price was AED 1.52 million and the average price was AED 1,739 per sq ft. Dubai Islands and Dubai South tied as busiest areas with 38 deals each.",
-    takeaway: "Off-plan still leads on deal count while ready leads on value — a normal split, so judge any launch on its own price per sq ft against the district median, not the daily headline.",
-    source: "BuyDubai.realestate (DLD data)",
-    url: "https://buydubai.realestate/dubai-property-4-november-2026-510-sales-aed-1-51bn-56-off-plan/"
-  },
-  {
-    date: "2026-11-04",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai October sales hit AED 32.64bn, residential value up 12.4% on September",
-    summary: "Dubai's property market recorded AED 32.64 billion in total sales in October 2026 — AED 25.15 billion residential plus AED 7.49 billion commercial — per Springfield Properties' latest Dubai Real Estate Report, published by Dubai News Week on 4 November 2026. Residential sales covered 10,178 transactions, with sales value up 12.40% on September; nearly 80% of residential sales were below AED 3 million, with the AED 1–3 million band accounting for 47.39% of deals. Off-plan properties represented more than 62% of residential transactions; Jumeirah Village Circle led areas with 812 sales, followed by Dubai South with 780, and 66 deals were priced above AED 25 million.",
-    takeaway: "The autumn rebound is led by the sub-AED 3m ticket — for off-plan buyers, end-user demand is deepest in the mid-market, so judge any launch by its price per sq ft against recent sold deals in the same district, not headline launch prices.",
-    source: "Dubai News Week (Springfield Properties report)",
-    url: "https://dubainewsweek.com/dubai-sees-strong-demand-for-homes-below-dhs3-million-as-property-sales-rise/"
-  },
-  {
-    date: "2026-11-04",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "MERED launches Riviera Residences Phase 2 on Al Reem Island",
-    summary: "MERED has announced Phase 2 of Riviera Residences on Al Reem Island, within Abu Dhabi Global Market, per UAE News 4U and MEP Middle East on 3–4 November 2026. The phase adds 389 apartments plus eight Bay Villas, six Sky Villas and a penthouse, designed by Herzog & de Meuron, with construction starting by year-end and completion targeted for Q2 2030. The announcement cites Abu Dhabi Real Estate Centre data showing residential sales across Al Reem and Al Maryah islands reached AED 10.5 billion in H1 2026, up 153% year-on-year; all pre-launch units at Riviera Residences 1 sold out in Q4 2025.",
-    takeaway: "Al Reem's 153% sales surge is the context behind this launch — but Phase 1's sell-out belongs to a year ago, so price Phase 2 against today's per-sq-ft sold prices on the island before committing.",
-    source: "MEP Middle East (MERED announcement)",
-    url: "https://www.mepmiddleeast.com/projects/riviera-residences-phase-2-launches"
-  },
-  {
-    date: "2026-11-03",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Casa Vista's AED 350m AQUORA sells out Phase 1 on Dubai Islands; Phase 2 opens",
-    summary: "Casa Vista Development's AED 350 million AQUORA project on Dubai Islands sold out its Phase 1 ahead of its official unveiling and has now released Phase 2, per the developer's announcement on EINPresswire on 3 November 2026. The project comprises 105 residences plus six waterfront retail spaces across a 50,000 sq ft plot, with handover scheduled for Q1 2028. The Phase 1 sell-out was celebrated at an unveiling at Madinat Jumeirah Arena on 28 October attended by more than 800 guests.",
-    takeaway: "Waterfront mid-size projects are still selling out at launch — for Phase 2, check the price per sq ft against Phase 1's, not just the sell-out headline.",
-    source: "EINPresswire (Casa Vista Development announcement)",
-    url: "https://www.einpresswire.com/article/954012300/casa-vista-development-builds-dubai-momentum-as-aquora-enters-its-second-residential-phase"
-  },];
+];
