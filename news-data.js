@@ -4,6 +4,36 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-13",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai keeps its global super-prime crown — 86 sales over $10m worth $1.57bn in Q3 2026",
+    summary: "Dubai retained its position as the world's top super-prime property market in Q3 2026, recording 86 sales of homes above $10 million worth $1.57 billion, per Knight Frank's Global Super-Luxury Homes Report, reported by The National on 13 November 2026. Hong Kong edged ahead on total value ($1.58bn across 78 deals) for the first time since 2022, but Dubai still led on deal count and remains comfortably ahead over the past 12 months, with 525 super-prime deals worth $9.25 billion. Activity fell 34% by count and 28% by value on the previous quarter, the second consecutive quarterly decline.",
+    takeaway: "The top spot holds, but volumes are cooling at the very top — the ultra-prime tier is not the off-plan market, so don't read a $10m headline as a launch-day price signal; judge off-plan launches on their own district's sold prices.",
+    source: "The National (Knight Frank)",
+    url: "https://www.thenationalnews.com/news/uae/2026/11/13/dubais-super-prime-property-sales-cling-on-to-global-top-spot/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews"
+  },
+  {
+    date: "2026-11-13",
+    tag: "uae",
+    tagLabel: "UAE",
+    title: "UAE real estate momentum holds across all five emirates — Abu Dhabi up 76%, Dubai near AED 625bn",
+    summary: "The UAE real estate sector continued its strong performance across the emirates, per WAM on 13 November 2026. Abu Dhabi recorded transactions worth AED 171.26 billion in the first nine months of 2026, up 76.1% in value, with foreign investment in its investment zones up 131% to AED 86.11 billion. Dubai's transactions approached AED 625 billion in the first ten months across 181,866 deals, with sales of about AED 411.98 billion, and Ras Al Khaimah recorded around AED 2.89 billion in the first half of 2026.",
+    takeaway: "Growth is broad-based, not Dubai-only — for off-plan buyers, that means compare new launches across emirates on sold prices and handover dates, not on the headline growth rate of any one market.",
+    source: "WAM (ADREC / DLD)",
+    url: "https://www.wam.ae/en/article/17iuia7-uae-real-estate-sector-maintains-strong-momentum"
+  },
+  {
+    date: "2026-11-12",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Nearly half of Al Marjan Island property searches come from overseas — the highest share in the UAE",
+    summary: "Property Finder's September 2026 data shows Al Marjan Island recorded the highest share of property searches originating from outside the UAE among the four locations analysed, reported by Dubai News Week on 12 November 2026. Around 50% of searches for the island came from abroad, rising to 52.1% for residential sales, while Ras Al Khaimah as a whole drew about a third of searches from overseas, broadly matching Dubai. Villas attract 23% of buyer interest in RAK despite just 10% of listings, and the AED 1–2 million price band leads demand on the island.",
+    takeaway: "International interest in Al Marjan is real, but searches are not sales — before buying the Wynn halo, check sold prices on the island and each project's handover against the resort's September 2027 opening.",
+    source: "Dubai News Week (Property Finder)",
+    url: "https://dubainewsweek.com/al-marjan-island-property-searches/"
+  },
+  {
     date: "2026-11-12",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -172,35 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "The opening date is now firm from the operator itself — for RAK off-plan buyers, the catalyst window is real, but check any project's handover against September 2027 and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
     source: "GGRAsia (Wynn Resorts Q3 earnings call)",
     url: "https://www.ggrasia.com/enclave-hotel-in-macau-a-no-brainer-uae-resort-handed-to-ops-team-by-july-2027-wynn-ceo"
-  },
-  {
-    date: "2026-11-05",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai South leads off-plan sales for an eighth straight month — 720 deals in October",
-    summary: "Dubai South recorded 720 off-plan sales worth AED 894.6 million in October 2026, keeping its lead as Dubai's top area for new-property purchases for an eighth consecutive month, per Dubai News Week on 5 November 2026, citing fäm Properties and DXBinteract data. Dubai recorded 11,974 sales worth AED 35.01 billion in October, up 18% in value on September, with off-plan accounting for 7,609 deals worth AED 19.2 billion. Freehold rental contracts also hit 44,841 in October, keeping 2026 on course for a record rental year.",
-    takeaway: "Eight months at the top is a pattern, not a blip — Dubai South demand is tied to the Al Maktoum airport build-out, so compare launch prices there against the district's own recent sold prices before buying the airport story.",
-    source: "Dubai News Week (fäm Properties / DXBinteract)",
-    url: "https://dubainewsweek.com/dubai-south-leads-off-plan-property-sales-for-eighth-consecutive-month/"
-  },
-  {
-    date: "2026-11-05",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Playa Viva targets Q2 2027 handover — first Al Marjan Island homes delivered before Wynn opens",
-    summary: "Uniestate's Playa Viva development on Al Marjan Island is on course for handover in Q2 2027, which the developer says would make it the first residential project delivered on the island ahead of the Wynn Al Marjan Island resort opening, per LanaTime on 5 November 2026. The project is in its final sales phase with a substantial majority of units already sold, and the developer says exclusive mortgage offers for non-resident buyers will be announced shortly. RAK recorded 1.35 million visitors in 2025 and targets more than 3.5 million a year by 2030.",
-    takeaway: "First-mover handovers on Al Marjan Island are arriving months before the resort — for buyers, that means rental demand is still unproven until Wynn opens, so price the gap, not just the promise.",
-    source: "LanaTime (Uniestate)",
-    url: "https://en.lanatime.com/news/playa-viva-targets-q2-2027-handover-ahead-of-wynn-opening-2026-11-05/"
-  },
-  {
-    date: "2026-11-05",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai Q3 sales hit AED 73.8bn as buyer enquiries reach highest since January 2024",
-    summary: "Dubai recorded AED 73.8 billion in residential sales in Q3 2026, with more than 34,600 homes changing hands between July and September, per betterhomes, reported on 5 November 2026. Buyer enquiries recorded by the brokerage rose steadily from March through September, reaching their highest monthly level since January 2024. Dubai also added more than 161,000 residents between January and July 2026.",
-    takeaway: "Demand is being driven by people actually moving to Dubai, not just investors — for off-plan buyers, that means projects handing over into a growing end-user market, so weigh rental demand in the district, not just launch pricing.",
-    source: "Middle East Business News (betterhomes)",
-    url: "https://mid-east.info/investor-interest-in-uae-property-gathers-pace-as-dubai-records-aed-73-8bn-in-residential-sales-despite-months-of-regional-uncertainty/"
   },
 ];
