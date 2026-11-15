@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-14",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 2,381 sales worth AED 7.61bn in a week — off-plan still 53% of deals",
+    summary: "Dubai registered 2,381 property sales worth AED 7.61 billion in the week from 7 to 13 November 2026, per Dubai Land Department open data reported by Dubai Week on 14 November 2026. Off-plan accounted for 1,270 of the deals (53%) against 1,111 ready sales, and 891 mortgages worth AED 2.56 billion were registered in the same week. Deal count eased from 2,682 the previous week while total value held flat at AED 7.61 billion.",
+    takeaway: "Same weekly value on fewer deals means the average ticket rose while volumes eased — for off-plan buyers, the market is still moving but launch-day pressure is lower, so compare each project on its district's median price per sq ft.",
+    source: "Dubai Week (DLD open data)",
+    url: "https://www.dubaiweek.ae/dubai-in-numbers/property-transactions/"
+  },
+  {
+    date: "2026-11-13",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Wynn Al Marjan rooms to go on sale soon — CEO says demand will exceed supply",
+    summary: "Wynn Resorts will begin selling rooms at Wynn Al Marjan Island 'quite soon', chief executive Craig Billings said on the company's third-quarter earnings call, per Khaleej Times on 13 November 2026. Billings said demand is expected to exceed supply across the resort's 1,500 keys, and the US$5.7 billion resort remains on schedule to open in September 2027, with fit-out of all guest rooms under way. The project budget was increased by about US$600 million in August 2026, reflecting higher material, shipping and other costs.",
+    takeaway: "Room sales starting is the next real milestone before the September 2027 opening — for RAK off-plan buyers, check any project's handover against that date and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
+    source: "Khaleej Times (Wynn Resorts Q3 earnings call)",
+    url: "https://www.khaleejtimes.com/business/wynn-al-marjan-rooms-to-go-on-sale-soon-as-ceo-sees-demand-exceeding-supply"
+  },
+  {
     date: "2026-11-13",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Off-plan is still winning on deal count week after week — for buyers, that means launch choice is wide, so judge each project on its district's median price per sq ft, not the daily headline.",
     source: "BuyDubai.realestate (DLD data)",
     url: "https://buydubai.realestate/dubai-property-6-nov-2026-7-day-sales-reach-2-709-worth-aed-7-51bn/"
-  },
-  {
-    date: "2026-11-06",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "RAK Properties targets record 1,400+ handovers by year-end as Wynn opening nears",
-    summary: "RAK Properties reported revenue of AED 809.72 million and net profit after tax of AED 111.37 million for the first nine months of 2026, and said it is preparing to make more than 1,400 homes ready for handover by the end of the year, per Khaleej Times on 6 November 2026. Unit sales slowed to 260 units worth AED 476 million, which the developer attributed to regional volatility and a recalibrated launch calendar. CEO Sameh Muhtadi said the handover target 'would be a record year' for the company, citing major infrastructure progress and 'the positive sentiment driven by the Wynn's anticipated opening next year'.",
-    takeaway: "Handovers are the proof point RAK buyers have been waiting for — over 1,400 homes landing before Wynn opens in September 2027 means completed stock is coming, so compare off-plan prices against what actually completes and resells.",
-    source: "Khaleej Times (RAK Properties 9M 2026 results)",
-    url: "https://prod.khaleejtimes.com/business/rak-properties-targets-record-home-handovers-by-year-end-despite-sales-slowdown"
-  },
-  {
-    date: "2026-11-06",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wynn reaffirms September 2027 opening for Al Marjan Island resort — and eyes more UAE investment",
-    summary: "Wynn Resorts CEO Craig Billings reaffirmed on the company's third-quarter earnings call that the US$5.7 billion Wynn Al Marjan Island resort in Ras Al Khaimah will open in September 2027, per GGRAsia on 6 November 2026. Fitting-out is under way, with the resort handed to its operations team in phases through July 2027; Billings said demand already exceeds supply at the 1,530-key resort. He added that Wynn holds a land bank in the UAE and 'should think about how we're going to use that land bank, because there's significant returns to be earned there.'",
-    takeaway: "The opening date is now firm from the operator itself — for RAK off-plan buyers, the catalyst window is real, but check any project's handover against September 2027 and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
-    source: "GGRAsia (Wynn Resorts Q3 earnings call)",
-    url: "https://www.ggrasia.com/enclave-hotel-in-macau-a-no-brainer-uae-resort-handed-to-ops-team-by-july-2027-wynn-ceo"
   },
 ];
