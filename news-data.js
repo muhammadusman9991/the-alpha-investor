@@ -87,6 +87,16 @@ const NEWS_ITEMS = [
     date: "2026-11-11",
     tag: "dubai",
     tagLabel: "Dubai",
+    title: "Dubai home values rise 0.1% in October — first gain since February after a 10.2% fall",
+    summary: "Dubai residential values rose 0.1 per cent in October 2026 to 218.9 points on the ValuStrat Price Index, the first monthly gain since February and the end of a cumulative fall of 10.2 per cent, per Khaleej Times on 11 November 2026. Values are still 5.7 per cent below a year earlier — villas 4.8 per cent lower and apartments 7.2 per cent lower — but 19 of the 72 tracked communities posted monthly gains and none fell. Ready home transactions rose 23.9 per cent on the month to 3,602 deals, while off-plan registrations eased to 7,042, still about two-thirds of residential activity.",
+    takeaway: "One month of 0.1 per cent is a pause, not a recovery — for off-plan buyers, use the flatter market to negotiate on recent sold prices in the specific building, not on the launch-day price.",
+    source: "Khaleej Times (ValuStrat October 2026) via Castilion Estates",
+    url: "https://www.castilion-estates.com/journal/dubai-home-values-rise-0-1-per-cent-in-october-the-first-gain-since-february"
+  },
+  {
+    date: "2026-11-11",
+    tag: "dubai",
+    tagLabel: "Dubai",
     title: "Dubai October sales rebound 18% to Dh34.8bn — first monthly rise after two months of decline",
     summary: "Dubai recorded 11,883 property transactions worth Dh34.8 billion in October 2026, up 18% in value and 5% in volume on September, per Dubai Land Department data analysed by Property Finder and reported by Gulf News on 11 November 2026. Residential deals rose 6% to 11,294 worth Dh30.2 billion; off-plan sales held at 6,579 deals but their value rose to Dh16.7 billion from Dh13.6 billion in September, while resales climbed 13% to 5,304 deals. Mortgage registrations rose 5.2% to 3,811, the third consecutive monthly increase, and middle-income buyers earning Dh20,000–Dh59,999 a month made up 68.5% of mortgage applications.",
     takeaway: "The rebound is real but still below early-2026 volumes — for off-plan buyers, the signal is that mid-market demand is broadening, so compare any launch price per sq ft against the district's DLD median, not the monthly headline.",
@@ -193,14 +203,5 @@ const NEWS_ITEMS = [
     source: "The National (ADREC 9M 2026 figures)",
     url: "https://www.thenationalnews.com/business/property/2026/11/07/abu-dhabi-property-transactions-jump-76-to-dh171bn-in-first-nine-months-of-2026/"
   },
-  {
-    date: "2026-11-07",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai logs 376 sales worth AED 1.21bn in a day; 7-day total hits AED 7.51bn",
-    summary: "Dubai recorded 376 property sales worth AED 1.21 billion on 6 November 2026, per Dubai Land Department data reported by BuyDubai.realestate on 7 November 2026. Off-plan accounted for 200 deals (53%) worth AED 484.9 million, while ready property led on value at AED 724.2 million. Over the previous seven days the market logged 2,709 deals worth AED 7.51 billion, 57% of them off-plan; Dubai South was the busiest area with 42 deals, 95% off-plan, at a median AED 1,559 per sq ft.",
-    takeaway: "Off-plan is still winning on deal count week after week — for buyers, that means launch choice is wide, so judge each project on its district's median price per sq ft, not the daily headline.",
-    source: "BuyDubai.realestate (DLD data)",
-    url: "https://buydubai.realestate/dubai-property-6-nov-2026-7-day-sales-reach-2-709-worth-aed-7-51bn/"
-  },
 ];
+
