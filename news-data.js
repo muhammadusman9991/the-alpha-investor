@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-16",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai luxury off-plan sales hit AED 77.93bn in ten months — 6,441 deals above AED 5m",
+    summary: "Dubai recorded AED 77.93 billion in developer off-plan sales of homes priced above AED 5 million in the first ten months of 2026, per Dubai Land Department data analysed by fäm Properties and reported on 16 November 2026. Buyers paid an average of AED 12.1 million across 6,441 villas, apartments and townhouses, with villas accounting for 57% of the value at AED 44.45 billion. The AED 5–10 million bracket led on volume with 4,114 deals worth AED 27.54 billion, and Al Yelayiss 5 was the top area with 949 luxury developer sales.",
+    takeaway: "Luxury off-plan demand is concentrated — villas and the AED 5–10m bracket carry the volume — so for buyers, the headline total is less useful than the per-sq-ft price of the specific project against its district's recent sold prices.",
+    source: "MENAFN (fäm Properties / DLD data)",
+    url: "https://menafn.com/1111966688/Dubai-Records-AED7793-Billion-In-Developer-Off-Plan-Luxury-Home-Sales-In-First-Ten-Months-Of-2026"
+  },
+  {
+    date: "2026-11-16",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Al Ain Asset Management and Emaar launch Dh8bn of Abu Dhabi projects — first 452 units on Al Maryah Island",
+    summary: "Abu Dhabi-based Al Ain Asset Management is partnering with Emaar Hospitality to launch five property projects valued at Dh8 billion (US$2.17 billion) in Abu Dhabi, per The National on 16 November 2026. The first project comprises 452 apartment units plus penthouses on Al Maryah Island, with one-bedroom homes starting at Dh3.7 million and sales set to begin soon. The launch comes as Abu Dhabi recorded 38,483 property transactions worth Dh171.26 billion in the first nine months of 2026, per the Abu Dhabi Real Estate Centre.",
+    takeaway: "A Dh8bn pipeline on Al Maryah Island adds real supply to the capital's strongest district — compare the Dh3.7m entry price per sq ft against Al Maryah's recent sold prices before booking, and check the payment plan and escrow account.",
+    source: "The National (via IndexBox)",
+    url: "https://www.indexbox.io/blog/al-ain-asset-management-and-emaar-hospitality-launch-dh8-billion-abu-dhabi-property-projects/"
+  },
+  {
     date: "2026-11-14",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -183,25 +203,4 @@ const NEWS_ITEMS = [
     source: "Lucretia International (Danube Properties)",
     url: "https://www.lucretia-international.com/en/projects/danube-shahrukhz-residences-by-danube"
   },
-  {
-    date: "2026-11-07",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai registers 2,682 sales worth AED 7.61bn in a week — 59% off-plan",
-    summary: "Dubai registered 2,682 property sales worth AED 7.61 billion in the week from 31 October to 6 November 2026, per Dubai Land Department open data reported by Dubai Week on 7 November 2026. Off-plan accounted for 1,573 of the deals (59%) against 1,109 ready sales. In the same week 1,196 mortgages worth AED 5.55 billion and 349 gift transfers worth AED 2.62 billion were registered.",
-    takeaway: "Off-plan is still the majority of weekly deals — for buyers, that means launch choice stays wide, so judge each project on its district's median price per sq ft, not the weekly headline.",
-    source: "Dubai Week (DLD open data)",
-    url: "https://www.dubaiweek.ae/dubai-in-numbers/property-transactions/"
-  },
-  {
-    date: "2026-11-07",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "Abu Dhabi transactions jump 76% to Dh171bn in first nine months of 2026",
-    summary: "Abu Dhabi recorded real estate transactions worth Dh171.26 billion in the first nine months of 2026, up 76.1% on the same period of 2025, per the Abu Dhabi Real Estate Centre (ADREC), reported by The National on 7 November 2026. Sales value more than doubled to Dh119.33 billion across 23,749 sales, up from Dh58.20 billion across 15,910 sales a year earlier. Al Reem Island led districts at Dh29.86 billion, followed by Al Hudayriyat Island at Dh28.62 billion; foreign investment in Abu Dhabi's investment zones rose 131% to Dh86.11 billion.",
-    takeaway: "The capital's surge is real but concentrated on a few islands — for off-plan buyers, Al Reem and Al Maryah are where the money is moving, so compare any new launch there against the island's recent sold prices, not the launch price alone.",
-    source: "The National (ADREC 9M 2026 figures)",
-    url: "https://www.thenationalnews.com/business/property/2026/11/07/abu-dhabi-property-transactions-jump-76-to-dh171bn-in-first-nine-months-of-2026/"
-  },
 ];
-
