@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-17",
+    tag: "uae",
+    tagLabel: "UAE",
+    title: "Dubai tops global branded residences ranking — RAK third, Abu Dhabi eighth",
+    summary: "Dubai ranks first, Ras Al Khaimah third and Abu Dhabi eighth among the world's top branded residences markets in Savills' Branded Residences Annual Report 2026–2027, reported on 16–17 November 2026. The UAE ranks second globally at country level, behind the United States, and the GCC holds 99 completed branded residential projects with a further 251 in the pipeline — the largest pipeline of any sub-region covered. Savills puts the average global brand premium at 38% in 2026, up from 33% in 2025.",
+    takeaway: "Branded residences keep expanding, but a brand premium is paid at purchase and only partly proven at resale — compare any branded launch per sq ft against unbranded stock in the same district before booking.",
+    source: "The Gulf Pulse (Savills Branded Residences Annual Report 2026–2027)",
+    url: "https://thegulfpulse.com/uae-branded-residences-top-10-markets/"
+  },
+  {
+    date: "2026-11-16",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Meraas releases new phase of Solaya beachfront community in Jumeirah 1",
+    summary: "Meraas has released a new phase of Solaya, its beachfront residential community in Jumeirah 1, announced on 16 November 2026 and reported by Emirates News Agency (WAM). The limited collection includes Classic Residences of two to five bedrooms and Signature Residences, including four-bedroom duplexes with private gardens and pools. The Foster + Partners-designed community holds 234 residences across nine buildings on a 40-acre beachfront site; prices, payment plan and handover date for the new phase were not announced.",
+    takeaway: "New beachfront supply in established Jumeirah 1 is rare, but with no prices published yet, wait for the official price list and compare per sq ft against recent Jumeirah sold prices before reserving.",
+    source: "Mina Property (WAM / Dubai Holding Real Estate)",
+    url: "https://minaproperty.com/solaya-meraas-jumeirah-1/"
+  },
+  {
     date: "2026-11-16",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "Off-plan is still more than half of weekly sales — for buyers, that means launch choice stays wide, so judge each project on its district's median price per sq ft, not the weekly headline.",
     source: "Dubai Market Watch (DLD / Dubai REST)",
     url: "https://dubaimarketwatch.com/dubai-real-estate-transactions-november-2026/"
-  },
-  {
-    date: "2026-11-08",
-    tag: "abudhabi",
-    tagLabel: "Abu Dhabi",
-    title: "IREIS 2026 opens tomorrow in Abu Dhabi as emirate's project pipeline tops $758bn",
-    summary: "The International Real Estate and Investment Show (IREIS) 2026 runs 10–12 November at ADNEC Centre Abu Dhabi, with more than 4,000 buyers, investors and property professionals expected, per IndexBox on 8 November 2026, citing TradeArabia. Abu Dhabi's active development pipeline is valued above $758.79 billion (AED 2.78 trillion), per BNC Networks. Abu Dhabi recorded 21,416 home sales worth AED 95.8 billion in the first nine months of 2026, with total real estate transactions of AED 175.7 billion, per the Abu Dhabi Real Estate Centre.",
-    takeaway: "A showcase week for the capital — for off-plan buyers, the pipeline figure is a long-term demand signal, not a launch price guide; compare any Al Reem or Al Maryah launch against the island's recent sold prices.",
-    source: "IndexBox (TradeArabia / BNC Networks / ADREC)",
-    url: "https://www.indexbox.io/blog/abu-dhabi-to-host-ireis-2026-as-75879-billion-development-pipeline-drives-real-estate-investment/"
-  },
-  {
-    date: "2026-11-08",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Danube opens EOI for Shahrukhz Residences in Dubai Maritime City",
-    summary: "Danube Properties is collecting AED 50,000 expression-of-interest cheques for Shahrukhz Residences in Dubai Maritime City, with the sales launch set for November 2026 and handover listed as December 2029, per Lucretia International on 8 November 2026. The exact plot, unit mix and payment plan have not yet been made public, and the project is taking shape on the artificial peninsula between Port Rashid and Dubai Drydocks.",
-    takeaway: "EOI stage means no firm prices yet — wait for the plot, unit mix and payment plan before comparing it against neighbouring Maritime City projects, and confirm the RERA registration and escrow account at reservation.",
-    source: "Lucretia International (Danube Properties)",
-    url: "https://www.lucretia-international.com/en/projects/danube-shahrukhz-residences-by-danube"
   },
 ];
