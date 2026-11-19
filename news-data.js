@@ -4,6 +4,16 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-18",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Meraas launches 97 villas at Nad Al Sheba Gardens — and a private school in the community",
+    summary: "Meraas, a member of Dubai Holding Real Estate, has launched 97 four- and five-bedroom standalone villas at Nad Al Sheba Gardens, reported on 18 November 2026. The release comprises 55 four-bedroom and 42 five-bedroom homes along the northern edge of the master community, many overlooking green spaces and landscaped parks. Alongside the homes, Meraas announced plans for a private school on the development's north-western boundary, and the wider masterplan includes a wave pool, multi-sports court, cycling and running tracks, and the adjacent Nad Al Sheba Gardens Mall. No prices or handover date were disclosed.",
+    takeaway: "Family villas plus a school in one release is aimed at end-user buyers, not flippers — with no prices published, wait for the official price list and compare per sq ft against recent villa sales in Nad Al Sheba before reserving.",
+    source: "Emirates 24|7 (via UECN)",
+    url: "https://uecn.org/meraas-launches-97-villas-and-plans-private-school-at-nad-al-sheba-gardens/"
+  },
+  {
     date: "2026-11-17",
     tag: "uae",
     tagLabel: "UAE",
@@ -193,14 +203,5 @@ const NEWS_ITEMS = [
     source: "IndexBox (Trade Arabia)",
     url: "https://www.indexbox.io/blog/samana-collecta-and-maserati-launch-maserati-island-in-dubais-the-world-islands/"
   },
-  {
-    date: "2026-11-09",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai logs AED 15.98bn in transactions in a week — off-plan 57% of sales",
-    summary: "Dubai recorded AED 15.98 billion in total property transactions across 4,236 deals between 2 and 6 November 2026, per Dubai Land Department data via Dubai REST, reported by Dubai Market Watch on 9 November 2026. Sales alone were AED 7.51 billion across 2,709 deals; off-plan accounted for 1,550 of them (57%) worth AED 3.01 billion, while ready sales totalled AED 4.5 billion across 1,159 deals.",
-    takeaway: "Off-plan is still more than half of weekly sales — for buyers, that means launch choice stays wide, so judge each project on its district's median price per sq ft, not the weekly headline.",
-    source: "Dubai Market Watch (DLD / Dubai REST)",
-    url: "https://dubaimarketwatch.com/dubai-real-estate-transactions-november-2026/"
-  },
 ];
+
