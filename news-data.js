@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-20",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "AVENEW launches The St. Regis Residences at Dubai Islands — 248 beachfront homes, completion Q4 2030",
+    summary: "AVENEW Development has launched The St. Regis Residences at Dubai Islands, a beachfront development in collaboration with Marriott International, announced on 20 November 2026. The project comprises 248 residences across two buildings, with one- to five-bedroom homes, and is expected to be completed in Q4 2030. It is the first of three adjacent branded residential and hospitality projects AVENEW plans on Dubai Islands. No prices or payment plan were disclosed at launch.",
+    takeaway: "A St. Regis flag on Dubai Islands adds another branded name to the island's pipeline — with no prices published, compare the eventual price list per sq ft against the island's completed resale stock before reserving, and check the escrow account.",
+    source: "Khaleej Times (AVENEW Development)",
+    url: "https://www.khaleejtimes.com/business/property/avenew-development-launches-the-st-regis-residences-at-dubai-islands?amp=1"
+  },
+  {
+    date: "2026-11-18",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Ras Al Khaimah named the world's No. 1 city for expats in 2026 — Dubai 4th, Abu Dhabi 5th",
+    summary: "Ras Al Khaimah has been named the world's No. 1 city for expatriates in the 2026 Expat City Ranking by InterNations, announced on 18 November 2026. The emirate placed first among 33 cities worldwide, rising from sixth in 2024, based on the annual Expat Insider survey of 8,000 expatriates from 162 nationalities. RAK ranked first in the Ease of Settling In, Working Abroad and Expat Essentials indices and second in Personal Finance and General Happiness; 69% of RAK respondents were positive on housing affordability, against 32% worldwide. Dubai ranked fourth and Abu Dhabi fifth, putting three UAE cities in the world's top five.",
+    takeaway: "A No. 1 expat ranking is a demand signal, not a price guarantee — for RAK off-plan buyers, it strengthens the case for rental demand near Al Marjan and Mina Al Arab, but judge any project on its handover date and sold prices per sq ft, not the headline.",
+    source: "WAM (InterNations Expat City Ranking 2026)",
+    url: "https://www.wam.ae/en/article/c3bg9t6-ras-khaimah-named-world%E2%80%99s-no-city-for-expats-2026"
+  },
+  {
     date: "2026-11-18",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,26 +202,6 @@ const NEWS_ITEMS = [
     takeaway: "A whole downtown district is a long-horizon bet — delivery starts in 2030, so this is about Al Marjan's shape after Wynn opens, not a near-term handover; weigh any early pricing against the island's completed resale stock.",
     source: "LanaTime",
     url: "https://en.lanatime.com/news/ardee-launches-downtown-rak-on-al-marjan-island-2026-11-10/"
-  },
-  {
-    date: "2026-11-10",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Etihad Rail station lifts Jumeirah Golf Estates — off-plan villa prices up 11.2% year-on-year",
-    summary: "Jumeirah Golf Estates is seeing demand reshape around connectivity, per Gulf News on 10 November 2026, citing Bayut data. Etihad Rail's Dubai Al Yalayis Station opened on 30 September 2026 near the community, and median asking prices for new off-plan villas reached Dh2,987 per sq ft in September, up 11.2% year-on-year. Views of off-plan listings in the area rose 39% in September, and median asking rent for villas reached Dh850,000 a year. A planned Dubai Metro Gold Line interchange is expected to strengthen links further.",
-    takeaway: "Transport openings are already moving prices in Jumeirah Golf Estates — the 11.2% annual rise is asking prices, not sold prices, so check the DLD register for what villas actually closed at before paying the connectivity premium.",
-    source: "Gulf News (Bayut data)",
-    url: "https://gulfnews.com/business/property/connectivity-boost-drives-demand-at-jumeirah-golf-estates-1.500740873"
-  },
-  {
-    date: "2026-11-09",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Samana and Maserati launch Maserati Island — 840 branded residences on The World Islands",
-    summary: "Samana Developers' brand Samana Collecta has partnered with Maserati to launch Maserati Island in The World Islands, Dubai, per IndexBox on 9 November 2026, citing Trade Arabia. The master-planned destination will hold 840 branded residences plus seven water villas and two tree villas, with the first release covering 232 residences with private pools in studio to four-bedroom configurations.",
-    takeaway: "Branded launches keep arriving at the top end — the entry premium on a branded island address is real, but the resale premium is unproven, so compare per-sq-ft against completed Dubai waterfront stock before booking.",
-    source: "IndexBox (Trade Arabia)",
-    url: "https://www.indexbox.io/blog/samana-collecta-and-maserati-launch-maserati-island-in-dubais-the-world-islands/"
   },
 ];
 
