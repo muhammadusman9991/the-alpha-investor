@@ -4,6 +4,16 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-21",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 2,566 sales worth AED 7.75bn in a week — off-plan 59% of deals, mortgages jump",
+    summary: "Dubai registered 2,566 property sales worth AED 7.75 billion in the week from 14 to 20 November 2026, per Dubai Land Department open data reported by Dubai Week on 21 November 2026. Off-plan accounted for 1,519 of the deals (59%) against 1,047 ready sales, up from 1,270 off-plan deals the previous week. In the same week 1,284 mortgages worth AED 3.45 billion were registered, up from 891 the week before.",
+    takeaway: "Off-plan is still carrying the market even as launches slow — for buyers, the signal is steady demand with less launch-day pressure, so compare each project on its district's median price per sq ft and check the escrow account.",
+    source: "Dubai Week (DLD open data)",
+    url: "https://www.dubaiweek.ae/dubai-in-numbers/property-transactions/"
+  },
+  {
     date: "2026-11-20",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -187,21 +197,11 @@ const NEWS_ITEMS = [
     date: "2026-11-10",
     tag: "dubai",
     tagLabel: "Dubai",
-    title: "Nakheel launches Palm Springs villas from ~AED 3.9m; BEYOND launches SHIONE on Dubai Islands",
-    summary: "Nakheel and BEYOND Developments each launched a major project on Monday 9 November 2026, per Dubai Chronicle on 10 November 2026. Nakheel's Palm Springs is a villa and townhouse community near Palm Jebel Ali, with starting prices of about AED 3.9 million, beside Sheikh Zayed Road and a metro station. BEYOND's SHIONE is a beachfront apartment project inside its SIORA masterplan on Dubai Islands, positioned at the upper end of Dubai Islands off-plan pricing. Broker Sterling Capital reports Bay Estate on Dubai Islands sold over 350 properties within seven hours of release, though that is not yet confirmed by final transaction records.",
-    takeaway: "Two very different launches on the same day — family villas near Palm Jebel Ali at ~AED 3.9m versus premium beachfront on Dubai Islands — so compare each against recent sold prices in its own area, not the launch-day buzz.",
-    source: "Dubai Chronicle",
-    url: "https://www.dubaichronicle.com/2026/11/10/dubai-new-property-launches-nakheel-beyond-projects/"
-  },
-  {
-    date: "2026-11-10",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Ardee unveils Downtown RAK on Al Marjan Island — AED 15bn+ portfolio, delivery from 2030",
-    summary: "Ardee, a destination developer founded in 2023, officially launched its brand on 10 November 2026 with Ardee Downtown, a mixed-use district on Al Marjan Island described as RAK's first fully-fledged premium downtown, per LanaTime. The district spans 3.5 million sq ft with apartments, branded residences and townhouses plus over 600,000 sq ft of retail and dining, and sits in a portfolio valued at over AED 15 billion in gross development value. Ardee Views, twin residential towers with 652 units, was unveiled as the gateway to the district, and phased delivery is scheduled from 2030. Partners include Fairmont (Accor) and master developer Marjan.",
-    takeaway: "A whole downtown district is a long-horizon bet — delivery starts in 2030, so this is about Al Marjan's shape after Wynn opens, not a near-term handover; weigh any early pricing against the island's completed resale stock.",
-    source: "LanaTime",
-    url: "https://en.lanatime.com/news/ardee-launches-downtown-rak-on-al-marjan-island-2026-11-10/"
+    title: "Dubai approves Dh2bn Metro extension to Al Maktoum Airport City — services from 2031",
+    summary: "Dubai has approved a Dh2 billion extension of the Metro's Route 2020 line to Al Maktoum International Airport City, with passenger services scheduled to begin in 2031, per Gulf News on 10 November 2026. The 3-kilometre extension adds two new stations and links to the airport's West Terminal, the airport express line and Etihad Rail's high-speed rail network. The approval came from Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, Crown Prince of Dubai, as part of a package of strategic projects worth more than Dh11 billion.",
+    takeaway: "A scheduled rail link to the airport city is a long-term catalyst for Dubai South — for off-plan buyers there, it supports the area's case, but judge any project on its handover date and sold prices per sq ft, not on a 2031 opening alone.",
+    source: "Gulf News",
+    url: "https://gulfnews.com/uae/dubai/sheikh-hamdan-unveils-more-than-dh11-billion-plan-for-dubais-future-1.500742726"
   },
 ];
 
