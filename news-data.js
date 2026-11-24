@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-24",
+    tag: "rak",
+    tagLabel: "Ras Al Khaimah",
+    title: "Dara Properties buys 50,000 sq ft plot at RAK Central for a 27-storey tower — ~350 homes, due Q4 2027",
+    summary: "Marjan, the master developer of freehold property in Ras Al Khaimah, has agreed a deal with Dara Properties for a 50,000 sq ft plot at RAK Central, its newest mixed-use destination, reported on 24 November 2026. Dara will build a 27-floor residential tower of around 350 studios and one- to three-bedroom apartments, with commercial and retail space, scheduled for completion in Q4 2027. It is Dara's first project in Ras Al Khaimah. RAK Central's masterplan includes 3 million sq ft of office space, more than 4,000 homes and four hotels.",
+    takeaway: "RAK Central keeps pulling new developers in — for off-plan buyers, the Q4 2027 handover is close enough to judge on the developer's delivery record, so compare any price per sq ft against Mina Al Arab's recent sold prices.",
+    source: "Gulf Construction Online (Marjan)",
+    url: "https://gulfconstructiononline.com/ArticleTA/294947/dara-properties-in-deal-with-marjan-to-buy-prime-rak-plot-"
+  },
+  {
+    date: "2026-11-22",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai Metro Blue Line hits 29% completion — opening set for 9 September 2029",
+    summary: "Construction of Dubai's Metro Blue Line has reached 29 per cent, the RTA confirmed during Sheikh Hamdan's site visit on 22 November 2026, reported by Gulf News. Tunnel excavation is 55 per cent complete, underground stations 32 per cent, and bridge piers 62 per cent. The AED 20.5 billion, 30km line will serve 14 stations — including Dubai Creek Harbour, Dubai Festival City, International City, Dubai Silicon Oasis and Dubai Academic City — and is scheduled to open on 9 September 2029.",
+    takeaway: "A metro line three years from opening is a slow-burn catalyst, not a launch-day signal — for off-plan buyers near its stations, it supports the area's long-term case, but judge any project on its handover date and sold prices per sq ft, not the 2029 opening alone.",
+    source: "Gulf News (RTA)",
+    url: "https://gulfnews.com/uae/dubai/sheikh-hamdan-reviews-dubai-metro-blue-line-progress-as-project-nears-30-completion-1.500756801"
+  },
+  {
     date: "2026-11-21",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,26 +202,6 @@ const NEWS_ITEMS = [
     takeaway: "The rebound is real but still below early-2026 volumes — for off-plan buyers, the signal is that mid-market demand is broadening, so compare any launch price per sq ft against the district's DLD median, not the monthly headline.",
     source: "Gulf News (DLD / Property Finder)",
     url: "https://gulfnews.com/business/property/dubai-property-sales-jump-18-to-dh348-billion-1.500742615"
-  },
-  {
-    date: "2026-11-11",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Danube sales up 14% despite market slowdown — Shahrukhz Residences switches to 30:70 plan",
-    summary: "Danube Properties' sales rose 14% year on year despite a slowdown in Dubai's property market since February, founder Rizwan Sajan said, per Business Times on 11 November 2026. For Shahrukhz Residences, its 60-storey project in Dubai Maritime City due for completion in Q4 2029, Danube has dropped its usual 1% monthly plan for a 30:70 structure — 30% over the first 18 months and 70% on handover — with an average ticket of about AED 1.65 million. Sajan also said Dubai's population grew by more than 200,000 between January and October 2026, to around 4.8 million.",
-    takeaway: "A back-ended plan lowers the early cash outlay but concentrates 70% at handover — check the mortgage you'll need in 2029 before booking on the plan alone, and confirm the RERA registration and escrow account.",
-    source: "Business Times (Danube Properties)",
-    url: "https://www.btin.co.in/danube-properties-sales-rise-14-despite-dubai-slowdown-122536"
-  },
-  {
-    date: "2026-11-10",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai approves Dh2bn Metro extension to Al Maktoum Airport City — services from 2031",
-    summary: "Dubai has approved a Dh2 billion extension of the Metro's Route 2020 line to Al Maktoum International Airport City, with passenger services scheduled to begin in 2031, per Gulf News on 10 November 2026. The 3-kilometre extension adds two new stations and links to the airport's West Terminal, the airport express line and Etihad Rail's high-speed rail network. The approval came from Sheikh Hamdan bin Mohammed bin Rashid Al Maktoum, Crown Prince of Dubai, as part of a package of strategic projects worth more than Dh11 billion.",
-    takeaway: "A scheduled rail link to the airport city is a long-term catalyst for Dubai South — for off-plan buyers there, it supports the area's case, but judge any project on its handover date and sold prices per sq ft, not on a 2031 opening alone.",
-    source: "Gulf News",
-    url: "https://gulfnews.com/uae/dubai/sheikh-hamdan-unveils-more-than-dh11-billion-plan-for-dubais-future-1.500742726"
-  },
+  }
 ];
 
