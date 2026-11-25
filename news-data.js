@@ -5,6 +5,16 @@
 const NEWS_ITEMS = [
   {
     date: "2026-11-24",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Nakheel launches 216 waterfront homes at Palm Central Private Residences on Palm Jebel Ali",
+    summary: "Nakheel has launched 216 new waterfront homes at Palm Central Private Residences on Palm Jebel Ali, announced on 24 November 2026. The homes sit in three stepped buildings overlooking the Cove waterway between Fronds C and D, covering one- to five-bedroom apartments, four-bedroom duplex townhouses and five-bedroom penthouses. This is the third release at Palm Central, after 212 homes in October 2025 and 222 in June 2026, bringing the project to 650 homes; the first Palm Jebel Ali villas are due for phased handover from early 2027.",
+    takeaway: "Palm Jebel Ali keeps building toward its first handovers in early 2027 — with no prices published for this release, compare any price list per sq ft against recent Palm Jebel Ali sold prices and confirm the escrow account before booking.",
+    source: "Gulf News (Nakheel)",
+    url: "https://gulfnews.com/amp/story/business%2Fproperty%2Fnakheel-launches-216-waterfront-homes-on-palm-jebel-ali-1.500759089"
+  },
+  {
+    date: "2026-11-24",
     tag: "rak",
     tagLabel: "Ras Al Khaimah",
     title: "Dara Properties buys 50,000 sq ft plot at RAK Central for a 27-storey tower — ~350 homes, due Q4 2027",
@@ -192,16 +202,6 @@ const NEWS_ITEMS = [
     takeaway: "One month of 0.1 per cent is a pause, not a recovery — for off-plan buyers, use the flatter market to negotiate on recent sold prices in the specific building, not on the launch-day price.",
     source: "Khaleej Times (ValuStrat October 2026) via Castilion Estates",
     url: "https://www.castilion-estates.com/journal/dubai-home-values-rise-0-1-per-cent-in-october-the-first-gain-since-february"
-  },
-  {
-    date: "2026-11-11",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai October sales rebound 18% to Dh34.8bn — first monthly rise after two months of decline",
-    summary: "Dubai recorded 11,883 property transactions worth Dh34.8 billion in October 2026, up 18% in value and 5% in volume on September, per Dubai Land Department data analysed by Property Finder and reported by Gulf News on 11 November 2026. Residential deals rose 6% to 11,294 worth Dh30.2 billion; off-plan sales held at 6,579 deals but their value rose to Dh16.7 billion from Dh13.6 billion in September, while resales climbed 13% to 5,304 deals. Mortgage registrations rose 5.2% to 3,811, the third consecutive monthly increase, and middle-income buyers earning Dh20,000–Dh59,999 a month made up 68.5% of mortgage applications.",
-    takeaway: "The rebound is real but still below early-2026 volumes — for off-plan buyers, the signal is that mid-market demand is broadening, so compare any launch price per sq ft against the district's DLD median, not the monthly headline.",
-    source: "Gulf News (DLD / Property Finder)",
-    url: "https://gulfnews.com/business/property/dubai-property-sales-jump-18-to-dh348-billion-1.500742615"
   }
 ];
 
