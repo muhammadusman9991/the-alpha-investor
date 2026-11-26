@@ -4,6 +4,46 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-25",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Nakheel opens EOIs today for 15 beach villas on Palm Jebel Ali's Frond J",
+    summary: "Nakheel's expressions of interest for Frond J - The Beach Collection on Palm Jebel Ali open today, Thursday 26 November 2026 at 12:00 PM, per the developer feed logged on 25 November 2026. The release comprises just 15 five- and six-bedroom beach villas, with a minimum EOI deposit of AED 100,000 per villa and allocation on a first-paid, first-served basis. Broker briefings put prices from about AED 26 million on a 20/50/30 payment plan, with handover estimated in March 2030 — those figures are broker-reported, not yet published by Nakheel.",
+    takeaway: "Fifteen villas means allocation goes to whoever pays first — before the AED 100K EOI, check the refund terms, the price per sq ft and the escrow account, and treat broker-reported prices as unconfirmed until Nakheel publishes them.",
+    source: "Mitchells Commercial Realty (developer feed)",
+    url: "https://www.mitchellscommercialrealty.com/developer-news?day=2026-11-18"
+  },
+  {
+    date: "2026-11-25",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Binghatti launches The Arts District in Al Rowaiyah — studios from AED 525,000, EOI opens 28 November",
+    summary: "Binghatti has launched The Arts District, a new residential district in Al Rowaiyah First, Dubai, per the developer feed logged on 25 November 2026. Studios start from AED 525,000, one-bedrooms from AED 850,000 and two-bedrooms from AED 1,300,000, on a 60/40 payment plan with 10% on booking. Completion is set for Q4 2028, expressions of interest open on 28 November, and the official unveiling is scheduled for January 2027.",
+    takeaway: "Entry prices look low, but the project is pre-unveiling — compare any price per sq ft against Al Rowaiyah and Dubailand sold prices, and confirm the escrow account before the 28 November EOI.",
+    source: "Mitchells Commercial Realty (developer feed)",
+    url: "https://www.mitchellscommercialrealty.com/developer-news?day=2026-11-18"
+  },
+  {
+    date: "2026-11-25",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 2,222 sales worth AED 4.83bn in a week — off-plan 62% of deals, median price up 2.3%",
+    summary: "Dubai registered 2,222 apartment and villa sales worth AED 4.83 billion in the week from 18 to 24 November 2026, per Dubai Land Department data reported by Continental Club on 25 November 2026. Off-plan accounted for 62.2% of deals, and the median price per square metre was AED 19,145, up 2.3% on the previous week, even as deal count eased 2.9% and total value fell 8.3%. Jumeirah Village Circle was the most active area with 198 deals, followed by Business Bay with 134.",
+    takeaway: "Fewer deals but a higher median price per sq ft — a steadier market where the specific project's sold prices matter more than the headline, so negotiate on the building's own registered sales.",
+    source: "Continental Club (DLD data)",
+    url: "https://continentalclub.ae/dubai-property-market-weekly-report/"
+  },
+  {
+    date: "2026-11-25",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Aldar and Ennismore launch The Hoxton Homes on Saadiyat — the brand's first residences worldwide",
+    summary: "Aldar and Ennismore have launched The Hoxton Homes Abu Dhabi Saadiyat, the hotel brand's first collection of private residences anywhere in the world, announced on 23 November 2026 and reported by Realty Today on 25 November 2026. The nearly 100 one- and two-bedroom apartments sit inside NOMA, Aldar's new 88,000 sq m creative neighbourhood in the Saadiyat Cultural District, alongside Abu Dhabi's first Hoxton hotel with more than 170 rooms. No prices or sales date have been disclosed; the Guggenheim Abu Dhabi opens on the same island on 11 December.",
+    takeaway: "A lifestyle brand's first residences add a different kind of branded stock to Saadiyat — with no prices published, wait for the official price list and compare per sq ft against Saadiyat's recent registered sales before reserving.",
+    source: "Realty Today (Aldar / Ennismore)",
+    url: "https://www.realtytoday.com/articles/115522/20261125/hoxton-checks-branded-residential-first-time-nearly-100-homes-abu-dhabis-new-arts-quarter.htm"
+  },
+  {
     date: "2026-11-24",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -162,46 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "International interest in Al Marjan is real, but searches are not sales — before buying the Wynn halo, check sold prices on the island and each project's handover against the resort's September 2027 opening.",
     source: "Dubai News Week (Property Finder)",
     url: "https://dubainewsweek.com/al-marjan-island-property-searches/"
-  },
-  {
-    date: "2026-11-12",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Danube launches Shahrukhz Residences — Gauri Khan penthouses sell out on day one, ~500 EOIs in",
-    summary: "Danube Properties unveiled Shahrukhz Residences, a 60-storey fully furnished waterfront tower in Dubai Maritime City, at a launch event at Coca-Cola Arena on 11 November 2026, per reports on 12 November 2026. All three Gauri Khan-designed penthouses, each priced at about INR 50 crore, sold out on launch day, and Danube said it received around 500 expressions of interest after the launch. Prices start at AED 1.65 million on a 30:70 payment plan — 30% during construction, 70% on handover — with completion due in Q4 2029.",
-    takeaway: "A celebrity launch sells penthouses fast, but the real test is the standard units — compare the AED 1.65m entry price per sq ft against Maritime City's recent sold prices, and confirm the escrow account before booking on the 30:70 plan.",
-    source: "Northeast Live (Danube Properties)",
-    url: "https://northeastlivetv.com/topnews/gauri-khans-rs-50-crore-dubai-penthouses-sell-out-within-24-hours-of-launch/"
-  },
-  {
-    date: "2026-11-12",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Binghatti profit jumps 65% to Dh4.4bn in nine months as sales hit Dh14.2bn",
-    summary: "Dubai developer Binghatti reported net profit up 65% year on year to Dh4.4 billion and revenue up 66% to Dh14.9 billion for the nine months to 30 September 2026, per Khaleej Times on 12 November 2026. Sales rose 11% to Dh14.2 billion, with third-quarter revenue more than doubling from a year earlier. The company handed over about 2,600 units in the period, including Binghatti Apex, Ghost, Ivory, Haven and Grove, and said eight more projects comprising about 6,400 units are on track for completion before the end of 2026.",
-    takeaway: "A developer posting record profits while handing over thousands of units is a delivery signal — for buyers, completed and near-complete Binghatti stock is worth comparing against off-plan prices in the same districts.",
-    source: "Khaleej Times (Binghatti 9M 2026 results)",
-    url: "https://www.khaleejtimes.com/business/binghatti-profit-jumps-65-as-dubai-property-demand-fuels-growth"
-  },
-  {
-    date: "2026-11-12",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai ready-home sales hit Dh10.1bn in October — highest since March, even as overall deals fall 44% year-on-year",
-    summary: "Sales of completed homes in Dubai reached Dh10.1 billion across 3,702 transactions in October 2026, the highest monthly level since March and up more than 20% on September, per Cavendish Maxwell, reported by Khaleej Times on 12 November 2026. Ready homes were 36% of residential sales, while off-plan sales slipped 6.4% on September as developers slowed new launches. Total residential sales were Dh25.35 billion across 10,252 deals; over the first ten months of 2026 residential sales totalled Dh320.1 billion, down 29% in value on the same period of 2025.",
-    takeaway: "Buyers are rotating toward homes they can move into now while launches slow — for off-plan buyers, fewer launches means less choice but also less launch-day pressure, so negotiate on price per sq ft and check the escrow account.",
-    source: "Khaleej Times (Cavendish Maxwell)",
-    url: "https://www.khaleejtimes.com/business/dubai-ready-property-sales-hit-highest-level-at-dh101-billion?amp=1"
-  },
-  {
-    date: "2026-11-11",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai home values rise 0.1% in October — first gain since February after a 10.2% fall",
-    summary: "Dubai residential values rose 0.1 per cent in October 2026 to 218.9 points on the ValuStrat Price Index, the first monthly gain since February and the end of a cumulative fall of 10.2 per cent, per Khaleej Times on 11 November 2026. Values are still 5.7 per cent below a year earlier — villas 4.8 per cent lower and apartments 7.2 per cent lower — but 19 of the 72 tracked communities posted monthly gains and none fell. Ready home transactions rose 23.9 per cent on the month to 3,602 deals, while off-plan registrations eased to 7,042, still about two-thirds of residential activity.",
-    takeaway: "One month of 0.1 per cent is a pause, not a recovery — for off-plan buyers, use the flatter market to negotiate on recent sold prices in the specific building, not on the launch-day price.",
-    source: "Khaleej Times (ValuStrat October 2026) via Castilion Estates",
-    url: "https://www.castilion-estates.com/journal/dubai-home-values-rise-0-1-per-cent-in-october-the-first-gain-since-february"
   }
 ];
-
