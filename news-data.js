@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-26",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Dubai logs 721 transactions worth AED 2.62bn in a day — off-plan 240 deals worth AED 619m",
+    summary: "Dubai's land registry recorded 721 transactions worth AED 2.62 billion on 26 November 2026, per Dubai Land Department data reported by BeBlurt. Of those, 444 were sales worth AED 1.41 billion, and off-plan accounted for 240 deals worth AED 619 million, with 230 mortgages registered the same day. Over the ten days to 26 November, DLD open data shows 5,399 transactions worth AED 17.1 billion, with Jumeirah Village Circle the most active area at 523 deals.",
+    takeaway: "Daily volume is holding up even as the market cools — for off-plan buyers, steady registry activity means negotiating room, so judge each project on its district's registered median price per sq ft, not the launch brochure.",
+    source: "BeBlurt (DLD data)",
+    url: "https://BeBlurt.com/photo/@theeone/dubai-real-estate-sales-report-26-nov-2026"
+  },
+  {
+    date: "2026-11-26",
+    tag: "uae",
+    tagLabel: "UAE",
+    title: "National Day off-plan offers: DLD waivers and rebates across Sobha, Danube, DAMAC, Azizi and Binghatti",
+    summary: "Developers are running National Day season offers ahead of 2 December, per a verified-offers guide updated on 26 November 2026. Sobha Realty offers a 60/40 plan with the 4% DLD fee waived across all projects since 1 November; Danube offers a 10% rebate on its 30/70 plan or a 4% DLD waiver on its 1% monthly plan; DAMAC offers 15% down with the DLD fee waived on selected apartments, with Sorrento at DAMAC Lagoons from AED 730,000; Azizi gives an extra 4% discount across projects since 2 November; and Binghatti has opened expressions of interest for The Arts District with a 7% discount.",
+    takeaway: "A waiver is only worth something if the price itself is right — compare the discounted price per sq ft against the project's registered sold prices before the offer deadline, and confirm the waiver in writing on the booking form.",
+    source: "UAE Off-Plan (developer announcements)",
+    url: "https://uae-offplan.com/blog/real-estate/national-day-2026-dubai-off-plan-offers"
+  },
+  {
     date: "2026-11-25",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -182,25 +202,5 @@ const NEWS_ITEMS = [
     takeaway: "The top spot holds, but volumes are cooling at the very top — the ultra-prime tier is not the off-plan market, so don't read a $10m headline as a launch-day price signal; judge off-plan launches on their own district's sold prices.",
     source: "The National (Knight Frank)",
     url: "https://www.thenationalnews.com/news/uae/2026/11/13/dubais-super-prime-property-sales-cling-on-to-global-top-spot/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews"
-  },
-  {
-    date: "2026-11-13",
-    tag: "uae",
-    tagLabel: "UAE",
-    title: "UAE real estate momentum holds across all five emirates — Abu Dhabi up 76%, Dubai near AED 625bn",
-    summary: "The UAE real estate sector continued its strong performance across the emirates, per WAM on 13 November 2026. Abu Dhabi recorded transactions worth AED 171.26 billion in the first nine months of 2026, up 76.1% in value, with foreign investment in its investment zones up 131% to AED 86.11 billion. Dubai's transactions approached AED 625 billion in the first ten months across 181,866 deals, with sales of about AED 411.98 billion, and Ras Al Khaimah recorded around AED 2.89 billion in the first half of 2026.",
-    takeaway: "Growth is broad-based, not Dubai-only — for off-plan buyers, that means compare new launches across emirates on sold prices and handover dates, not on the headline growth rate of any one market.",
-    source: "WAM (ADREC / DLD)",
-    url: "https://www.wam.ae/en/article/17iuia7-uae-real-estate-sector-maintains-strong-momentum"
-  },
-  {
-    date: "2026-11-12",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Nearly half of Al Marjan Island property searches come from overseas — the highest share in the UAE",
-    summary: "Property Finder's September 2026 data shows Al Marjan Island recorded the highest share of property searches originating from outside the UAE among the four locations analysed, reported by Dubai News Week on 12 November 2026. Around 50% of searches for the island came from abroad, rising to 52.1% for residential sales, while Ras Al Khaimah as a whole drew about a third of searches from overseas, broadly matching Dubai. Villas attract 23% of buyer interest in RAK despite just 10% of listings, and the AED 1–2 million price band leads demand on the island.",
-    takeaway: "International interest in Al Marjan is real, but searches are not sales — before buying the Wynn halo, check sold prices on the island and each project's handover against the resort's September 2027 opening.",
-    source: "Dubai News Week (Property Finder)",
-    url: "https://dubainewsweek.com/al-marjan-island-property-searches/"
   }
 ];
