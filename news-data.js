@@ -4,6 +4,26 @@
    Only add items with a named published source and a real date. No hype. */
 const NEWS_ITEMS = [
   {
+    date: "2026-11-27",
+    tag: "abudhabi",
+    tagLabel: "Abu Dhabi",
+    title: "Aldar sells Dh900m+ at Canopies Sanctuary on Yas Island — 67% of buyers expats and overseas",
+    summary: "Aldar Properties generated more than Dh900 million (US$245 million) in sales at the launch of The Canopies Sanctuary at Yas Point, announced on 27 November 2026. First-time Aldar buyers made up 77% of customers, while expatriate residents and overseas buyers accounted for 67% of sales, with the UAE, UK, India, Brazil and the Netherlands the biggest markets by volume. The project sits in Aldar's Dh6 billion Yas Point waterfront destination, and Abu Dhabi recorded 38,483 property transactions worth Dh171.26 billion in the first nine months of 2026, up 76.1% in value year on year, per the Abu Dhabi Real Estate Centre.",
+    takeaway: "A launch selling Dh900m with two-thirds overseas buyers is real demand, not brochure talk — but compare any price per sq ft against Yas Island's recent registered sales, and check the payment plan and escrow account before reserving.",
+    source: "The National (Aldar / ADREC)",
+    url: "https://www.thenationalnews.com/business/property/2026/11/27/aldar-generates-more-than-dh900-million-in-home-sales-from-yas-island-project/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews"
+  },
+  {
+    date: "2026-11-27",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "Nakheel awards AED 1.4bn+ contract for 176 Palm Jebel Ali villas — 24 months to build",
+    summary: "Nakheel has awarded Ginco General Contracting a construction contract worth more than AED 1.4 billion for 176 villas on Palm Jebel Ali, reported on 27 November 2026. The contract covers 128 Beach Villas and 48 Coral Villas on Fronds A to D, with construction expected to take 24 months from the start of work, per a Dubai Media Office announcement on 26 November. It follows an April 2026 award for 544 villas across Fronds A to F, and comes as Nakheel released 216 more waterfront homes at Palm Central on the same island.",
+    takeaway: "A signed construction contract is stronger than a launch brochure — Palm Jebel Ali is moving from renders to cranes, but for off-plan buyers the check stays the same: price per sq ft against the island's recent sold prices and the escrow account before booking.",
+    source: "Dubai Property Post (Dubai Media Office)",
+    url: "https://www.dubaipropertypost.com/nakheel-awards-aed1-4bn-plus-contract-for-176-palm-jebel-ali-villas/"
+  },
+  {
     date: "2026-11-26",
     tag: "dubai",
     tagLabel: "Dubai",
@@ -62,6 +82,16 @@ const NEWS_ITEMS = [
     takeaway: "A lifestyle brand's first residences add a different kind of branded stock to Saadiyat — with no prices published, wait for the official price list and compare per sq ft against Saadiyat's recent registered sales before reserving.",
     source: "Realty Today (Aldar / Ennismore)",
     url: "https://www.realtytoday.com/articles/115522/20261125/hoxton-checks-branded-residential-first-time-nearly-100-homes-abu-dhabis-new-arts-quarter.htm"
+  },
+  {
+    date: "2026-11-25",
+    tag: "dubai",
+    tagLabel: "Dubai",
+    title: "DLD study projects 365,000 new homes by 2030 — residential occupancy at 97%",
+    summary: "A Dubai Land Department study projects the development of 365,000 new residential units by 2030, alongside about 1.1 million square metres of office and retail space, reported on 25 November 2026. The findings were approved by Dubai's Executive Council on 10 November under the Real Estate Sector Strategy 2033, and the study put residential occupancy at 97%, retail at 98% and office at 94%. The statement gave no breakdown by neighbourhood, housing type or year of delivery, and projected units are not completed homes — delivery depends on individual projects.",
+    takeaway: "High occupancy today, big supply coming — the two facts pull in opposite directions, so for off-plan buyers the handover year and the district's own sold prices matter more than the emirate-wide headline.",
+    source: "Dubai Property Post (DLD study)",
+    url: "https://www.dubaipropertypost.com/dubai-study-projects-365000-new-homes-by-2030/"
   },
   {
     date: "2026-11-24",
@@ -173,34 +203,5 @@ const NEWS_ITEMS = [
     source: "The National (via IndexBox)",
     url: "https://www.indexbox.io/blog/al-ain-asset-management-and-emaar-hospitality-launch-dh8-billion-abu-dhabi-property-projects/"
   },
-  {
-    date: "2026-11-14",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai logs 2,381 sales worth AED 7.61bn in a week — off-plan still 53% of deals",
-    summary: "Dubai registered 2,381 property sales worth AED 7.61 billion in the week from 7 to 13 November 2026, per Dubai Land Department open data reported by Dubai Week on 14 November 2026. Off-plan accounted for 1,270 of the deals (53%) against 1,111 ready sales, and 891 mortgages worth AED 2.56 billion were registered in the same week. Deal count eased from 2,682 the previous week while total value held flat at AED 7.61 billion.",
-    takeaway: "Same weekly value on fewer deals means the average ticket rose while volumes eased — for off-plan buyers, the market is still moving but launch-day pressure is lower, so compare each project on its district's median price per sq ft.",
-    source: "Dubai Week (DLD open data)",
-    url: "https://www.dubaiweek.ae/dubai-in-numbers/property-transactions/"
-  },
-  {
-    date: "2026-11-13",
-    tag: "rak",
-    tagLabel: "Ras Al Khaimah",
-    title: "Wynn Al Marjan rooms to go on sale soon — CEO says demand will exceed supply",
-    summary: "Wynn Resorts will begin selling rooms at Wynn Al Marjan Island 'quite soon', chief executive Craig Billings said on the company's third-quarter earnings call, per Khaleej Times on 13 November 2026. Billings said demand is expected to exceed supply across the resort's 1,500 keys, and the US$5.7 billion resort remains on schedule to open in September 2027, with fit-out of all guest rooms under way. The project budget was increased by about US$600 million in August 2026, reflecting higher material, shipping and other costs.",
-    takeaway: "Room sales starting is the next real milestone before the September 2027 opening — for RAK off-plan buyers, check any project's handover against that date and its price against Al Marjan's completed resale stock, not just the Wynn halo.",
-    source: "Khaleej Times (Wynn Resorts Q3 earnings call)",
-    url: "https://www.khaleejtimes.com/business/wynn-al-marjan-rooms-to-go-on-sale-soon-as-ceo-sees-demand-exceeding-supply"
-  },
-  {
-    date: "2026-11-13",
-    tag: "dubai",
-    tagLabel: "Dubai",
-    title: "Dubai keeps its global super-prime crown — 86 sales over $10m worth $1.57bn in Q3 2026",
-    summary: "Dubai retained its position as the world's top super-prime property market in Q3 2026, recording 86 sales of homes above $10 million worth $1.57 billion, per Knight Frank's Global Super-Luxury Homes Report, reported by The National on 13 November 2026. Hong Kong edged ahead on total value ($1.58bn across 78 deals) for the first time since 2022, but Dubai still led on deal count and remains comfortably ahead over the past 12 months, with 525 super-prime deals worth $9.25 billion. Activity fell 34% by count and 28% by value on the previous quarter, the second consecutive quarterly decline.",
-    takeaway: "The top spot holds, but volumes are cooling at the very top — the ultra-prime tier is not the off-plan market, so don't read a $10m headline as a launch-day price signal; judge off-plan launches on their own district's sold prices.",
-    source: "The National (Knight Frank)",
-    url: "https://www.thenationalnews.com/news/uae/2026/11/13/dubais-super-prime-property-sales-cling-on-to-global-top-spot/?utm_source=twitter&utm_medium=socialsharebtn&related=TheNatWorld,NationalComment,LifeNationalUAE,NatSportUAE&via=TheNationalNews"
-  }
 ];
+
